@@ -11,8 +11,7 @@ public class Cliente
 {
     public static void main( String[] args )
     {
-    	try {
-			
+    	try {		
     		
     		Socket s = new Socket ("127.0.0.1", 9003);
 			BufferedReader canalEntrada = new BufferedReader (new InputStreamReader (s.getInputStream()));
