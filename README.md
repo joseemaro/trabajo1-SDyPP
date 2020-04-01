@@ -1,1 +1,8 @@
 # trabajo1-SDyPP
+
+## Punto 1 y 2
+Lo que se puede observar en el segundo punto es que: el agregar una serie de hilos que manejen las peticiones de forma paralela permite que se reduzcan los tiempos que se tardan en atender a todos los clientes. Los clientes van a poder ser atendidos de a mas de 1 a la vez en el caso del punto 2, no como en el caso del punto 1 que se atienden de forma secuencial, cuando un cliente deja de comunicarse con un servidor recien ahi otro cliente va a poder realizar una peticion.
+Para dejar mas en claro esto ultimo, supongamos que la tarea demanda un total de 10 segundos para el cliente 1, y 5 segundos para el cliente 2, en el caso del punto 1 el tiempo total hasta la finalizacion de la tarea sera de 15 segundos, ya que primero atiende a un cliente y luego al otro. En el caso del punto 2, los 2 clientes van a ser atendidos en simultaneo, por lo que el tiempo de finalizacion de todas las tareas sera de 10 seg.
+
+## Punto 6
+En el programa se puede observar que el pasaje de parametros en RMI es por valor y no por referencia, como se puede observar en el programa. En el codigo para comprobar esto ultimo lo que se realizo fue enviar un vector por valor y por referencia desde el cliente al servidor, en el servidor se inicializo el vector pasado como parametro de manera que todos sus campos queden con el valor 0, sin embargo cuando el servidor le devuelve el vector al cliente se puede observar que los valores del mismo no cambian, por lo que se asume que el pasaje de parametros es por valor y no por referencia, porque sino deberian permanecer los valores que se le asignaron al vector en el servidor.
