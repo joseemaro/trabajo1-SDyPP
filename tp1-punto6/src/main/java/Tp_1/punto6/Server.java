@@ -20,12 +20,12 @@ public class Server {
 			
 			// [STEP 3] - Export object as a service
 			RemoteInt serviceA = (RemoteInt) UnicastRemoteObject.exportObject(si, 7880);
-			RemoteInt serviceB = (RemoteInt) UnicastRemoteObject.exportObject(si2, 7881);
+			//RemoteInt serviceB = (RemoteInt) UnicastRemoteObject.exportObject(si2, 7881);
 			
 			// [STEP 4] - vinculación "bind" de nombre de servicio a objeto
 			serverRMI.rebind("vector-servicio", serviceA);
-			serverRMI.rebind("no se-servicio", serviceB);
-			
+			//serverRMI.rebind("no se-servicio", serviceB);
+		
 			
 		} catch (RemoteException e) {
 			// TODO Auto-generated catch block

@@ -18,6 +18,10 @@ public class Servidor {
 			
 			registry.rebind("EjecutorTarea", ejecutorTarea);
 			
+			
+			while (true) {
+				
+			}
 				
 		} catch (RemoteException e) {
 			// TODO Auto-generated catch block
