@@ -2,28 +2,19 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>TP1</groupId>
-  <artifactId>Punto4</artifactId>
+  <groupId>Tp-1</groupId>
+  <artifactId>tp1-punto5</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>Punto4</name>
+  <name>tp1-punto5</name>
   <url>http://maven.apache.org</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
-
-
   <dependencies>
-  
-  	<dependency>
-	    <groupId>com.google.code.gson</groupId>
-	    <artifactId>gson</artifactId>
-	    <version>2.8.6</version>
-	</dependency>
-  
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
