@@ -1,0 +1,21 @@
+Crítica al modelo:
+
+	Cada vez que un nodo modifica, descarga o se da de baja los master 
+deben replicar la modificación a el resto de los master. En sistemas de pocos
+nodos esto no es un problema, pero cuando la cantidad de nodos y servidores
+master aumentan tenemos una gran relevancia. 
+	Tener una red completamente distribuida o centralizada tiene problemas 
+en los dos extremos, ya que la red distribuida flaquea en la cantidad de tráfico 
+que se genera a la hora de conocer a los otros nodos, mientras que en la centralizada
+al tener un solo nodo que se encargue de gestionar, tanto la lista de archivos como
+los peers propietarios de los mismos, estamos creando un punto único de falla, es decir,
+que si dicho nodo central se cae, el sistema deja de funcionar por completo.
+
+Posibles mejoras al modelo:
+
+	Hacer un modelo híbrido en donde la red es mestiza, es decir, una red centraliza
+y distribuida, juntamdo lo mejor de los dos modelos, donde cada peer tendra una lista de 
+nodos índice e irá probando para ver que nodo esta disponible, cuando lo encuentre,
+se conectara inmediatamente y podremos allí, realizar las peticiones correspondientes.
+Los nodos índice responderán las solicitudes de sus peer y luego entre los nodos índice
+se replicarán toda la informacion pertinente.	
