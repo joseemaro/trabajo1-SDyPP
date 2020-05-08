@@ -4,7 +4,8 @@
 2. Resultados punto b.
 3. Resultados punto c.
 
-1. Primero hay que inciar rabbitMQ, desde windows basta con darle start a la aplicacion.
+
+1- Primero hay que inciar rabbitMQ, desde windows basta con darle start a la aplicacion.
 En el caso de linux se utiliza el siguiente comando:
 
 ```sh
@@ -18,7 +19,9 @@ Luego se ejecutar en el siguiente orden:
 ## Notas
 _ServerSobel se encarga de la comunicacion via rmi con el cliente. Actua como dispacher enviando las tareas a traves de una cola hacia los workers y 
 recibe las imagenes procesadas por los mismos a traves de una cola.
+
 _WorkerSobel: recibe las partes de imagenes a procesar a traves de una cola, las procesa(aplica el proceso sobel) y las devuelve a traves de una cola hacia el server sobel.
+
 _SobelRequest: correlacion entre WorkerSobel y parte de la imagen asignada.
 
 
