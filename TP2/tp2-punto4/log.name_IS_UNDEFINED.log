@@ -1,0 +1,1486 @@
+14:58:06 [main] INFO  - ============ Server Dispatcher iniciado ============
+14:58:12 [main] INFO  - ============ Server Dispatcher iniciado ============
+14:58:15 [AMQP Connection 127.0.0.1:5672] ERROR - An unexpected connection driver error occured
+java.net.SocketException: Socket Closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.DataInputStream.readUnsignedByte(Unknown Source)
+	at com.rabbitmq.client.impl.Frame.readFrom(Frame.java:91)
+	at com.rabbitmq.client.impl.SocketFrameHandler.readFrame(SocketFrameHandler.java:164)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:598)
+	at java.lang.Thread.run(Unknown Source)
+14:58:15 [AMQP Connection 0:0:0:0:0:0:0:1:5672] ERROR - An unexpected connection driver error occured
+java.net.SocketException: socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.DataInputStream.readUnsignedByte(Unknown Source)
+	at com.rabbitmq.client.impl.Frame.readFrom(Frame.java:91)
+	at com.rabbitmq.client.impl.SocketFrameHandler.readFrame(SocketFrameHandler.java:164)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:598)
+	at java.lang.Thread.run(Unknown Source)
+15:18:46 [main] INFO  - ============ Server Dispatcher iniciado ============
+15:18:49 [AMQP Connection 0:0:0:0:0:0:0:1:5672] WARN  - An unexpected connection driver error occured (Exception message: Connection reset)
+15:18:49 [AMQP Connection 127.0.0.1:5672] ERROR - An unexpected connection driver error occured
+java.net.SocketException: socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.DataInputStream.readUnsignedByte(Unknown Source)
+	at com.rabbitmq.client.impl.Frame.readFrom(Frame.java:91)
+	at com.rabbitmq.client.impl.SocketFrameHandler.readFrame(SocketFrameHandler.java:164)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:598)
+	at java.lang.Thread.run(Unknown Source)
+18:04:19 [main] INFO  - ============ Server Dispatcher iniciado ============
+18:06:18 [main] INFO  - ============ Server Dispatcher iniciado ============
+18:06:53 [AMQP Connection 127.0.0.1:5672] ERROR - An unexpected connection driver error occured
+java.net.SocketException: Socket Closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.DataInputStream.readUnsignedByte(Unknown Source)
+	at com.rabbitmq.client.impl.Frame.readFrom(Frame.java:91)
+	at com.rabbitmq.client.impl.SocketFrameHandler.readFrame(SocketFrameHandler.java:164)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:598)
+	at java.lang.Thread.run(Unknown Source)
+18:06:53 [AMQP Connection 0:0:0:0:0:0:0:1:5672] ERROR - An unexpected connection driver error occured
+java.net.SocketException: socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.DataInputStream.readUnsignedByte(Unknown Source)
+	at com.rabbitmq.client.impl.Frame.readFrom(Frame.java:91)
+	at com.rabbitmq.client.impl.SocketFrameHandler.readFrame(SocketFrameHandler.java:164)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:598)
+	at java.lang.Thread.run(Unknown Source)
+18:13:24 [main] INFO  - ============ Server Dispatcher iniciado ============
+18:27:23 [main] INFO  - ============ Server Dispatcher iniciado ============
+18:27:31 [AMQP Connection 127.0.0.1:5672] WARN  - An unexpected connection driver error occured (Exception message: Connection reset)
+18:27:31 [AMQP Connection 0:0:0:0:0:0:0:1:5672] ERROR - An unexpected connection driver error occured
+java.net.SocketException: Socket Closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.DataInputStream.readUnsignedByte(Unknown Source)
+	at com.rabbitmq.client.impl.Frame.readFrom(Frame.java:91)
+	at com.rabbitmq.client.impl.SocketFrameHandler.readFrame(SocketFrameHandler.java:164)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:598)
+	at java.lang.Thread.run(Unknown Source)
+14:49:14 [main] INFO  - ============ Server Dispatcher iniciado ============
+14:49:14 [main] INFO  - ============ Server Dispatcher iniciado ============
+14:49:17 [AMQP Connection 127.0.0.1:5672] WARN  - An unexpected connection driver error occured (Exception message: Connection reset)
+14:49:17 [AMQP Connection 0:0:0:0:0:0:0:1:5672] ERROR - An unexpected connection driver error occured
+java.net.SocketException: socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.DataInputStream.readUnsignedByte(Unknown Source)
+	at com.rabbitmq.client.impl.Frame.readFrom(Frame.java:91)
+	at com.rabbitmq.client.impl.SocketFrameHandler.readFrame(SocketFrameHandler.java:164)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:598)
+	at java.lang.Thread.run(Unknown Source)
+14:50:57 [main] INFO  - ============ Server Dispatcher iniciado ============
+14:51:24 [AMQP Connection 127.0.0.1:5672] WARN  - An unexpected connection driver error occured (Exception message: Connection reset)
+14:51:24 [AMQP Connection 0:0:0:0:0:0:0:1:5672] ERROR - An unexpected connection driver error occured
+java.net.SocketException: socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.DataInputStream.readUnsignedByte(Unknown Source)
+	at com.rabbitmq.client.impl.Frame.readFrom(Frame.java:91)
+	at com.rabbitmq.client.impl.SocketFrameHandler.readFrame(SocketFrameHandler.java:164)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:598)
+	at java.lang.Thread.run(Unknown Source)
+15:11:30 [main] INFO  - ============ Server Dispatcher iniciado ============
+15:11:33 [main] INFO  - ============ WorkerSobel iniciado ==============
+15:14:58 [main] INFO  - ============ Server Dispatcher iniciado ============
+15:15:00 [main] INFO  - ============ WorkerSobel iniciado ==============
+15:15:01 [main] INFO  - -----ServerSobel Servicio RMI Iniciado en puerto 1200-----
+15:15:01 [main] INFO  - -----ServerSobel asociado a puerto 8000 -----
+15:15:01 [main] INFO  - -----Server bind de servicio JNDI realizado -----
+15:15:01 [main] INFO  - -----conexion para cliente RMI finalizada correctamente.
+15:15:01 [main] INFO  - -- ServerSobel Instancio las colas activas de todos sus workers
+15:15:16 [RMI TCP Connection(2)-192.168.56.1] INFO  - --INGRESO A PROCESO 'SOBELDISTRIBUIDO' ENTRE CLIENTE Y SERVERSOBEL  --
+15:28:43 [main] INFO  - ============ Server Dispatcher iniciado ============
+15:28:47 [main] INFO  - ============ WorkerSobel iniciado ==============
+15:28:47 [main] INFO  - -----ServerSobel Servicio RMI Iniciado en puerto 1200-----
+15:28:47 [main] INFO  - -----ServerSobel asociado a puerto 8000 -----
+15:28:47 [main] INFO  - -----Server bind de servicio JNDI realizado -----
+15:28:47 [main] INFO  - -----conexion para cliente RMI finalizada correctamente.
+15:28:47 [main] INFO  - -- ServerSobel Instancio las colas activas de todos sus workers
+15:29:35 [main] INFO  - ============ Server Dispatcher iniciado ============
+15:29:38 [main] INFO  - ============ WorkerSobel iniciado ==============
+15:29:38 [main] INFO  - ============ WorkerSobel iniciado ==============
+15:29:39 [main] INFO  - -----ServerSobel Servicio RMI Iniciado en puerto 1200-----
+15:29:39 [main] INFO  - -----ServerSobel asociado a puerto 8000 -----
+15:29:39 [main] INFO  - -----Server bind de servicio JNDI realizado -----
+15:29:39 [main] INFO  - -----conexion para cliente RMI finalizada correctamente.
+15:29:39 [main] INFO  - -- ServerSobel Instancio las colas activas de todos sus workers
+15:29:49 [RMI TCP Connection(2)-192.168.56.1] INFO  - --INGRESO A PROCESO 'SOBELDISTRIBUIDO' ENTRE CLIENTE Y SERVERSOBEL  --
+15:29:49 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel1 enviada a worker 0
+15:29:49 [pool-1-thread-6] INFO  - WorkerSobel 0 leyo un mensaje de su cola.
+15:29:49 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel2 enviada a worker 1
+15:29:49 [pool-1-thread-6] INFO  - WorkerSobel 0 envio su respuesta a QUEUE_SOBEL_OUT.
+15:29:49 [pool-1-thread-7] INFO  - WorkerSobel 1 leyo un mensaje de su cola.
+15:29:49 [pool-1-thread-7] INFO  - WorkerSobel 1 envio su respuesta a QUEUE_SOBEL_OUT.
+15:29:49 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 0
+15:29:49 [pool-1-thread-9] INFO  - ServerSobel recibio una imagen del worker 1
+15:29:49 [RMI TCP Connection(2)-192.168.56.1] INFO  - Han llegado todas las partes de la imagen resueltas en sobel.
+15:29:49 [RMI TCP Connection(2)-192.168.56.1] INFO  - Uniendo las imagenes sobel parciales... 
+15:29:50 [RMI TCP Connection(2)-192.168.56.1] INFO  - Resultado final de Sobel enviado al cliente (via RMI)
+18:28:01 [main] INFO  - -X-X-X-X-X-X-  SE HA INICIADO EL SERVIDOR  -X-X-X--X-X-X-
+18:28:11 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+18:28:11 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+18:28:11 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+18:28:13 [main] INFO  - -----ServerSobel iniciado en el puerto 1200 -----
+18:28:13 [main] INFO  - -----ServerSobel asociado a puerto 8000 -----
+18:28:13 [main] INFO  - -----Server bind realizado -----
+18:28:13 [main] INFO  - -----se ha establecido la conexion con el cliente rmi
+18:28:13 [main] INFO  - -- ServerSobel creo todas las colas en sus workers
+18:28:42 [RMI TCP Connection(2)-192.168.56.1] INFO  - --INGRESO A PROCESO 'SOBELDISTRIBUIDO' ENTRE CLIENTE Y SERVERSOBEL  --
+18:28:43 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel1 enviada a worker 0
+18:28:43 [pool-1-thread-7] INFO  - El worker Sobel numero =  0  ha leido un mensaje de su cola.
+18:28:43 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel2 enviada a worker 1
+18:28:43 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel3 enviada a worker 2
+18:28:43 [pool-1-thread-7] INFO  - El worker Sobel numero =  0 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+18:28:43 [pool-1-thread-8] INFO  - El worker Sobel numero =  1  ha leido un mensaje de su cola.
+18:28:43 [pool-1-thread-8] INFO  - El worker Sobel numero =  1 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+18:28:43 [pool-1-thread-8] INFO  - El worker Sobel numero =  2  ha leido un mensaje de su cola.
+18:28:43 [pool-1-thread-8] INFO  - El worker Sobel numero =  2 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+18:28:43 [pool-1-thread-9] INFO  - ServerSobel recibio una imagen del worker 0
+18:28:43 [pool-1-thread-9] INFO  - ServerSobel recibio una imagen del worker 1
+18:28:43 [pool-1-thread-10] INFO  - ServerSobel recibio una imagen del worker 2
+18:28:43 [RMI TCP Connection(2)-192.168.56.1] INFO  - TODAS LAS PARTES DEL SOBEL HAN SIDO RECIBIDAS
+18:28:43 [RMI TCP Connection(2)-192.168.56.1] INFO  - Uniendo las imagenes sobel parciales... 
+18:28:43 [RMI TCP Connection(2)-192.168.56.1] INFO  - SE HA ENVIADO EL RESULTADO DEL SOBEL AL CLIENTE MEDIANTE EL USO DE RMI
+19:12:54 [main] INFO  - -X-X-X-X-X-X-  SE HA INICIADO EL SERVIDOR  -X-X-X--X-X-X-
+19:12:57 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+19:12:57 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+19:12:57 [main] INFO  - -----ServerSobel iniciado en el puerto 1200 -----
+19:12:57 [main] INFO  - -----ServerSobel asociado a puerto 8000 -----
+19:12:57 [main] INFO  - -----Server bind realizado -----
+19:12:57 [main] INFO  - -----se ha establecido la conexion con el cliente rmi
+19:12:57 [main] INFO  - -- ServerSobel creo todas las colas en sus workers
+19:15:35 [main] INFO  - -X-X-X-X-X-X-  SE HA INICIADO EL SERVIDOR  -X-X-X--X-X-X-
+19:15:38 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+19:15:38 [main] INFO  - -----ServerSobel iniciado en el puerto 1200 -----
+19:15:38 [main] INFO  - -----ServerSobel asociado a puerto 8000 -----
+19:15:38 [main] INFO  - -----Server bind realizado -----
+19:15:38 [main] INFO  - -----se ha establecido la conexion con el cliente rmi
+19:15:38 [main] INFO  - -- ServerSobel creo todas las colas en sus workers
+19:16:01 [RMI TCP Connection(2)-192.168.56.1] INFO  - --INGRESO A PROCESO 'SOBELDISTRIBUIDO' ENTRE CLIENTE Y SERVERSOBEL  --
+19:16:36 [main] INFO  - -X-X-X-X-X-X-  SE HA INICIADO EL SERVIDOR  -X-X-X--X-X-X-
+19:16:38 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+19:16:38 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+19:16:39 [main] INFO  - -----ServerSobel iniciado en el puerto 1200 -----
+19:16:39 [main] INFO  - -----ServerSobel asociado a puerto 8000 -----
+19:16:39 [main] INFO  - -----Server bind realizado -----
+19:16:39 [main] INFO  - -----se ha establecido la conexion con el cliente rmi
+19:16:39 [main] INFO  - -- ServerSobel creo todas las colas en sus workers
+19:16:50 [RMI TCP Connection(2)-192.168.56.1] INFO  - --INGRESO A PROCESO 'SOBELDISTRIBUIDO' ENTRE CLIENTE Y SERVERSOBEL  --
+19:16:51 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel1 enviada a worker 0
+19:16:51 [pool-1-thread-6] INFO  - El worker Sobel numero =  0  ha leido un mensaje de su cola.
+19:16:52 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel2 enviada a worker 1
+19:16:54 [pool-1-thread-6] INFO  - El worker Sobel numero =  0 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+19:16:54 [pool-1-thread-7] INFO  - El worker Sobel numero =  1  ha leido un mensaje de su cola.
+19:16:56 [pool-1-thread-7] INFO  - El worker Sobel numero =  1 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+19:16:56 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 0
+19:16:56 [pool-1-thread-9] INFO  - ServerSobel recibio una imagen del worker 1
+19:16:57 [RMI TCP Connection(2)-192.168.56.1] INFO  - TODAS LAS PARTES DEL SOBEL HAN SIDO RECIBIDAS
+19:16:57 [RMI TCP Connection(2)-192.168.56.1] INFO  - Uniendo las imagenes sobel parciales... 
+19:16:57 [RMI TCP Connection(2)-192.168.56.1] INFO  - SE HA ENVIADO EL RESULTADO DEL SOBEL AL CLIENTE MEDIANTE EL USO DE RMI
+19:19:50 [RMI TCP Connection(5)-192.168.56.1] INFO  - --INGRESO A PROCESO 'SOBELDISTRIBUIDO' ENTRE CLIENTE Y SERVERSOBEL  --
+19:19:51 [RMI TCP Connection(5)-192.168.56.1] INFO  - Parte sobel1 enviada a worker 0
+19:19:51 [pool-1-thread-10] INFO  - El worker Sobel numero =  0  ha leido un mensaje de su cola.
+19:19:51 [RMI TCP Connection(5)-192.168.56.1] INFO  - Parte sobel2 enviada a worker 1
+19:19:51 [RMI TCP Connection(5)-192.168.56.1] INFO  - TODAS LAS PARTES DEL SOBEL HAN SIDO RECIBIDAS
+19:19:51 [RMI TCP Connection(5)-192.168.56.1] INFO  - Uniendo las imagenes sobel parciales... 
+19:19:52 [RMI TCP Connection(5)-192.168.56.1] INFO  - SE HA ENVIADO EL RESULTADO DEL SOBEL AL CLIENTE MEDIANTE EL USO DE RMI
+19:19:53 [pool-1-thread-10] INFO  - El worker Sobel numero =  0 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+19:19:53 [pool-1-thread-10] INFO  - El worker Sobel numero =  1  ha leido un mensaje de su cola.
+19:19:55 [pool-1-thread-10] INFO  - El worker Sobel numero =  1 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+19:19:56 [pool-1-thread-10] INFO  - ServerSobel recibio una imagen del worker 0
+19:19:56 [pool-1-thread-10] INFO  - ServerSobel recibio una imagen del worker 1
+19:23:05 [main] INFO  - -X-X-X-X-X-X-  SE HA INICIADO EL SERVIDOR  -X-X-X--X-X-X-
+19:23:13 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+19:23:13 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+19:23:14 [main] INFO  - -----ServerSobel iniciado en el puerto 1200 -----
+19:23:14 [main] INFO  - -----ServerSobel asociado a puerto 8000 -----
+19:23:14 [main] INFO  - -----Server bind realizado -----
+19:23:14 [main] INFO  - -----se ha establecido la conexion con el cliente rmi
+19:23:14 [main] INFO  - -- ServerSobel creo todas las colas en sus workers
+19:23:27 [RMI TCP Connection(2)-192.168.56.1] INFO  - --INGRESO A PROCESO 'SOBELDISTRIBUIDO' ENTRE CLIENTE Y SERVERSOBEL  --
+19:23:28 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel1 enviada a worker 0
+19:23:28 [pool-1-thread-6] INFO  - El worker Sobel numero =  0  ha leido un mensaje de su cola.
+19:23:29 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel2 enviada a worker 1
+19:23:31 [pool-1-thread-6] INFO  - El worker Sobel numero =  0 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+19:23:31 [pool-1-thread-7] INFO  - El worker Sobel numero =  1  ha leido un mensaje de su cola.
+19:23:33 [pool-1-thread-7] INFO  - El worker Sobel numero =  1 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+19:23:33 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 0
+19:23:33 [pool-1-thread-9] INFO  - ServerSobel recibio una imagen del worker 1
+19:23:34 [RMI TCP Connection(2)-192.168.56.1] INFO  - TODAS LAS PARTES DEL SOBEL HAN SIDO RECIBIDAS
+19:23:34 [RMI TCP Connection(2)-192.168.56.1] INFO  - Uniendo las imagenes sobel parciales... 
+19:23:34 [RMI TCP Connection(2)-192.168.56.1] INFO  - SE HA ENVIADO EL RESULTADO DEL SOBEL AL CLIENTE MEDIANTE EL USO DE RMI
+19:25:28 [main] INFO  - -X-X-X-X-X-X-  SE HA INICIADO EL SERVIDOR  -X-X-X--X-X-X-
+19:25:32 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+19:25:32 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+19:25:32 [main] INFO  - -----ServerSobel iniciado en el puerto 1200 -----
+19:25:32 [main] INFO  - -----ServerSobel asociado a puerto 8000 -----
+19:25:32 [main] INFO  - -----Server bind realizado -----
+19:25:32 [main] INFO  - -----se ha establecido la conexion con el cliente rmi
+19:25:32 [main] INFO  - -- ServerSobel creo todas las colas en sus workers
+19:25:39 [RMI TCP Connection(2)-192.168.56.1] INFO  - --INGRESO A PROCESO 'SOBELDISTRIBUIDO' ENTRE CLIENTE Y SERVERSOBEL  --
+19:25:39 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel1 enviada a worker 0
+19:25:39 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel2 enviada a worker 1
+19:25:39 [pool-1-thread-6] INFO  - El worker Sobel numero =  0  ha leido un mensaje de su cola.
+19:25:39 [pool-1-thread-6] INFO  - El worker Sobel numero =  0 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+19:25:39 [pool-1-thread-7] INFO  - El worker Sobel numero =  1  ha leido un mensaje de su cola.
+19:25:39 [pool-1-thread-7] INFO  - El worker Sobel numero =  1 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+19:25:39 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 0
+19:25:39 [pool-1-thread-9] INFO  - ServerSobel recibio una imagen del worker 1
+19:25:39 [RMI TCP Connection(2)-192.168.56.1] INFO  - TODAS LAS PARTES DEL SOBEL HAN SIDO RECIBIDAS
+19:25:39 [RMI TCP Connection(2)-192.168.56.1] INFO  - Uniendo las imagenes sobel parciales... 
+19:25:40 [RMI TCP Connection(2)-192.168.56.1] INFO  - SE HA ENVIADO EL RESULTADO DEL SOBEL AL CLIENTE MEDIANTE EL USO DE RMI
+19:37:03 [main] INFO  - -X-X-X-X-X-X-  SE HA INICIADO EL SERVIDOR  -X-X-X--X-X-X-
+19:37:05 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+19:37:05 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+19:37:05 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+19:37:05 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+19:37:05 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+19:37:06 [main] INFO  - -----ServerSobel iniciado en el puerto 1200 -----
+19:37:06 [main] INFO  - -----ServerSobel asociado a puerto 8000 -----
+19:37:06 [main] INFO  - -----Server bind realizado -----
+19:37:06 [main] INFO  - -----se ha establecido la conexion con el cliente rmi
+19:37:06 [main] INFO  - -- ServerSobel creo todas las colas en sus workers
+19:37:22 [RMI TCP Connection(2)-192.168.56.1] INFO  - --INGRESO A PROCESO 'SOBELDISTRIBUIDO' ENTRE CLIENTE Y SERVERSOBEL  --
+19:37:22 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel1 enviada a worker 0
+19:37:22 [pool-1-thread-9] INFO  - El worker Sobel numero =  0  ha leido un mensaje de su cola.
+19:37:23 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel2 enviada a worker 1
+19:37:23 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel3 enviada a worker 2
+19:37:23 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel4 enviada a worker 3
+19:37:23 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel5 enviada a worker 4
+19:37:23 [pool-1-thread-9] INFO  - El worker Sobel numero =  0 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+19:37:23 [pool-1-thread-10] INFO  - El worker Sobel numero =  1  ha leido un mensaje de su cola.
+19:37:23 [pool-1-thread-10] INFO  - El worker Sobel numero =  1 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+19:37:23 [pool-1-thread-10] INFO  - El worker Sobel numero =  2  ha leido un mensaje de su cola.
+19:37:24 [pool-1-thread-10] INFO  - El worker Sobel numero =  2 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+19:37:24 [pool-1-thread-10] INFO  - El worker Sobel numero =  3  ha leido un mensaje de su cola.
+19:37:24 [pool-1-thread-10] INFO  - El worker Sobel numero =  3 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+19:37:24 [pool-1-thread-10] INFO  - El worker Sobel numero =  4  ha leido un mensaje de su cola.
+19:37:24 [pool-1-thread-10] INFO  - El worker Sobel numero =  4 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+19:37:24 [pool-1-thread-10] INFO  - ServerSobel recibio una imagen del worker 0
+19:37:25 [pool-1-thread-10] INFO  - ServerSobel recibio una imagen del worker 1
+19:37:25 [pool-1-thread-10] INFO  - ServerSobel recibio una imagen del worker 2
+19:37:25 [pool-1-thread-10] INFO  - ServerSobel recibio una imagen del worker 3
+19:37:25 [pool-1-thread-10] INFO  - ServerSobel recibio una imagen del worker 4
+19:37:25 [RMI TCP Connection(2)-192.168.56.1] INFO  - TODAS LAS PARTES DEL SOBEL HAN SIDO RECIBIDAS
+19:37:25 [RMI TCP Connection(2)-192.168.56.1] INFO  - Uniendo las imagenes sobel parciales... 
+19:37:25 [RMI TCP Connection(2)-192.168.56.1] INFO  - SE HA ENVIADO EL RESULTADO DEL SOBEL AL CLIENTE MEDIANTE EL USO DE RMI
+19:40:25 [main] INFO  - -X-X-X-X-X-X-  SE HA INICIADO EL SERVIDOR  -X-X-X--X-X-X-
+19:40:27 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+19:40:28 [main] INFO  - -----ServerSobel iniciado en el puerto 1200 -----
+19:40:28 [main] INFO  - -----ServerSobel asociado a puerto 8000 -----
+19:40:28 [main] INFO  - -----Server bind realizado -----
+19:40:28 [main] INFO  - -----se ha establecido la conexion con el cliente rmi
+19:40:28 [main] INFO  - -- ServerSobel creo todas las colas en sus workers
+19:41:35 [main] INFO  - -X-X-X-X-X-X-  SE HA INICIADO EL SERVIDOR  -X-X-X--X-X-X-
+19:41:37 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+19:41:38 [main] INFO  - -----ServerSobel iniciado en el puerto 1200 -----
+19:41:38 [main] INFO  - -----ServerSobel asociado a puerto 8000 -----
+19:41:38 [main] INFO  - -----Server bind realizado -----
+19:41:38 [main] INFO  - -----se ha establecido la conexion con el cliente rmi
+19:41:38 [main] INFO  - -- ServerSobel creo todas las colas en sus workers
+19:46:25 [main] INFO  - -X-X-X-X-X-X-  SE HA INICIADO EL SERVIDOR  -X-X-X--X-X-X-
+19:46:27 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+19:46:28 [main] INFO  - -----ServerSobel iniciado en el puerto 1200 -----
+19:46:28 [main] INFO  - -----ServerSobel asociado a puerto 8000 -----
+19:46:28 [main] INFO  - -----Server bind realizado -----
+19:46:28 [main] INFO  - -----se ha establecido la conexion con el cliente rmi
+19:46:28 [main] INFO  - -- ServerSobel creo todas las colas en sus workers
+19:46:37 [RMI TCP Connection(2)-192.168.56.1] INFO  - --INGRESO A PROCESO 'SOBELDISTRIBUIDO' ENTRE CLIENTE Y SERVERSOBEL  --
+19:46:55 [main] INFO  - -X-X-X-X-X-X-  SE HA INICIADO EL SERVIDOR  -X-X-X--X-X-X-
+19:46:57 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+19:46:57 [main] INFO  - -----ServerSobel iniciado en el puerto 1200 -----
+19:46:57 [main] INFO  - -----ServerSobel asociado a puerto 8000 -----
+19:46:57 [main] INFO  - -----Server bind realizado -----
+19:46:57 [main] INFO  - -----se ha establecido la conexion con el cliente rmi
+19:46:57 [main] INFO  - -- ServerSobel creo todas las colas en sus workers
+19:47:11 [RMI TCP Connection(2)-192.168.56.1] INFO  - --INGRESO A PROCESO 'SOBELDISTRIBUIDO' ENTRE CLIENTE Y SERVERSOBEL  --
+19:47:31 [main] INFO  - -X-X-X-X-X-X-  SE HA INICIADO EL SERVIDOR  -X-X-X--X-X-X-
+19:47:33 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+19:47:33 [main] INFO  - -----ServerSobel iniciado en el puerto 1200 -----
+19:47:33 [main] INFO  - -----ServerSobel asociado a puerto 8000 -----
+19:47:33 [main] INFO  - -----Server bind realizado -----
+19:47:33 [main] INFO  - -----se ha establecido la conexion con el cliente rmi
+19:47:33 [main] INFO  - -- ServerSobel creo todas las colas en sus workers
+19:47:41 [RMI TCP Connection(2)-192.168.56.1] INFO  - --INGRESO A PROCESO 'SOBELDISTRIBUIDO' ENTRE CLIENTE Y SERVERSOBEL  --
+19:47:57 [main] INFO  - -X-X-X-X-X-X-  SE HA INICIADO EL SERVIDOR  -X-X-X--X-X-X-
+19:47:59 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+19:47:59 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+19:47:59 [main] INFO  - -----ServerSobel iniciado en el puerto 1200 -----
+19:47:59 [main] INFO  - -----ServerSobel asociado a puerto 8000 -----
+19:47:59 [main] INFO  - -----Server bind realizado -----
+19:47:59 [main] INFO  - -----se ha establecido la conexion con el cliente rmi
+19:47:59 [main] INFO  - -- ServerSobel creo todas las colas en sus workers
+19:48:12 [RMI TCP Connection(2)-192.168.56.1] INFO  - --INGRESO A PROCESO 'SOBELDISTRIBUIDO' ENTRE CLIENTE Y SERVERSOBEL  --
+19:48:12 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel1 enviada a worker 0
+19:48:12 [pool-1-thread-6] INFO  - El worker Sobel numero =  0  ha leido un mensaje de su cola.
+19:48:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel2 enviada a worker 1
+19:48:14 [pool-1-thread-6] INFO  - El worker Sobel numero =  0 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+19:48:14 [pool-1-thread-7] INFO  - El worker Sobel numero =  1  ha leido un mensaje de su cola.
+19:48:15 [pool-1-thread-7] INFO  - El worker Sobel numero =  1 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+19:48:15 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 0
+19:48:15 [pool-1-thread-9] INFO  - ServerSobel recibio una imagen del worker 1
+19:48:15 [RMI TCP Connection(2)-192.168.56.1] INFO  - TODAS LAS PARTES DEL SOBEL HAN SIDO RECIBIDAS
+19:48:15 [RMI TCP Connection(2)-192.168.56.1] INFO  - Uniendo las imagenes sobel parciales... 
+19:48:16 [RMI TCP Connection(2)-192.168.56.1] INFO  - SE HA ENVIADO EL RESULTADO DEL SOBEL AL CLIENTE MEDIANTE EL USO DE RMI
+19:56:33 [main] INFO  - -X-X-X-X-X-X-  SE HA INICIADO EL SERVIDOR  -X-X-X--X-X-X-
+19:56:34 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+19:56:34 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+19:56:35 [main] INFO  - -----ServerSobel iniciado en el puerto 1200 -----
+19:56:35 [main] INFO  - -----ServerSobel asociado a puerto 8000 -----
+19:56:35 [main] INFO  - -----Server bind realizado -----
+19:56:35 [main] INFO  - -----se ha establecido la conexion con el cliente rmi
+19:56:35 [main] INFO  - -- ServerSobel creo todas las colas en sus workers
+19:56:41 [RMI TCP Connection(2)-192.168.56.1] INFO  - --INGRESO A PROCESO 'SOBELDISTRIBUIDO' ENTRE CLIENTE Y SERVERSOBEL  --
+19:56:41 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel1 enviada a worker 0
+19:56:41 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel2 enviada a worker 1
+19:56:41 [pool-1-thread-6] INFO  - El worker Sobel numero =  0  ha leido un mensaje de su cola.
+19:56:41 [pool-1-thread-6] INFO  - El worker Sobel numero =  0 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+19:56:41 [pool-1-thread-7] INFO  - El worker Sobel numero =  1  ha leido un mensaje de su cola.
+19:56:41 [pool-1-thread-7] INFO  - El worker Sobel numero =  1 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+19:56:41 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 0
+19:56:41 [pool-1-thread-9] INFO  - ServerSobel recibio una imagen del worker 1
+19:56:41 [RMI TCP Connection(2)-192.168.56.1] INFO  - TODAS LAS PARTES DEL SOBEL HAN SIDO RECIBIDAS
+19:56:41 [RMI TCP Connection(2)-192.168.56.1] INFO  - Uniendo las imagenes sobel parciales... 
+19:56:41 [RMI TCP Connection(2)-192.168.56.1] INFO  - SE HA ENVIADO EL RESULTADO DEL SOBEL AL CLIENTE MEDIANTE EL USO DE RMI
+19:56:56 [main] INFO  - -X-X-X-X-X-X-  SE HA INICIADO EL SERVIDOR  -X-X-X--X-X-X-
+19:56:58 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+19:56:58 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+19:56:58 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+19:56:58 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+19:56:58 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+19:56:59 [main] INFO  - -----ServerSobel iniciado en el puerto 1200 -----
+19:56:59 [main] INFO  - -----ServerSobel asociado a puerto 8000 -----
+19:56:59 [main] INFO  - -----Server bind realizado -----
+19:56:59 [main] INFO  - -----se ha establecido la conexion con el cliente rmi
+19:56:59 [main] INFO  - -- ServerSobel creo todas las colas en sus workers
+19:57:06 [RMI TCP Connection(2)-192.168.56.1] INFO  - --INGRESO A PROCESO 'SOBELDISTRIBUIDO' ENTRE CLIENTE Y SERVERSOBEL  --
+19:57:06 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel1 enviada a worker 0
+19:57:06 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel2 enviada a worker 1
+19:57:06 [pool-1-thread-9] INFO  - El worker Sobel numero =  0  ha leido un mensaje de su cola.
+19:57:06 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel3 enviada a worker 2
+19:57:06 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel4 enviada a worker 3
+19:57:06 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel5 enviada a worker 4
+19:57:06 [pool-1-thread-9] INFO  - El worker Sobel numero =  0 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+19:57:06 [pool-1-thread-10] INFO  - El worker Sobel numero =  1  ha leido un mensaje de su cola.
+19:57:06 [pool-1-thread-10] INFO  - El worker Sobel numero =  1 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+19:57:06 [pool-1-thread-10] INFO  - El worker Sobel numero =  2  ha leido un mensaje de su cola.
+19:57:06 [pool-1-thread-10] INFO  - El worker Sobel numero =  2 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+19:57:06 [pool-1-thread-10] INFO  - El worker Sobel numero =  3  ha leido un mensaje de su cola.
+19:57:06 [pool-1-thread-10] INFO  - El worker Sobel numero =  3 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+19:57:06 [pool-1-thread-10] INFO  - El worker Sobel numero =  4  ha leido un mensaje de su cola.
+19:57:06 [pool-1-thread-10] INFO  - El worker Sobel numero =  4 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+19:57:06 [pool-1-thread-10] INFO  - ServerSobel recibio una imagen del worker 0
+19:57:06 [pool-1-thread-10] INFO  - ServerSobel recibio una imagen del worker 1
+19:57:06 [pool-1-thread-10] INFO  - ServerSobel recibio una imagen del worker 2
+19:57:06 [pool-1-thread-10] INFO  - ServerSobel recibio una imagen del worker 3
+19:57:06 [pool-1-thread-10] INFO  - ServerSobel recibio una imagen del worker 4
+19:57:06 [RMI TCP Connection(2)-192.168.56.1] INFO  - TODAS LAS PARTES DEL SOBEL HAN SIDO RECIBIDAS
+19:57:06 [RMI TCP Connection(2)-192.168.56.1] INFO  - Uniendo las imagenes sobel parciales... 
+19:57:07 [RMI TCP Connection(2)-192.168.56.1] INFO  - SE HA ENVIADO EL RESULTADO DEL SOBEL AL CLIENTE MEDIANTE EL USO DE RMI
+19:59:21 [main] INFO  - -X-X-X-X-X-X-  SE HA INICIADO EL SERVIDOR  -X-X-X--X-X-X-
+19:59:24 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+19:59:24 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+19:59:24 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+19:59:24 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+19:59:24 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+19:59:24 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+19:59:24 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+19:59:24 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+19:59:24 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+19:59:24 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+19:59:24 [main] INFO  - -----ServerSobel iniciado en el puerto 1200 -----
+19:59:24 [main] INFO  - -----ServerSobel asociado a puerto 8000 -----
+19:59:24 [main] INFO  - -----Server bind realizado -----
+19:59:24 [main] INFO  - -----se ha establecido la conexion con el cliente rmi
+19:59:24 [main] INFO  - -- ServerSobel creo todas las colas en sus workers
+19:59:34 [RMI TCP Connection(2)-192.168.56.1] INFO  - --INGRESO A PROCESO 'SOBELDISTRIBUIDO' ENTRE CLIENTE Y SERVERSOBEL  --
+19:59:34 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel1 enviada a worker 0
+19:59:34 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel2 enviada a worker 1
+19:59:34 [pool-1-thread-6] INFO  - El worker Sobel numero =  0  ha leido un mensaje de su cola.
+19:59:34 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel3 enviada a worker 2
+19:59:34 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel4 enviada a worker 3
+19:59:34 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel5 enviada a worker 4
+19:59:34 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel6 enviada a worker 5
+19:59:34 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel7 enviada a worker 6
+19:59:34 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel8 enviada a worker 7
+19:59:34 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel9 enviada a worker 8
+19:59:34 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel10 enviada a worker 9
+19:59:34 [pool-1-thread-6] INFO  - El worker Sobel numero =  0 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+19:59:34 [pool-1-thread-6] INFO  - El worker Sobel numero =  1  ha leido un mensaje de su cola.
+19:59:34 [pool-1-thread-6] INFO  - El worker Sobel numero =  1 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+19:59:34 [pool-1-thread-6] INFO  - El worker Sobel numero =  2  ha leido un mensaje de su cola.
+19:59:34 [pool-1-thread-6] INFO  - El worker Sobel numero =  2 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+19:59:34 [pool-1-thread-6] INFO  - El worker Sobel numero =  3  ha leido un mensaje de su cola.
+19:59:34 [pool-1-thread-6] INFO  - El worker Sobel numero =  3 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+19:59:34 [pool-1-thread-6] INFO  - El worker Sobel numero =  4  ha leido un mensaje de su cola.
+19:59:34 [pool-1-thread-6] INFO  - El worker Sobel numero =  4 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+19:59:34 [pool-1-thread-6] INFO  - El worker Sobel numero =  5  ha leido un mensaje de su cola.
+19:59:34 [pool-1-thread-6] INFO  - El worker Sobel numero =  5 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+19:59:34 [pool-1-thread-6] INFO  - El worker Sobel numero =  6  ha leido un mensaje de su cola.
+19:59:34 [pool-1-thread-6] INFO  - El worker Sobel numero =  6 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+19:59:34 [pool-1-thread-6] INFO  - El worker Sobel numero =  7  ha leido un mensaje de su cola.
+19:59:34 [pool-1-thread-6] INFO  - El worker Sobel numero =  7 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+19:59:34 [pool-1-thread-8] INFO  - El worker Sobel numero =  8  ha leido un mensaje de su cola.
+19:59:34 [pool-1-thread-8] INFO  - El worker Sobel numero =  8 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+19:59:34 [pool-1-thread-8] INFO  - El worker Sobel numero =  9  ha leido un mensaje de su cola.
+19:59:34 [pool-1-thread-8] INFO  - El worker Sobel numero =  9 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+19:59:34 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 0
+19:59:34 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 1
+19:59:34 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 2
+19:59:34 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 3
+19:59:34 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 4
+19:59:34 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 5
+19:59:34 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 6
+19:59:34 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 7
+19:59:34 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 8
+19:59:34 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 9
+19:59:34 [RMI TCP Connection(2)-192.168.56.1] INFO  - TODAS LAS PARTES DEL SOBEL HAN SIDO RECIBIDAS
+19:59:34 [RMI TCP Connection(2)-192.168.56.1] INFO  - Uniendo las imagenes sobel parciales... 
+19:59:34 [RMI TCP Connection(2)-192.168.56.1] INFO  - SE HA ENVIADO EL RESULTADO DEL SOBEL AL CLIENTE MEDIANTE EL USO DE RMI
+20:01:54 [main] INFO  - -X-X-X-X-X-X-  SE HA INICIADO EL SERVIDOR  -X-X-X--X-X-X-
+20:01:55 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:01:55 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:01:56 [main] INFO  - -----ServerSobel iniciado en el puerto 1200 -----
+20:01:56 [main] INFO  - -----ServerSobel asociado a puerto 8000 -----
+20:01:56 [main] INFO  - -----Server bind realizado -----
+20:01:56 [main] INFO  - -----se ha establecido la conexion con el cliente rmi
+20:01:56 [main] INFO  - -- ServerSobel creo todas las colas en sus workers
+20:02:05 [RMI TCP Connection(2)-192.168.56.1] INFO  - --INGRESO A PROCESO 'SOBELDISTRIBUIDO' ENTRE CLIENTE Y SERVERSOBEL  --
+20:02:06 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel1 enviada a worker 0
+20:02:06 [pool-1-thread-6] INFO  - El worker Sobel numero =  0  ha leido un mensaje de su cola.
+20:02:07 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel2 enviada a worker 1
+20:02:08 [pool-1-thread-6] INFO  - El worker Sobel numero =  0 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:02:09 [pool-1-thread-7] INFO  - El worker Sobel numero =  1  ha leido un mensaje de su cola.
+20:02:11 [pool-1-thread-7] INFO  - El worker Sobel numero =  1 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:02:11 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 0
+20:02:11 [pool-1-thread-9] INFO  - ServerSobel recibio una imagen del worker 1
+20:02:11 [RMI TCP Connection(2)-192.168.56.1] INFO  - TODAS LAS PARTES DEL SOBEL HAN SIDO RECIBIDAS
+20:02:11 [RMI TCP Connection(2)-192.168.56.1] INFO  - Uniendo las imagenes sobel parciales... 
+20:02:12 [RMI TCP Connection(2)-192.168.56.1] INFO  - SE HA ENVIADO EL RESULTADO DEL SOBEL AL CLIENTE MEDIANTE EL USO DE RMI
+20:03:26 [main] INFO  - -X-X-X-X-X-X-  SE HA INICIADO EL SERVIDOR  -X-X-X--X-X-X-
+20:03:28 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:03:28 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:03:28 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:03:28 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:03:28 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:03:28 [main] INFO  - -----ServerSobel iniciado en el puerto 1200 -----
+20:03:28 [main] INFO  - -----ServerSobel asociado a puerto 8000 -----
+20:03:28 [main] INFO  - -----Server bind realizado -----
+20:03:28 [main] INFO  - -----se ha establecido la conexion con el cliente rmi
+20:03:28 [main] INFO  - -- ServerSobel creo todas las colas en sus workers
+20:03:41 [RMI TCP Connection(2)-192.168.56.1] INFO  - --INGRESO A PROCESO 'SOBELDISTRIBUIDO' ENTRE CLIENTE Y SERVERSOBEL  --
+20:03:42 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel1 enviada a worker 0
+20:03:42 [pool-1-thread-9] INFO  - El worker Sobel numero =  0  ha leido un mensaje de su cola.
+20:03:42 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel2 enviada a worker 1
+20:03:42 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel3 enviada a worker 2
+20:03:42 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel4 enviada a worker 3
+20:03:42 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel5 enviada a worker 4
+20:03:43 [pool-1-thread-9] INFO  - El worker Sobel numero =  0 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:03:43 [pool-1-thread-10] INFO  - El worker Sobel numero =  1  ha leido un mensaje de su cola.
+20:03:44 [pool-1-thread-10] INFO  - El worker Sobel numero =  1 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:03:44 [pool-1-thread-10] INFO  - El worker Sobel numero =  2  ha leido un mensaje de su cola.
+20:03:44 [pool-1-thread-10] INFO  - El worker Sobel numero =  2 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:03:44 [pool-1-thread-10] INFO  - El worker Sobel numero =  3  ha leido un mensaje de su cola.
+20:03:45 [pool-1-thread-10] INFO  - El worker Sobel numero =  3 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:03:45 [pool-1-thread-10] INFO  - El worker Sobel numero =  4  ha leido un mensaje de su cola.
+20:03:46 [pool-1-thread-10] INFO  - El worker Sobel numero =  4 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:03:46 [pool-1-thread-10] INFO  - ServerSobel recibio una imagen del worker 0
+20:03:46 [pool-1-thread-10] INFO  - ServerSobel recibio una imagen del worker 1
+20:03:46 [pool-1-thread-10] INFO  - ServerSobel recibio una imagen del worker 2
+20:03:46 [pool-1-thread-10] INFO  - ServerSobel recibio una imagen del worker 3
+20:03:47 [pool-1-thread-10] INFO  - ServerSobel recibio una imagen del worker 4
+20:03:47 [RMI TCP Connection(2)-192.168.56.1] INFO  - TODAS LAS PARTES DEL SOBEL HAN SIDO RECIBIDAS
+20:03:47 [RMI TCP Connection(2)-192.168.56.1] INFO  - Uniendo las imagenes sobel parciales... 
+20:03:47 [RMI TCP Connection(2)-192.168.56.1] INFO  - SE HA ENVIADO EL RESULTADO DEL SOBEL AL CLIENTE MEDIANTE EL USO DE RMI
+20:05:15 [main] INFO  - -X-X-X-X-X-X-  SE HA INICIADO EL SERVIDOR  -X-X-X--X-X-X-
+20:05:17 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:05:17 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:05:17 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:05:17 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:05:17 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:05:17 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:05:17 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:05:17 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:05:17 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:05:17 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:05:17 [main] INFO  - -----ServerSobel iniciado en el puerto 1200 -----
+20:05:17 [main] INFO  - -----ServerSobel asociado a puerto 8000 -----
+20:05:17 [main] INFO  - -----Server bind realizado -----
+20:05:17 [main] INFO  - -----se ha establecido la conexion con el cliente rmi
+20:05:17 [main] INFO  - -- ServerSobel creo todas las colas en sus workers
+20:05:27 [RMI TCP Connection(2)-192.168.56.1] INFO  - --INGRESO A PROCESO 'SOBELDISTRIBUIDO' ENTRE CLIENTE Y SERVERSOBEL  --
+20:05:27 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel1 enviada a worker 0
+20:05:27 [pool-1-thread-6] INFO  - El worker Sobel numero =  0  ha leido un mensaje de su cola.
+20:05:27 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel2 enviada a worker 1
+20:05:28 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel3 enviada a worker 2
+20:05:28 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel4 enviada a worker 3
+20:05:28 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel5 enviada a worker 4
+20:05:28 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel6 enviada a worker 5
+20:05:28 [pool-1-thread-6] INFO  - El worker Sobel numero =  0 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:05:28 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel7 enviada a worker 6
+20:05:28 [pool-1-thread-7] INFO  - El worker Sobel numero =  1  ha leido un mensaje de su cola.
+20:05:28 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel8 enviada a worker 7
+20:05:28 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel9 enviada a worker 8
+20:05:28 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel10 enviada a worker 9
+20:05:29 [pool-1-thread-7] INFO  - El worker Sobel numero =  1 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:05:29 [pool-1-thread-7] INFO  - El worker Sobel numero =  2  ha leido un mensaje de su cola.
+20:05:29 [pool-1-thread-7] INFO  - El worker Sobel numero =  2 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:05:29 [pool-1-thread-7] INFO  - El worker Sobel numero =  3  ha leido un mensaje de su cola.
+20:05:29 [pool-1-thread-7] INFO  - El worker Sobel numero =  3 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:05:29 [pool-1-thread-7] INFO  - El worker Sobel numero =  4  ha leido un mensaje de su cola.
+20:05:30 [pool-1-thread-7] INFO  - El worker Sobel numero =  4 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:05:30 [pool-1-thread-7] INFO  - El worker Sobel numero =  5  ha leido un mensaje de su cola.
+20:05:30 [pool-1-thread-7] INFO  - El worker Sobel numero =  5 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:05:30 [pool-1-thread-7] INFO  - ServerSobel recibio una imagen del worker 0
+20:05:30 [pool-1-thread-7] INFO  - El worker Sobel numero =  6  ha leido un mensaje de su cola.
+20:05:31 [pool-1-thread-7] INFO  - El worker Sobel numero =  6 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:05:31 [pool-1-thread-7] INFO  - El worker Sobel numero =  7  ha leido un mensaje de su cola.
+20:05:31 [pool-1-thread-7] INFO  - El worker Sobel numero =  7 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:05:31 [pool-1-thread-7] INFO  - El worker Sobel numero =  8  ha leido un mensaje de su cola.
+20:05:31 [pool-1-thread-7] INFO  - El worker Sobel numero =  8 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:05:31 [pool-1-thread-7] INFO  - El worker Sobel numero =  9  ha leido un mensaje de su cola.
+20:05:32 [pool-1-thread-7] INFO  - El worker Sobel numero =  9 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:05:32 [pool-1-thread-7] INFO  - ServerSobel recibio una imagen del worker 1
+20:05:32 [pool-1-thread-7] INFO  - ServerSobel recibio una imagen del worker 2
+20:05:32 [pool-1-thread-7] INFO  - ServerSobel recibio una imagen del worker 3
+20:05:32 [pool-1-thread-7] INFO  - ServerSobel recibio una imagen del worker 4
+20:05:32 [pool-1-thread-7] INFO  - ServerSobel recibio una imagen del worker 5
+20:05:32 [pool-1-thread-7] INFO  - ServerSobel recibio una imagen del worker 6
+20:05:32 [pool-1-thread-7] INFO  - ServerSobel recibio una imagen del worker 7
+20:05:32 [pool-1-thread-7] INFO  - ServerSobel recibio una imagen del worker 8
+20:05:32 [pool-1-thread-7] INFO  - ServerSobel recibio una imagen del worker 9
+20:05:32 [RMI TCP Connection(2)-192.168.56.1] INFO  - TODAS LAS PARTES DEL SOBEL HAN SIDO RECIBIDAS
+20:05:32 [RMI TCP Connection(2)-192.168.56.1] INFO  - Uniendo las imagenes sobel parciales... 
+20:05:33 [RMI TCP Connection(2)-192.168.56.1] INFO  - SE HA ENVIADO EL RESULTADO DEL SOBEL AL CLIENTE MEDIANTE EL USO DE RMI
+20:05:59 [main] INFO  - -X-X-X-X-X-X-  SE HA INICIADO EL SERVIDOR  -X-X-X--X-X-X-
+20:06:01 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:01 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:01 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:01 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:01 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:01 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:01 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:01 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:01 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:01 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:01 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:01 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:01 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:01 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:01 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:01 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:01 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:01 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:01 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:01 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:01 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:01 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:02 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:02 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:02 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:02 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:02 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:02 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:02 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:02 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:02 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:02 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:02 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:02 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:02 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:02 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:02 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:02 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:02 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:02 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:02 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:02 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:02 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:02 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:02 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:02 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:02 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:02 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:02 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:02 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:02 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:02 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:02 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:02 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:02 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:02 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:02 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:02 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:02 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:02 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:03 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:03 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:03 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:03 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:03 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:03 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:03 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:03 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:03 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:03 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:03 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:03 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:03 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:03 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:03 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:03 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:03 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:03 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:03 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:03 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:03 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:03 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:03 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:03 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:03 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:03 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:03 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:03 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:04 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:04 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:04 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:04 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:04 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:04 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:04 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:04 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:04 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:04 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:04 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:04 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:06:04 [main] INFO  - -----ServerSobel iniciado en el puerto 1200 -----
+20:06:04 [main] INFO  - -----ServerSobel asociado a puerto 8000 -----
+20:06:04 [main] INFO  - -----Server bind realizado -----
+20:06:04 [main] INFO  - -----se ha establecido la conexion con el cliente rmi
+20:06:04 [main] INFO  - -- ServerSobel creo todas las colas en sus workers
+20:06:12 [RMI TCP Connection(2)-192.168.56.1] INFO  - --INGRESO A PROCESO 'SOBELDISTRIBUIDO' ENTRE CLIENTE Y SERVERSOBEL  --
+20:06:13 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel1 enviada a worker 0
+20:06:13 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel2 enviada a worker 1
+20:06:13 [pool-1-thread-8] INFO  - El worker Sobel numero =  0  ha leido un mensaje de su cola.
+20:06:13 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel3 enviada a worker 2
+20:06:13 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel4 enviada a worker 3
+20:06:13 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel5 enviada a worker 4
+20:06:13 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel6 enviada a worker 5
+20:06:13 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel7 enviada a worker 6
+20:06:13 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel8 enviada a worker 7
+20:06:13 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel9 enviada a worker 8
+20:06:13 [pool-1-thread-8] INFO  - El worker Sobel numero =  0 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:13 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel10 enviada a worker 9
+20:06:13 [pool-1-thread-8] INFO  - El worker Sobel numero =  1  ha leido un mensaje de su cola.
+20:06:13 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel11 enviada a worker 10
+20:06:13 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel12 enviada a worker 11
+20:06:13 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel13 enviada a worker 12
+20:06:13 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel14 enviada a worker 13
+20:06:13 [pool-1-thread-8] INFO  - El worker Sobel numero =  1 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:13 [pool-1-thread-8] INFO  - El worker Sobel numero =  2  ha leido un mensaje de su cola.
+20:06:13 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel15 enviada a worker 14
+20:06:13 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel16 enviada a worker 15
+20:06:13 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel17 enviada a worker 16
+20:06:13 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel18 enviada a worker 17
+20:06:13 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel19 enviada a worker 18
+20:06:13 [pool-1-thread-8] INFO  - El worker Sobel numero =  2 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:13 [pool-1-thread-8] INFO  - El worker Sobel numero =  3  ha leido un mensaje de su cola.
+20:06:13 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel20 enviada a worker 19
+20:06:13 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel21 enviada a worker 20
+20:06:13 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel22 enviada a worker 21
+20:06:13 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel23 enviada a worker 22
+20:06:13 [pool-1-thread-8] INFO  - El worker Sobel numero =  3 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:13 [pool-1-thread-8] INFO  - El worker Sobel numero =  4  ha leido un mensaje de su cola.
+20:06:13 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel24 enviada a worker 23
+20:06:13 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel25 enviada a worker 24
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel26 enviada a worker 25
+20:06:14 [pool-1-thread-8] INFO  - El worker Sobel numero =  4 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel27 enviada a worker 26
+20:06:14 [pool-1-thread-8] INFO  - El worker Sobel numero =  5  ha leido un mensaje de su cola.
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel28 enviada a worker 27
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel29 enviada a worker 28
+20:06:14 [pool-1-thread-8] INFO  - El worker Sobel numero =  5 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel30 enviada a worker 29
+20:06:14 [pool-1-thread-8] INFO  - El worker Sobel numero =  6  ha leido un mensaje de su cola.
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel31 enviada a worker 30
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel32 enviada a worker 31
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel33 enviada a worker 32
+20:06:14 [pool-1-thread-8] INFO  - El worker Sobel numero =  6 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:14 [pool-1-thread-8] INFO  - El worker Sobel numero =  7  ha leido un mensaje de su cola.
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel34 enviada a worker 33
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel35 enviada a worker 34
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel36 enviada a worker 35
+20:06:14 [pool-1-thread-8] INFO  - El worker Sobel numero =  7 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:14 [pool-1-thread-8] INFO  - El worker Sobel numero =  8  ha leido un mensaje de su cola.
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel37 enviada a worker 36
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel38 enviada a worker 37
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel39 enviada a worker 38
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel40 enviada a worker 39
+20:06:14 [pool-1-thread-8] INFO  - El worker Sobel numero =  8 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:14 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 0
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel41 enviada a worker 40
+20:06:14 [pool-1-thread-8] INFO  - El worker Sobel numero =  9  ha leido un mensaje de su cola.
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel42 enviada a worker 41
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel43 enviada a worker 42
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel44 enviada a worker 43
+20:06:14 [pool-1-thread-8] INFO  - El worker Sobel numero =  9 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel45 enviada a worker 44
+20:06:14 [pool-1-thread-8] INFO  - El worker Sobel numero =  10  ha leido un mensaje de su cola.
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel46 enviada a worker 45
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel47 enviada a worker 46
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel48 enviada a worker 47
+20:06:14 [pool-1-thread-8] INFO  - El worker Sobel numero =  10 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:14 [pool-1-thread-8] INFO  - El worker Sobel numero =  11  ha leido un mensaje de su cola.
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel49 enviada a worker 48
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel50 enviada a worker 49
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel51 enviada a worker 50
+20:06:14 [pool-1-thread-8] INFO  - El worker Sobel numero =  11 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:14 [pool-1-thread-8] INFO  - El worker Sobel numero =  12  ha leido un mensaje de su cola.
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel52 enviada a worker 51
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel53 enviada a worker 52
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel54 enviada a worker 53
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel55 enviada a worker 54
+20:06:14 [pool-1-thread-8] INFO  - El worker Sobel numero =  12 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:14 [pool-1-thread-8] INFO  - El worker Sobel numero =  13  ha leido un mensaje de su cola.
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel56 enviada a worker 55
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel57 enviada a worker 56
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel58 enviada a worker 57
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel59 enviada a worker 58
+20:06:14 [pool-1-thread-8] INFO  - El worker Sobel numero =  13 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:14 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 1
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel60 enviada a worker 59
+20:06:14 [pool-1-thread-8] INFO  - El worker Sobel numero =  14  ha leido un mensaje de su cola.
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel61 enviada a worker 60
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel62 enviada a worker 61
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel63 enviada a worker 62
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel64 enviada a worker 63
+20:06:14 [pool-1-thread-8] INFO  - El worker Sobel numero =  14 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:14 [pool-1-thread-8] INFO  - El worker Sobel numero =  15  ha leido un mensaje de su cola.
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel65 enviada a worker 64
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel66 enviada a worker 65
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel67 enviada a worker 66
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel68 enviada a worker 67
+20:06:14 [pool-1-thread-8] INFO  - El worker Sobel numero =  15 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:14 [pool-1-thread-8] INFO  - El worker Sobel numero =  16  ha leido un mensaje de su cola.
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel69 enviada a worker 68
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel70 enviada a worker 69
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel71 enviada a worker 70
+20:06:14 [pool-1-thread-8] INFO  - El worker Sobel numero =  16 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel72 enviada a worker 71
+20:06:14 [pool-1-thread-8] INFO  - El worker Sobel numero =  17  ha leido un mensaje de su cola.
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel73 enviada a worker 72
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel74 enviada a worker 73
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel75 enviada a worker 74
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel76 enviada a worker 75
+20:06:14 [pool-1-thread-8] INFO  - El worker Sobel numero =  17 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:14 [pool-1-thread-8] INFO  - El worker Sobel numero =  18  ha leido un mensaje de su cola.
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel77 enviada a worker 76
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel78 enviada a worker 77
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel79 enviada a worker 78
+20:06:14 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel80 enviada a worker 79
+20:06:14 [pool-1-thread-8] INFO  - El worker Sobel numero =  18 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:14 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 2
+20:06:15 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel81 enviada a worker 80
+20:06:15 [pool-1-thread-8] INFO  - El worker Sobel numero =  19  ha leido un mensaje de su cola.
+20:06:15 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel82 enviada a worker 81
+20:06:15 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel83 enviada a worker 82
+20:06:15 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel84 enviada a worker 83
+20:06:15 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel85 enviada a worker 84
+20:06:15 [pool-1-thread-8] INFO  - El worker Sobel numero =  19 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:15 [pool-1-thread-8] INFO  - El worker Sobel numero =  20  ha leido un mensaje de su cola.
+20:06:15 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel86 enviada a worker 85
+20:06:15 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel87 enviada a worker 86
+20:06:15 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel88 enviada a worker 87
+20:06:15 [pool-1-thread-8] INFO  - El worker Sobel numero =  20 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:15 [pool-1-thread-8] INFO  - El worker Sobel numero =  21  ha leido un mensaje de su cola.
+20:06:15 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel89 enviada a worker 88
+20:06:15 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel90 enviada a worker 89
+20:06:15 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel91 enviada a worker 90
+20:06:15 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel92 enviada a worker 91
+20:06:15 [pool-1-thread-8] INFO  - El worker Sobel numero =  21 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:15 [pool-1-thread-8] INFO  - El worker Sobel numero =  22  ha leido un mensaje de su cola.
+20:06:15 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel93 enviada a worker 92
+20:06:15 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel94 enviada a worker 93
+20:06:15 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel95 enviada a worker 94
+20:06:15 [pool-1-thread-8] INFO  - El worker Sobel numero =  22 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:15 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel96 enviada a worker 95
+20:06:15 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 3
+20:06:15 [pool-1-thread-8] INFO  - El worker Sobel numero =  23  ha leido un mensaje de su cola.
+20:06:15 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel97 enviada a worker 96
+20:06:15 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel98 enviada a worker 97
+20:06:15 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel99 enviada a worker 98
+20:06:15 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel100 enviada a worker 99
+20:06:15 [pool-1-thread-8] INFO  - El worker Sobel numero =  23 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:15 [pool-1-thread-8] INFO  - El worker Sobel numero =  24  ha leido un mensaje de su cola.
+20:06:15 [pool-1-thread-8] INFO  - El worker Sobel numero =  24 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:15 [pool-1-thread-8] INFO  - El worker Sobel numero =  25  ha leido un mensaje de su cola.
+20:06:15 [pool-1-thread-8] INFO  - El worker Sobel numero =  25 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:15 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 4
+20:06:15 [pool-1-thread-8] INFO  - El worker Sobel numero =  26  ha leido un mensaje de su cola.
+20:06:15 [pool-1-thread-8] INFO  - El worker Sobel numero =  26 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:15 [pool-1-thread-8] INFO  - El worker Sobel numero =  27  ha leido un mensaje de su cola.
+20:06:15 [pool-1-thread-8] INFO  - El worker Sobel numero =  27 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:15 [pool-1-thread-8] INFO  - El worker Sobel numero =  28  ha leido un mensaje de su cola.
+20:06:15 [pool-1-thread-8] INFO  - El worker Sobel numero =  28 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:15 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 5
+20:06:15 [pool-1-thread-8] INFO  - El worker Sobel numero =  29  ha leido un mensaje de su cola.
+20:06:15 [pool-1-thread-8] INFO  - El worker Sobel numero =  29 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:15 [pool-1-thread-8] INFO  - El worker Sobel numero =  30  ha leido un mensaje de su cola.
+20:06:15 [pool-1-thread-8] INFO  - El worker Sobel numero =  30 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:15 [pool-1-thread-8] INFO  - El worker Sobel numero =  31  ha leido un mensaje de su cola.
+20:06:15 [pool-1-thread-8] INFO  - El worker Sobel numero =  31 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:15 [pool-1-thread-8] INFO  - El worker Sobel numero =  32  ha leido un mensaje de su cola.
+20:06:15 [pool-1-thread-8] INFO  - El worker Sobel numero =  32 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:15 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 6
+20:06:15 [pool-1-thread-8] INFO  - El worker Sobel numero =  33  ha leido un mensaje de su cola.
+20:06:15 [pool-1-thread-8] INFO  - El worker Sobel numero =  33 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:15 [pool-1-thread-8] INFO  - El worker Sobel numero =  34  ha leido un mensaje de su cola.
+20:06:15 [pool-1-thread-8] INFO  - El worker Sobel numero =  34 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:15 [pool-1-thread-8] INFO  - El worker Sobel numero =  35  ha leido un mensaje de su cola.
+20:06:16 [pool-1-thread-8] INFO  - El worker Sobel numero =  35 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:16 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 7
+20:06:16 [pool-1-thread-8] INFO  - El worker Sobel numero =  36  ha leido un mensaje de su cola.
+20:06:16 [pool-1-thread-8] INFO  - El worker Sobel numero =  36 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:16 [pool-1-thread-8] INFO  - El worker Sobel numero =  37  ha leido un mensaje de su cola.
+20:06:16 [pool-1-thread-8] INFO  - El worker Sobel numero =  37 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:16 [pool-1-thread-8] INFO  - El worker Sobel numero =  38  ha leido un mensaje de su cola.
+20:06:16 [pool-1-thread-8] INFO  - El worker Sobel numero =  38 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:16 [pool-1-thread-8] INFO  - El worker Sobel numero =  39  ha leido un mensaje de su cola.
+20:06:16 [pool-1-thread-8] INFO  - El worker Sobel numero =  39 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:16 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 8
+20:06:16 [pool-1-thread-8] INFO  - El worker Sobel numero =  40  ha leido un mensaje de su cola.
+20:06:16 [pool-1-thread-8] INFO  - El worker Sobel numero =  40 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:16 [pool-1-thread-8] INFO  - El worker Sobel numero =  41  ha leido un mensaje de su cola.
+20:06:16 [pool-1-thread-8] INFO  - El worker Sobel numero =  41 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:16 [pool-1-thread-8] INFO  - El worker Sobel numero =  42  ha leido un mensaje de su cola.
+20:06:16 [pool-1-thread-8] INFO  - El worker Sobel numero =  42 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:16 [pool-1-thread-8] INFO  - El worker Sobel numero =  43  ha leido un mensaje de su cola.
+20:06:16 [pool-1-thread-8] INFO  - El worker Sobel numero =  43 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:16 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 9
+20:06:16 [pool-1-thread-8] INFO  - El worker Sobel numero =  44  ha leido un mensaje de su cola.
+20:06:16 [pool-1-thread-8] INFO  - El worker Sobel numero =  44 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:16 [pool-1-thread-8] INFO  - El worker Sobel numero =  45  ha leido un mensaje de su cola.
+20:06:16 [pool-1-thread-8] INFO  - El worker Sobel numero =  45 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:16 [pool-1-thread-8] INFO  - El worker Sobel numero =  46  ha leido un mensaje de su cola.
+20:06:16 [pool-1-thread-8] INFO  - El worker Sobel numero =  46 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:16 [pool-1-thread-8] INFO  - El worker Sobel numero =  47  ha leido un mensaje de su cola.
+20:06:16 [pool-1-thread-8] INFO  - El worker Sobel numero =  47 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:16 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 10
+20:06:16 [pool-1-thread-8] INFO  - El worker Sobel numero =  48  ha leido un mensaje de su cola.
+20:06:16 [pool-1-thread-8] INFO  - El worker Sobel numero =  48 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:16 [pool-1-thread-8] INFO  - El worker Sobel numero =  49  ha leido un mensaje de su cola.
+20:06:16 [pool-1-thread-8] INFO  - El worker Sobel numero =  49 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:16 [pool-1-thread-8] INFO  - El worker Sobel numero =  50  ha leido un mensaje de su cola.
+20:06:16 [pool-1-thread-8] INFO  - El worker Sobel numero =  50 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:16 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 11
+20:06:16 [pool-1-thread-8] INFO  - El worker Sobel numero =  51  ha leido un mensaje de su cola.
+20:06:16 [pool-1-thread-8] INFO  - El worker Sobel numero =  51 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:16 [pool-1-thread-8] INFO  - El worker Sobel numero =  52  ha leido un mensaje de su cola.
+20:06:16 [pool-1-thread-8] INFO  - El worker Sobel numero =  52 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:16 [pool-1-thread-8] INFO  - El worker Sobel numero =  53  ha leido un mensaje de su cola.
+20:06:16 [pool-1-thread-8] INFO  - El worker Sobel numero =  53 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:16 [pool-1-thread-8] INFO  - El worker Sobel numero =  54  ha leido un mensaje de su cola.
+20:06:17 [pool-1-thread-8] INFO  - El worker Sobel numero =  54 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:17 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 12
+20:06:17 [pool-1-thread-8] INFO  - El worker Sobel numero =  55  ha leido un mensaje de su cola.
+20:06:17 [pool-1-thread-8] INFO  - El worker Sobel numero =  55 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:17 [pool-1-thread-8] INFO  - El worker Sobel numero =  56  ha leido un mensaje de su cola.
+20:06:17 [pool-1-thread-8] INFO  - El worker Sobel numero =  56 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:17 [pool-1-thread-8] INFO  - El worker Sobel numero =  57  ha leido un mensaje de su cola.
+20:06:17 [pool-1-thread-8] INFO  - El worker Sobel numero =  57 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:17 [pool-1-thread-8] INFO  - El worker Sobel numero =  58  ha leido un mensaje de su cola.
+20:06:17 [pool-1-thread-8] INFO  - El worker Sobel numero =  58 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:17 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 13
+20:06:17 [pool-1-thread-8] INFO  - El worker Sobel numero =  59  ha leido un mensaje de su cola.
+20:06:17 [pool-1-thread-8] INFO  - El worker Sobel numero =  59 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:17 [pool-1-thread-8] INFO  - El worker Sobel numero =  60  ha leido un mensaje de su cola.
+20:06:17 [pool-1-thread-8] INFO  - El worker Sobel numero =  60 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:17 [pool-1-thread-8] INFO  - El worker Sobel numero =  61  ha leido un mensaje de su cola.
+20:06:17 [pool-1-thread-8] INFO  - El worker Sobel numero =  61 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:17 [pool-1-thread-8] INFO  - El worker Sobel numero =  62  ha leido un mensaje de su cola.
+20:06:17 [pool-1-thread-8] INFO  - El worker Sobel numero =  62 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:17 [pool-1-thread-8] INFO  - El worker Sobel numero =  63  ha leido un mensaje de su cola.
+20:06:17 [pool-1-thread-8] INFO  - El worker Sobel numero =  63 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:17 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 14
+20:06:17 [pool-1-thread-8] INFO  - El worker Sobel numero =  64  ha leido un mensaje de su cola.
+20:06:17 [pool-1-thread-8] INFO  - El worker Sobel numero =  64 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:17 [pool-1-thread-8] INFO  - El worker Sobel numero =  65  ha leido un mensaje de su cola.
+20:06:17 [pool-1-thread-8] INFO  - El worker Sobel numero =  65 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:17 [pool-1-thread-8] INFO  - El worker Sobel numero =  66  ha leido un mensaje de su cola.
+20:06:17 [pool-1-thread-8] INFO  - El worker Sobel numero =  66 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:17 [pool-1-thread-8] INFO  - El worker Sobel numero =  67  ha leido un mensaje de su cola.
+20:06:17 [pool-1-thread-8] INFO  - El worker Sobel numero =  67 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:17 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 15
+20:06:17 [pool-1-thread-8] INFO  - El worker Sobel numero =  68  ha leido un mensaje de su cola.
+20:06:17 [pool-1-thread-8] INFO  - El worker Sobel numero =  68 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:17 [pool-1-thread-8] INFO  - El worker Sobel numero =  69  ha leido un mensaje de su cola.
+20:06:17 [pool-1-thread-8] INFO  - El worker Sobel numero =  69 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:17 [pool-1-thread-8] INFO  - El worker Sobel numero =  70  ha leido un mensaje de su cola.
+20:06:17 [pool-1-thread-8] INFO  - El worker Sobel numero =  70 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:17 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 16
+20:06:17 [pool-1-thread-8] INFO  - El worker Sobel numero =  71  ha leido un mensaje de su cola.
+20:06:17 [pool-1-thread-8] INFO  - El worker Sobel numero =  71 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:17 [pool-1-thread-8] INFO  - El worker Sobel numero =  72  ha leido un mensaje de su cola.
+20:06:17 [pool-1-thread-8] INFO  - El worker Sobel numero =  72 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:17 [pool-1-thread-8] INFO  - El worker Sobel numero =  73  ha leido un mensaje de su cola.
+20:06:17 [pool-1-thread-8] INFO  - El worker Sobel numero =  73 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:17 [pool-1-thread-8] INFO  - El worker Sobel numero =  74  ha leido un mensaje de su cola.
+20:06:17 [pool-1-thread-8] INFO  - El worker Sobel numero =  74 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:17 [pool-1-thread-8] INFO  - El worker Sobel numero =  75  ha leido un mensaje de su cola.
+20:06:18 [pool-1-thread-8] INFO  - El worker Sobel numero =  75 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:18 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 17
+20:06:18 [pool-1-thread-8] INFO  - El worker Sobel numero =  76  ha leido un mensaje de su cola.
+20:06:18 [pool-1-thread-8] INFO  - El worker Sobel numero =  76 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:18 [pool-1-thread-8] INFO  - El worker Sobel numero =  77  ha leido un mensaje de su cola.
+20:06:18 [pool-1-thread-8] INFO  - El worker Sobel numero =  77 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:18 [pool-1-thread-8] INFO  - El worker Sobel numero =  78  ha leido un mensaje de su cola.
+20:06:18 [pool-1-thread-8] INFO  - El worker Sobel numero =  78 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:18 [pool-1-thread-8] INFO  - El worker Sobel numero =  79  ha leido un mensaje de su cola.
+20:06:18 [pool-1-thread-8] INFO  - El worker Sobel numero =  79 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:18 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 18
+20:06:18 [pool-1-thread-8] INFO  - El worker Sobel numero =  80  ha leido un mensaje de su cola.
+20:06:18 [pool-1-thread-8] INFO  - El worker Sobel numero =  80 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:18 [pool-1-thread-8] INFO  - El worker Sobel numero =  81  ha leido un mensaje de su cola.
+20:06:18 [pool-1-thread-8] INFO  - El worker Sobel numero =  81 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:18 [pool-1-thread-8] INFO  - El worker Sobel numero =  82  ha leido un mensaje de su cola.
+20:06:18 [pool-1-thread-8] INFO  - El worker Sobel numero =  82 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:18 [pool-1-thread-8] INFO  - El worker Sobel numero =  83  ha leido un mensaje de su cola.
+20:06:18 [pool-1-thread-8] INFO  - El worker Sobel numero =  83 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:18 [pool-1-thread-8] INFO  - El worker Sobel numero =  84  ha leido un mensaje de su cola.
+20:06:18 [pool-1-thread-8] INFO  - El worker Sobel numero =  84 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:18 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 19
+20:06:18 [pool-1-thread-8] INFO  - El worker Sobel numero =  85  ha leido un mensaje de su cola.
+20:06:18 [pool-1-thread-8] INFO  - El worker Sobel numero =  85 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:18 [pool-1-thread-8] INFO  - El worker Sobel numero =  86  ha leido un mensaje de su cola.
+20:06:18 [pool-1-thread-8] INFO  - El worker Sobel numero =  86 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:18 [pool-1-thread-8] INFO  - El worker Sobel numero =  87  ha leido un mensaje de su cola.
+20:06:18 [pool-1-thread-8] INFO  - El worker Sobel numero =  87 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:18 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 20
+20:06:18 [pool-1-thread-8] INFO  - El worker Sobel numero =  88  ha leido un mensaje de su cola.
+20:06:18 [pool-1-thread-8] INFO  - El worker Sobel numero =  88 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:18 [pool-1-thread-8] INFO  - El worker Sobel numero =  89  ha leido un mensaje de su cola.
+20:06:18 [pool-1-thread-8] INFO  - El worker Sobel numero =  89 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:18 [pool-1-thread-8] INFO  - El worker Sobel numero =  90  ha leido un mensaje de su cola.
+20:06:18 [pool-1-thread-8] INFO  - El worker Sobel numero =  90 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:18 [pool-1-thread-8] INFO  - El worker Sobel numero =  91  ha leido un mensaje de su cola.
+20:06:18 [pool-1-thread-8] INFO  - El worker Sobel numero =  91 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:18 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 21
+20:06:18 [pool-1-thread-8] INFO  - El worker Sobel numero =  92  ha leido un mensaje de su cola.
+20:06:18 [pool-1-thread-8] INFO  - El worker Sobel numero =  92 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:18 [pool-1-thread-8] INFO  - El worker Sobel numero =  93  ha leido un mensaje de su cola.
+20:06:18 [pool-1-thread-8] INFO  - El worker Sobel numero =  93 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:18 [pool-1-thread-8] INFO  - El worker Sobel numero =  94  ha leido un mensaje de su cola.
+20:06:19 [pool-1-thread-8] INFO  - El worker Sobel numero =  94 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 22
+20:06:19 [pool-1-thread-8] INFO  - El worker Sobel numero =  95  ha leido un mensaje de su cola.
+20:06:19 [pool-1-thread-8] INFO  - El worker Sobel numero =  95 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:19 [pool-1-thread-8] INFO  - El worker Sobel numero =  96  ha leido un mensaje de su cola.
+20:06:19 [pool-1-thread-8] INFO  - El worker Sobel numero =  96 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:19 [pool-1-thread-8] INFO  - El worker Sobel numero =  97  ha leido un mensaje de su cola.
+20:06:19 [pool-1-thread-8] INFO  - El worker Sobel numero =  97 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:19 [pool-1-thread-8] INFO  - El worker Sobel numero =  98  ha leido un mensaje de su cola.
+20:06:19 [pool-1-thread-8] INFO  - El worker Sobel numero =  98 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:19 [pool-1-thread-8] INFO  - El worker Sobel numero =  99  ha leido un mensaje de su cola.
+20:06:19 [pool-1-thread-8] INFO  - El worker Sobel numero =  99 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 23
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 24
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 25
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 26
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 27
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 28
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 29
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 30
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 31
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 32
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 33
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 34
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 35
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 36
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 37
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 38
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 39
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 40
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 41
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 42
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 43
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 44
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 45
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 46
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 47
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 48
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 49
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 50
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 51
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 52
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 53
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 54
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 55
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 56
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 57
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 58
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 59
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 60
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 61
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 62
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 63
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 64
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 65
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 66
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 67
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 68
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 69
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 70
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 71
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 72
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 73
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 74
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 75
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 76
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 77
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 78
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 79
+20:06:19 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 80
+20:06:20 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 81
+20:06:20 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 82
+20:06:20 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 83
+20:06:20 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 84
+20:06:20 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 85
+20:06:20 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 86
+20:06:20 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 87
+20:06:20 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 88
+20:06:20 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 89
+20:06:20 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 90
+20:06:20 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 91
+20:06:20 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 92
+20:06:20 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 93
+20:06:20 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 94
+20:06:20 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 95
+20:06:20 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 96
+20:06:20 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 97
+20:06:20 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 98
+20:06:20 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 99
+20:06:20 [RMI TCP Connection(2)-192.168.56.1] INFO  - TODAS LAS PARTES DEL SOBEL HAN SIDO RECIBIDAS
+20:06:20 [RMI TCP Connection(2)-192.168.56.1] INFO  - Uniendo las imagenes sobel parciales... 
+20:06:21 [RMI TCP Connection(2)-192.168.56.1] INFO  - SE HA ENVIADO EL RESULTADO DEL SOBEL AL CLIENTE MEDIANTE EL USO DE RMI
+20:07:11 [main] INFO  - -X-X-X-X-X-X-  SE HA INICIADO EL SERVIDOR  -X-X-X--X-X-X-
+20:07:14 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:07:14 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:07:14 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:07:14 [main] INFO  - -----ServerSobel iniciado en el puerto 1200 -----
+20:07:14 [main] INFO  - -----ServerSobel asociado a puerto 8000 -----
+20:07:14 [main] INFO  - -----Server bind realizado -----
+20:07:14 [main] INFO  - -----se ha establecido la conexion con el cliente rmi
+20:07:14 [main] INFO  - -- ServerSobel creo todas las colas en sus workers
+20:07:22 [RMI TCP Connection(2)-192.168.56.1] INFO  - --INGRESO A PROCESO 'SOBELDISTRIBUIDO' ENTRE CLIENTE Y SERVERSOBEL  --
+20:07:23 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel1 enviada a worker 0
+20:07:23 [pool-1-thread-7] INFO  - El worker Sobel numero =  0  ha leido un mensaje de su cola.
+20:07:23 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel2 enviada a worker 1
+20:07:23 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel3 enviada a worker 2
+20:07:24 [pool-1-thread-7] INFO  - El worker Sobel numero =  0 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:07:24 [pool-1-thread-8] INFO  - El worker Sobel numero =  1  ha leido un mensaje de su cola.
+20:07:26 [pool-1-thread-8] INFO  - El worker Sobel numero =  1 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:07:26 [pool-1-thread-8] INFO  - El worker Sobel numero =  2  ha leido un mensaje de su cola.
+20:07:27 [pool-1-thread-8] INFO  - El worker Sobel numero =  2 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+20:07:27 [pool-1-thread-9] INFO  - ServerSobel recibio una imagen del worker 0
+20:07:27 [pool-1-thread-9] INFO  - ServerSobel recibio una imagen del worker 1
+20:07:28 [pool-1-thread-10] INFO  - ServerSobel recibio una imagen del worker 2
+20:07:28 [RMI TCP Connection(2)-192.168.56.1] INFO  - TODAS LAS PARTES DEL SOBEL HAN SIDO RECIBIDAS
+20:07:28 [RMI TCP Connection(2)-192.168.56.1] INFO  - Uniendo las imagenes sobel parciales... 
+20:07:29 [RMI TCP Connection(2)-192.168.56.1] INFO  - SE HA ENVIADO EL RESULTADO DEL SOBEL AL CLIENTE MEDIANTE EL USO DE RMI
+20:12:50 [main] INFO  - -X-X-X-X-X-X-  SE HA INICIADO EL SERVIDOR  -X-X-X--X-X-X-
+20:12:52 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:12:52 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:12:53 [main] INFO  - -----ServerSobel iniciado en el puerto 1200 -----
+20:12:53 [main] INFO  - -----ServerSobel asociado a puerto 8000 -----
+20:12:53 [main] INFO  - -----Server bind realizado -----
+20:12:53 [main] INFO  - -----se ha establecido la conexion con el cliente rmi
+20:12:53 [main] INFO  - -- ServerSobel creo todas las colas en sus workers
+20:22:31 [main] INFO  - -X-X-X-X-X-X-  SE HA INICIADO EL SERVIDOR  -X-X-X--X-X-X-
+20:22:33 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:22:33 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+20:22:33 [main] INFO  - -----ServerSobel iniciado en el puerto 1200 -----
+20:22:33 [main] INFO  - -----ServerSobel asociado a puerto 8000 -----
+20:22:33 [main] INFO  - -----Server bind realizado -----
+20:22:33 [main] INFO  - -----se ha establecido la conexion con el cliente rmi
+20:22:33 [main] INFO  - -- ServerSobel creo todas las colas en sus workers
+16:59:06 [main] INFO  - -x-x-x-x- Server Dispatcher iniciado -x-x-x-x-x-
+16:59:09 [main] INFO  - -X-X-X-X-X-X- WORKER INICIADO -X-X-X-X-X-
+16:59:09 [main] INFO  - ----- WorkerSobel 0 creo la cola QUEUE_W0-----
+16:59:09 [main] INFO  - -X-X-X-X-X-X- WORKER INICIADO -X-X-X-X-X-
+16:59:09 [main] INFO  - ----- WorkerSobel 1 creo la cola QUEUE_W1-----
+16:59:10 [main] INFO  - -----ServerSobel Servicio RMI Iniciado en puerto 1200-----
+16:59:10 [main] INFO  - -----ServerSobel asociado a puerto 8000 -----
+16:59:10 [main] INFO  - -----Server bind de servicio JNDI realizado -----
+16:59:10 [main] INFO  - -----conexion para cliente RMI finalizada correctamente.
+16:59:10 [main] INFO  - -- ServerSobel Instancio las colas activas de todos sus workers
+16:59:17 [main] INFO  - ----- SobelClient iniciado -----
+16:59:27 [RMI TCP Connection(2)-192.168.56.1] INFO  - --INGRESO A PROCESO 'SOBELDISTRIBUIDO' ENTRE CLIENTE Y SERVERSOBEL  --
+16:59:29 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel enviada a worker 0
+16:59:29 [pool-1-thread-6] INFO  - WorkerSobel 0 leyo un mensaje de su cola.
+16:59:30 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel enviada a worker 1
+16:59:30 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 0 imagenes recibidas de las 2 enviadas
+16:59:30 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 0 imagenes recibidas de las 2 enviadas
+16:59:30 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 0 imagenes recibidas de las 2 enviadas
+16:59:30 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 0 imagenes recibidas de las 2 enviadas
+16:59:30 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 0 imagenes recibidas de las 2 enviadas
+16:59:31 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 0 imagenes recibidas de las 2 enviadas
+16:59:31 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 0 imagenes recibidas de las 2 enviadas
+16:59:31 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 0 imagenes recibidas de las 2 enviadas
+16:59:31 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 0 imagenes recibidas de las 2 enviadas
+16:59:31 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 0 imagenes recibidas de las 2 enviadas
+16:59:32 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 0 imagenes recibidas de las 2 enviadas
+16:59:32 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 0 imagenes recibidas de las 2 enviadas
+16:59:32 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 0 imagenes recibidas de las 2 enviadas
+16:59:32 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 0 imagenes recibidas de las 2 enviadas
+16:59:32 [pool-1-thread-6] INFO  - WorkerSobel 0 envio su respuesta a QUEUE_SOBEL_OUT.
+16:59:32 [pool-1-thread-7] INFO  - WorkerSobel 1 leyo un mensaje de su cola.
+16:59:32 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 0 imagenes recibidas de las 2 enviadas
+16:59:33 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 0 imagenes recibidas de las 2 enviadas
+16:59:33 [RMI TCP Connection(2)-192.168.56.1] INFO  - Se sobrepaso el teimpo maximo de espera.
+16:59:33 [RMI TCP Connection(2)-192.168.56.1] INFO  - Verificando Workers caidos...
+16:59:33 [RMI TCP Connection(2)-192.168.56.1] INFO  - Worker 0 no envio su respuesta a tiempo. Reasignando tarea...
+16:59:33 [RMI TCP Connection(2)-192.168.56.1] INFO  - QUEUE_W0 eliminada
+16:59:36 [pool-1-thread-7] INFO  - WorkerSobel 1 envio su respuesta a QUEUE_SOBEL_OUT.
+16:59:36 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 0
+16:59:37 [pool-1-thread-9] INFO  - ServerSobel recibio una imagen del worker 1
+16:59:38 [RMI TCP Connection(2)-192.168.56.1] INFO  -  Tarea reasignada a Worker 1
+16:59:38 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel enviada a worker 1
+16:59:38 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 2 imagenes recibidas de las 2 enviadas
+16:59:38 [RMI TCP Connection(2)-192.168.56.1] INFO  - Han llegado todas las partes de la imagen resueltas en sobel.
+16:59:38 [RMI TCP Connection(2)-192.168.56.1] INFO  - Uniendo las imagenes sobel parciales... 
+16:59:39 [pool-1-thread-10] INFO  - WorkerSobel 1 leyo un mensaje de su cola.
+16:59:40 [RMI TCP Connection(2)-192.168.56.1] INFO  - Resultado final de Sobel enviado al cliente (via RMI)
+16:59:41 [main] INFO  -  ELAPSED TIME: 18078
+16:59:41 [main] INFO  - La nueva imagen se ubica dentro del proyecto en la ruta: images/pc1-Sobel.jpg
+16:59:42 [pool-1-thread-10] INFO  - WorkerSobel 1 envio su respuesta a QUEUE_SOBEL_OUT.
+16:59:43 [pool-1-thread-3] INFO  - ServerSobel recibio una imagen del worker 1
+17:01:22 [main] INFO  - -x-x-x-x- Server Dispatcher iniciado -x-x-x-x-x-
+17:01:25 [main] INFO  - -X-X-X-X-X-X- WORKER INICIADO -X-X-X-X-X-
+17:01:25 [main] INFO  - ----- WorkerSobel 0 creo la cola QUEUE_W0-----
+17:01:25 [main] INFO  - -X-X-X-X-X-X- WORKER INICIADO -X-X-X-X-X-
+17:01:25 [main] INFO  - ----- WorkerSobel 1 creo la cola QUEUE_W1-----
+17:01:25 [main] INFO  - -X-X-X-X-X-X- WORKER INICIADO -X-X-X-X-X-
+17:01:25 [main] INFO  - ----- WorkerSobel 2 creo la cola QUEUE_W2-----
+17:01:25 [main] INFO  - -----ServerSobel Servicio RMI Iniciado en puerto 1200-----
+17:01:25 [main] INFO  - -----ServerSobel asociado a puerto 8000 -----
+17:01:25 [main] INFO  - -----Server bind de servicio JNDI realizado -----
+17:01:25 [main] INFO  - -----conexion para cliente RMI finalizada correctamente.
+17:01:25 [main] INFO  - -- ServerSobel Instancio las colas activas de todos sus workers
+17:01:30 [main] INFO  - ----- SobelClient iniciado -----
+17:01:32 [RMI TCP Connection(2)-192.168.56.1] INFO  - --INGRESO A PROCESO 'SOBELDISTRIBUIDO' ENTRE CLIENTE Y SERVERSOBEL  --
+17:01:33 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel enviada a worker 0
+17:01:33 [pool-1-thread-7] INFO  - WorkerSobel 0 leyo un mensaje de su cola.
+17:01:33 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel enviada a worker 1
+17:01:33 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel enviada a worker 2
+17:01:33 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 0 imagenes recibidas de las 3 enviadas
+17:01:33 [pool-1-thread-7] INFO  - WorkerSobel 0 envio su respuesta a QUEUE_SOBEL_OUT.
+17:01:33 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 0 imagenes recibidas de las 3 enviadas
+17:01:33 [pool-1-thread-8] INFO  - WorkerSobel 1 leyo un mensaje de su cola.
+17:01:33 [pool-1-thread-8] INFO  - WorkerSobel 1 envio su respuesta a QUEUE_SOBEL_OUT.
+17:01:33 [pool-1-thread-8] INFO  - WorkerSobel 2 leyo un mensaje de su cola.
+17:01:33 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 0 imagenes recibidas de las 3 enviadas
+17:01:33 [pool-1-thread-8] INFO  - WorkerSobel 2 envio su respuesta a QUEUE_SOBEL_OUT.
+17:01:33 [pool-1-thread-9] INFO  - ServerSobel recibio una imagen del worker 0
+17:01:33 [pool-1-thread-9] INFO  - ServerSobel recibio una imagen del worker 1
+17:01:33 [pool-1-thread-10] INFO  - ServerSobel recibio una imagen del worker 2
+17:01:33 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 2 imagenes recibidas de las 3 enviadas
+17:01:34 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 3 imagenes recibidas de las 3 enviadas
+17:01:34 [RMI TCP Connection(2)-192.168.56.1] INFO  - Han llegado todas las partes de la imagen resueltas en sobel.
+17:01:34 [RMI TCP Connection(2)-192.168.56.1] INFO  - Uniendo las imagenes sobel parciales... 
+17:01:34 [RMI TCP Connection(2)-192.168.56.1] INFO  - Resultado final de Sobel enviado al cliente (via RMI)
+17:01:34 [main] INFO  -  ELAPSED TIME: 2065
+17:01:34 [main] INFO  - La nueva imagen se ubica dentro del proyecto en la ruta: images/pc2-Sobel.jpg
+12:59:54 [main] INFO  - -x-x-x-x- Server Dispatcher iniciado -x-x-x-x-x-
+12:59:57 [main] INFO  - -X-X-X-X-X-X- WORKER INICIADO -X-X-X-X-X-
+12:59:57 [main] INFO  - ----- WorkerSobel 0 creo la cola QUEUE_W0-----
+12:59:57 [main] INFO  - -X-X-X-X-X-X- WORKER INICIADO -X-X-X-X-X-
+12:59:57 [main] INFO  - ----- WorkerSobel 1 creo la cola QUEUE_W1-----
+12:59:57 [main] INFO  - -X-X-X-X-X-X- WORKER INICIADO -X-X-X-X-X-
+12:59:57 [main] INFO  - ----- WorkerSobel 2 creo la cola QUEUE_W2-----
+12:59:58 [main] INFO  - -----ServerSobel Servicio RMI Iniciado en puerto 1200-----
+12:59:58 [main] INFO  - -----ServerSobel asociado a puerto 8000 -----
+12:59:58 [main] INFO  - -----Server bind de servicio JNDI realizado -----
+12:59:58 [main] INFO  - -----conexion para cliente RMI finalizada correctamente.
+12:59:58 [main] INFO  - -- ServerSobel Instancio las colas activas de todos sus workers
+13:00:04 [main] INFO  - ----- SobelClient iniciado -----
+13:00:07 [RMI TCP Connection(2)-192.168.56.1] INFO  - --INGRESO A PROCESO 'SOBELDISTRIBUIDO' ENTRE CLIENTE Y SERVERSOBEL  --
+13:00:08 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel enviada a worker 0
+13:00:08 [pool-1-thread-7] INFO  - WorkerSobel 0 leyo un mensaje de su cola.
+13:00:08 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel enviada a worker 1
+13:00:08 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel enviada a worker 2
+13:00:08 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 0 imagenes recibidas de las 3 enviadas
+13:00:08 [pool-1-thread-7] INFO  - WorkerSobel 0 envio su respuesta a QUEUE_SOBEL_OUT.
+13:00:08 [pool-1-thread-8] INFO  - WorkerSobel 1 leyo un mensaje de su cola.
+13:00:08 [pool-1-thread-8] INFO  - WorkerSobel 1 envio su respuesta a QUEUE_SOBEL_OUT.
+13:00:08 [pool-1-thread-8] INFO  - WorkerSobel 2 leyo un mensaje de su cola.
+13:00:08 [pool-1-thread-8] INFO  - WorkerSobel 2 envio su respuesta a QUEUE_SOBEL_OUT.
+13:00:08 [pool-1-thread-9] INFO  - ServerSobel recibio una imagen del worker 0
+13:00:08 [pool-1-thread-9] INFO  - ServerSobel recibio una imagen del worker 1
+13:00:08 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 1 imagenes recibidas de las 3 enviadas
+13:00:08 [pool-1-thread-9] INFO  - ServerSobel recibio una imagen del worker 2
+13:00:08 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 3 imagenes recibidas de las 3 enviadas
+13:00:08 [RMI TCP Connection(2)-192.168.56.1] INFO  - Han llegado todas las partes de la imagen resueltas en sobel.
+13:00:08 [RMI TCP Connection(2)-192.168.56.1] INFO  - Uniendo las imagenes sobel parciales... 
+13:00:08 [RMI TCP Connection(2)-192.168.56.1] INFO  - Resultado final de Sobel enviado al cliente (via RMI)
+13:00:08 [main] INFO  -  ELAPSED TIME: 1732
+13:00:08 [main] INFO  - La nueva imagen se ubica dentro del proyecto en la ruta: images/pc2-Sobel.jpg
+13:08:31 [main] INFO  - -X-X-X-X-X-X-  SE HA INICIADO EL SERVIDOR  -X-X-X--X-X-X-
+13:08:33 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+13:08:33 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+13:08:34 [main] INFO  - -----ServerSobel iniciado en el puerto 1200 -----
+13:08:34 [main] INFO  - -----ServerSobel asociado a puerto 8000 -----
+13:08:34 [main] INFO  - -----Server bind realizado -----
+13:08:34 [main] INFO  - -----se ha establecido la conexion con el cliente rmi
+13:08:34 [main] INFO  - -- ServerSobel creo todas las colas en sus workers
+13:08:43 [RMI TCP Connection(2)-192.168.56.1] INFO  - --INGRESO A PROCESO 'SOBELDISTRIBUIDO' ENTRE CLIENTE Y SERVERSOBEL  --
+13:08:43 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel1 enviada a worker 0
+13:08:43 [pool-1-thread-6] INFO  - El worker Sobel numero =  0  ha leido un mensaje de su cola.
+13:08:44 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel2 enviada a worker 1
+13:08:44 [pool-1-thread-6] INFO  - El worker Sobel numero =  0 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+13:08:44 [pool-1-thread-7] INFO  - El worker Sobel numero =  1  ha leido un mensaje de su cola.
+13:08:44 [pool-1-thread-7] INFO  - El worker Sobel numero =  1 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+13:08:44 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 0
+13:08:44 [pool-1-thread-9] INFO  - ServerSobel recibio una imagen del worker 1
+13:08:44 [RMI TCP Connection(2)-192.168.56.1] INFO  - TODAS LAS PARTES DEL SOBEL HAN SIDO RECIBIDAS
+13:08:44 [RMI TCP Connection(2)-192.168.56.1] INFO  - Uniendo las imagenes sobel parciales... 
+13:08:44 [RMI TCP Connection(2)-192.168.56.1] INFO  - SE HA ENVIADO EL RESULTADO DEL SOBEL AL CLIENTE MEDIANTE EL USO DE RMI
+13:13:26 [main] INFO  - -X-X-X-X-X-X-  SE HA INICIADO EL SERVIDOR  -X-X-X--X-X-X-
+13:13:28 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+13:13:28 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+13:13:29 [main] INFO  - -----ServerSobel iniciado en el puerto 1200 -----
+13:13:29 [main] INFO  - -----ServerSobel asociado a puerto 8000 -----
+13:13:29 [main] INFO  - -----Server bind realizado -----
+13:13:29 [main] INFO  - -----se ha establecido la conexion con el cliente rmi
+13:13:29 [main] INFO  - -- ServerSobel creo todas las colas en sus workers
+13:13:48 [RMI TCP Connection(2)-192.168.56.1] INFO  - --INGRESO A PROCESO 'SOBELDISTRIBUIDO' ENTRE CLIENTE Y SERVERSOBEL  --
+13:13:48 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel1 enviada a worker 0
+13:13:48 [pool-1-thread-6] INFO  - El worker Sobel numero =  0  ha leido un mensaje de su cola.
+13:13:48 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel2 enviada a worker 1
+13:13:49 [pool-1-thread-6] INFO  - El worker Sobel numero =  0 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+13:13:49 [pool-1-thread-7] INFO  - El worker Sobel numero =  1  ha leido un mensaje de su cola.
+13:13:49 [pool-1-thread-7] INFO  - El worker Sobel numero =  1 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+13:13:49 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 0
+13:13:49 [pool-1-thread-9] INFO  - ServerSobel recibio una imagen del worker 1
+13:13:49 [RMI TCP Connection(2)-192.168.56.1] INFO  - TODAS LAS PARTES DEL SOBEL HAN SIDO RECIBIDAS
+13:13:49 [RMI TCP Connection(2)-192.168.56.1] INFO  - Uniendo las imagenes sobel parciales... 
+13:13:49 [RMI TCP Connection(2)-192.168.56.1] INFO  - SE HA ENVIADO EL RESULTADO DEL SOBEL AL CLIENTE MEDIANTE EL USO DE RMI
+13:14:58 [main] INFO  - -X-X-X-X-X-X-  SE HA INICIADO EL SERVIDOR  -X-X-X--X-X-X-
+13:15:05 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+13:15:05 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+13:15:05 [main] INFO  - -----ServerSobel iniciado en el puerto 1200 -----
+13:15:05 [main] INFO  - -----ServerSobel asociado a puerto 8000 -----
+13:15:05 [main] INFO  - -----Server bind realizado -----
+13:15:05 [main] INFO  - -----se ha establecido la conexion con el cliente rmi
+13:15:05 [main] INFO  - -- ServerSobel creo todas las colas en sus workers
+13:29:54 [main] INFO  - -X-X-X-X-X-X-  SE HA INICIADO EL SERVIDOR  -X-X-X--X-X-X-
+13:29:56 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+13:29:56 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+13:29:56 [main] INFO  - -----ServerSobel iniciado en el puerto 1200 -----
+13:29:56 [main] INFO  - -----ServerSobel asociado a puerto 8000 -----
+13:29:56 [main] INFO  - -----Server bind realizado -----
+13:29:56 [main] INFO  - -----se ha establecido la conexion con el cliente rmi
+13:29:56 [main] INFO  - -- ServerSobel creo todas las colas en sus workers
+13:30:02 [main] INFO  - -X-X-X-X-X-X-  SE HA INICIADO EL SERVIDOR  -X-X-X--X-X-X-
+13:30:08 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+13:30:08 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+13:30:19 [main] INFO  - -X-X-X-X-X-X-  SE HA INICIADO EL SERVIDOR  -X-X-X--X-X-X-
+13:30:21 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+13:30:21 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+13:30:21 [main] INFO  - -----ServerSobel iniciado en el puerto 1200 -----
+13:30:21 [main] INFO  - -----ServerSobel asociado a puerto 8000 -----
+13:30:21 [main] INFO  - -----Server bind realizado -----
+13:30:21 [main] INFO  - -----se ha establecido la conexion con el cliente rmi
+13:30:21 [main] INFO  - -- ServerSobel creo todas las colas en sus workers
+13:30:28 [RMI TCP Connection(2)-192.168.56.1] INFO  - --INGRESO A PROCESO 'SOBELDISTRIBUIDO' ENTRE CLIENTE Y SERVERSOBEL  --
+13:30:29 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel1 enviada a worker 0
+13:30:29 [pool-1-thread-6] INFO  - El worker Sobel numero =  0  ha leido un mensaje de su cola.
+13:30:29 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel2 enviada a worker 1
+13:30:29 [pool-1-thread-6] INFO  - El worker Sobel numero =  0 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+13:30:29 [pool-1-thread-7] INFO  - El worker Sobel numero =  1  ha leido un mensaje de su cola.
+13:30:29 [pool-1-thread-7] INFO  - El worker Sobel numero =  1 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+13:30:29 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 0
+13:30:29 [pool-1-thread-9] INFO  - ServerSobel recibio una imagen del worker 1
+13:30:29 [RMI TCP Connection(2)-192.168.56.1] INFO  - TODAS LAS PARTES DEL SOBEL HAN SIDO RECIBIDAS
+13:30:29 [RMI TCP Connection(2)-192.168.56.1] INFO  - Uniendo las imagenes sobel parciales... 
+13:30:29 [RMI TCP Connection(2)-192.168.56.1] INFO  - SE HA ENVIADO EL RESULTADO DEL SOBEL AL CLIENTE MEDIANTE EL USO DE RMI
+13:30:40 [main] INFO  - -X-X-X-X-X-X-  SE HA INICIADO EL SERVIDOR  -X-X-X--X-X-X-
+13:30:42 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+13:30:42 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+13:30:42 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+13:30:42 [main] INFO  - -----ServerSobel iniciado en el puerto 1200 -----
+13:30:42 [main] INFO  - -----ServerSobel asociado a puerto 8000 -----
+13:30:42 [main] INFO  - -----Server bind realizado -----
+13:30:42 [main] INFO  - -----se ha establecido la conexion con el cliente rmi
+13:30:42 [main] INFO  - -- ServerSobel creo todas las colas en sus workers
+13:54:14 [main] INFO  - -X-X-X-X-X-X-  SE HA INICIADO EL SERVIDOR  -X-X-X--X-X-X-
+13:54:17 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+13:54:17 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+13:54:17 [main] INFO  - -----ServerSobel iniciado en el puerto 1200 -----
+13:54:17 [main] INFO  - -----ServerSobel asociado a puerto 8000 -----
+13:54:17 [main] INFO  - -----Server bind realizado -----
+13:54:17 [main] INFO  - -----se ha establecido la conexion con el cliente rmi
+13:54:17 [main] INFO  - -- ServerSobel creo todas las colas en sus workers
+13:54:24 [RMI TCP Connection(2)-192.168.56.1] INFO  - --INGRESO A PROCESO 'SOBELDISTRIBUIDO' ENTRE CLIENTE Y SERVERSOBEL  --
+13:54:24 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel1 enviada a worker 0
+13:54:24 [pool-1-thread-6] INFO  - El worker Sobel numero =  0  ha leido un mensaje de su cola.
+13:54:24 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel2 enviada a worker 1
+13:54:25 [pool-1-thread-6] INFO  - El worker Sobel numero =  0 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+13:54:25 [pool-1-thread-7] INFO  - El worker Sobel numero =  1  ha leido un mensaje de su cola.
+13:54:25 [pool-1-thread-7] INFO  - El worker Sobel numero =  1 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+13:54:25 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 0
+13:54:25 [pool-1-thread-9] INFO  - ServerSobel recibio una imagen del worker 1
+13:54:25 [RMI TCP Connection(2)-192.168.56.1] INFO  - TODAS LAS PARTES DEL SOBEL HAN SIDO RECIBIDAS
+13:54:25 [RMI TCP Connection(2)-192.168.56.1] INFO  - Uniendo las imagenes sobel parciales... 
+13:54:25 [RMI TCP Connection(2)-192.168.56.1] INFO  - SE HA ENVIADO EL RESULTADO DEL SOBEL AL CLIENTE MEDIANTE EL USO DE RMI
+14:15:19 [main] INFO  - -X-X-X-X-X-X-  SE HA INICIADO EL SERVIDOR  -X-X-X--X-X-X-
+14:15:21 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+14:15:21 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+14:15:21 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+14:15:21 [main] INFO  - -X-X-X-X-X- WORKER SOBEL INICIADO -X-X-X-X-X-X
+14:15:22 [main] INFO  - -----ServerSobel iniciado en el puerto 1200 -----
+14:15:22 [main] INFO  - -----ServerSobel asociado a puerto 8000 -----
+14:15:22 [main] INFO  - -----Server bind realizado -----
+14:15:22 [main] INFO  - -----se ha establecido la conexion con el cliente rmi
+14:15:22 [main] INFO  - -- ServerSobel creo todas las colas en sus workers
+14:15:28 [RMI TCP Connection(2)-192.168.56.1] INFO  - --INGRESO A PROCESO 'SOBELDISTRIBUIDO' ENTRE CLIENTE Y SERVERSOBEL  --
+14:15:28 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel1 enviada a worker 0
+14:15:28 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel2 enviada a worker 1
+14:15:28 [pool-1-thread-8] INFO  - El worker Sobel numero =  0  ha leido un mensaje de su cola.
+14:15:28 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel3 enviada a worker 2
+14:15:28 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel4 enviada a worker 3
+14:15:29 [pool-1-thread-8] INFO  - El worker Sobel numero =  0 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+14:15:29 [pool-1-thread-8] INFO  - El worker Sobel numero =  1  ha leido un mensaje de su cola.
+14:15:29 [pool-1-thread-8] INFO  - El worker Sobel numero =  1 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+14:15:29 [pool-1-thread-9] INFO  - El worker Sobel numero =  2  ha leido un mensaje de su cola.
+14:15:29 [pool-1-thread-9] INFO  - El worker Sobel numero =  2 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+14:15:29 [pool-1-thread-9] INFO  - El worker Sobel numero =  3  ha leido un mensaje de su cola.
+14:15:29 [pool-1-thread-9] INFO  - El worker Sobel numero =  3 ha enviado su respuesta a QUEUE_SOBEL_OUT.
+14:15:29 [pool-1-thread-9] INFO  - ServerSobel recibio una imagen del worker 0
+14:15:29 [pool-1-thread-10] INFO  - ServerSobel recibio una imagen del worker 1
+14:15:29 [pool-1-thread-10] INFO  - ServerSobel recibio una imagen del worker 2
+14:15:29 [pool-1-thread-10] INFO  - ServerSobel recibio una imagen del worker 3
+14:15:29 [RMI TCP Connection(2)-192.168.56.1] INFO  - TODAS LAS PARTES DEL SOBEL HAN SIDO RECIBIDAS
+14:15:29 [RMI TCP Connection(2)-192.168.56.1] INFO  - Uniendo las imagenes sobel parciales... 
+14:15:29 [RMI TCP Connection(2)-192.168.56.1] INFO  - SE HA ENVIADO EL RESULTADO DEL SOBEL AL CLIENTE MEDIANTE EL USO DE RMI
+16:04:07 [main] INFO  - -x-x-x-x- Server Dispatcher iniciado -x-x-x-x-x-
+16:04:15 [main] INFO  - -X-X-X-X-X-X- WORKER INICIADO -X-X-X-X-X-
+16:04:15 [main] INFO  - ----- WorkerSobel 0 creo la cola QUEUE_W0-----
+16:04:15 [main] INFO  - -X-X-X-X-X-X- WORKER INICIADO -X-X-X-X-X-
+16:04:15 [main] INFO  - ----- WorkerSobel 1 creo la cola QUEUE_W1-----
+16:04:15 [main] INFO  - -X-X-X-X-X-X- WORKER INICIADO -X-X-X-X-X-
+16:04:15 [main] INFO  - ----- WorkerSobel 2 creo la cola QUEUE_W2-----
+16:04:15 [main] INFO  - -----ServerSobel Servicio RMI Iniciado en puerto 1200-----
+16:04:15 [main] INFO  - -----ServerSobel asociado a puerto 8000 -----
+16:04:15 [main] INFO  - -----Server bind de servicio JNDI realizado -----
+16:04:15 [main] INFO  - -----conexion para cliente RMI finalizada correctamente.
+16:04:15 [main] INFO  - -- ServerSobel Instancio las colas activas de todos sus workers
+16:04:21 [main] INFO  - ----- SobelClient iniciado -----
+16:04:25 [RMI TCP Connection(2)-192.168.56.1] INFO  - --INGRESO A PROCESO 'SOBELDISTRIBUIDO' ENTRE CLIENTE Y SERVERSOBEL  --
+16:04:25 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel enviada a worker 0
+16:04:25 [pool-1-thread-7] INFO  - WorkerSobel 0 leyo un mensaje de su cola.
+16:04:25 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel enviada a worker 1
+16:04:25 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel enviada a worker 2
+16:04:25 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 0 imagenes recibidas de las 3 enviadas
+16:04:25 [pool-1-thread-7] INFO  - WorkerSobel 0 envio su respuesta a QUEUE_SOBEL_OUT.
+16:04:25 [pool-1-thread-8] INFO  - WorkerSobel 1 leyo un mensaje de su cola.
+16:04:25 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 0 imagenes recibidas de las 3 enviadas
+16:04:25 [pool-1-thread-8] INFO  - WorkerSobel 1 envio su respuesta a QUEUE_SOBEL_OUT.
+16:04:25 [pool-1-thread-8] INFO  - WorkerSobel 2 leyo un mensaje de su cola.
+16:04:25 [pool-1-thread-8] INFO  - WorkerSobel 2 envio su respuesta a QUEUE_SOBEL_OUT.
+16:04:25 [pool-1-thread-9] INFO  - ServerSobel recibio una imagen del worker 0
+16:04:25 [pool-1-thread-9] INFO  - ServerSobel recibio una imagen del worker 1
+16:04:25 [pool-1-thread-10] INFO  - ServerSobel recibio una imagen del worker 2
+16:04:26 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 3 imagenes recibidas de las 3 enviadas
+16:04:26 [RMI TCP Connection(2)-192.168.56.1] INFO  - Han llegado todas las partes de la imagen resueltas en sobel.
+16:04:26 [RMI TCP Connection(2)-192.168.56.1] INFO  - Uniendo las imagenes sobel parciales... 
+16:04:26 [RMI TCP Connection(2)-192.168.56.1] INFO  - Resultado final de Sobel enviado al cliente (via RMI)
+16:04:26 [main] INFO  -  ELAPSED TIME: 1424
+16:04:26 [main] INFO  - La nueva imagen se ubica dentro del proyecto en la ruta: images/pc2-Sobel.jpg
+16:08:38 [main] INFO  - -x-x-x-x- Server Dispatcher iniciado -x-x-x-x-x-
+16:08:40 [main] INFO  - -X-X-X-X-X-X- WORKER INICIADO -X-X-X-X-X-
+16:08:40 [main] INFO  - ----- WorkerSobel 0 creo la cola QUEUE_W0-----
+16:08:40 [main] INFO  - -X-X-X-X-X-X- WORKER INICIADO -X-X-X-X-X-
+16:08:40 [main] INFO  - ----- WorkerSobel 1 creo la cola QUEUE_W1-----
+16:08:41 [main] INFO  - -----ServerSobel Servicio RMI Iniciado en puerto 1200-----
+16:08:41 [main] INFO  - -----ServerSobel asociado a puerto 8000 -----
+16:08:41 [main] INFO  - -----Server bind de servicio JNDI realizado -----
+16:08:41 [main] INFO  - -----conexion para cliente RMI finalizada correctamente.
+16:08:41 [main] INFO  - -- ServerSobel Instancio las colas activas de todos sus workers
+16:08:46 [main] INFO  - ----- SobelClient iniciado -----
+16:08:51 [RMI TCP Connection(2)-192.168.56.1] INFO  - --INGRESO A PROCESO 'SOBELDISTRIBUIDO' ENTRE CLIENTE Y SERVERSOBEL  --
+16:08:52 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel enviada a worker 0
+16:08:52 [pool-1-thread-6] INFO  - WorkerSobel 0 leyo un mensaje de su cola.
+16:08:52 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel enviada a worker 1
+16:08:52 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 0 imagenes recibidas de las 2 enviadas
+16:08:52 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 0 imagenes recibidas de las 2 enviadas
+16:08:53 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 0 imagenes recibidas de las 2 enviadas
+16:08:53 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 0 imagenes recibidas de las 2 enviadas
+16:08:53 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 0 imagenes recibidas de las 2 enviadas
+16:08:53 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 0 imagenes recibidas de las 2 enviadas
+16:08:53 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 0 imagenes recibidas de las 2 enviadas
+16:08:54 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 0 imagenes recibidas de las 2 enviadas
+16:08:54 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 0 imagenes recibidas de las 2 enviadas
+16:08:54 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 0 imagenes recibidas de las 2 enviadas
+16:08:54 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 0 imagenes recibidas de las 2 enviadas
+16:08:54 [pool-1-thread-6] INFO  - WorkerSobel 0 envio su respuesta a QUEUE_SOBEL_OUT.
+16:08:54 [pool-1-thread-7] INFO  - WorkerSobel 1 leyo un mensaje de su cola.
+16:08:54 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 0 imagenes recibidas de las 2 enviadas
+16:08:55 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 0 imagenes recibidas de las 2 enviadas
+16:08:55 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 0 imagenes recibidas de las 2 enviadas
+16:08:55 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 0 imagenes recibidas de las 2 enviadas
+16:08:55 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 0 imagenes recibidas de las 2 enviadas
+16:08:55 [RMI TCP Connection(2)-192.168.56.1] INFO  - Se sobrepaso el teimpo maximo de espera.
+16:08:55 [RMI TCP Connection(2)-192.168.56.1] INFO  - Verificando Workers caidos...
+16:08:55 [RMI TCP Connection(2)-192.168.56.1] INFO  - Worker 0 no envio su respuesta a tiempo. Reasignando tarea...
+16:08:55 [RMI TCP Connection(2)-192.168.56.1] INFO  - QUEUE_W0 eliminada
+16:08:56 [pool-1-thread-7] INFO  - WorkerSobel 1 envio su respuesta a QUEUE_SOBEL_OUT.
+16:08:57 [pool-1-thread-8] INFO  - ServerSobel recibio una imagen del worker 0
+16:08:57 [pool-1-thread-9] INFO  - ServerSobel recibio una imagen del worker 1
+16:08:58 [RMI TCP Connection(2)-192.168.56.1] INFO  -  Tarea reasignada a Worker 1
+16:08:58 [RMI TCP Connection(2)-192.168.56.1] INFO  - Parte sobel enviada a worker 1
+16:08:58 [RMI TCP Connection(2)-192.168.56.1] INFO  - Hay 2 imagenes recibidas de las 2 enviadas
+16:08:58 [RMI TCP Connection(2)-192.168.56.1] INFO  - Han llegado todas las partes de la imagen resueltas en sobel.
+16:08:58 [RMI TCP Connection(2)-192.168.56.1] INFO  - Uniendo las imagenes sobel parciales... 
+16:08:59 [pool-1-thread-10] INFO  - WorkerSobel 1 leyo un mensaje de su cola.
+16:09:00 [RMI TCP Connection(2)-192.168.56.1] INFO  - Resultado final de Sobel enviado al cliente (via RMI)
+16:09:01 [main] INFO  -  ELAPSED TIME: 12818
+16:09:01 [main] INFO  - La nueva imagen se ubica dentro del proyecto en la ruta: images/pc1-Sobel.jpg
+16:09:01 [pool-1-thread-10] INFO  - WorkerSobel 1 envio su respuesta a QUEUE_SOBEL_OUT.
+16:09:02 [pool-1-thread-3] INFO  - ServerSobel recibio una imagen del worker 1
