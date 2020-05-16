@@ -1,21 +1,25 @@
-CrÌtica al modelo:
+Cr√≠tica al modelo:
 
 	Cada vez que un nodo modifica, descarga o se da de baja los master 
-deben replicar la modificaciÛn a el resto de los master. En sistemas de pocos
+deben replicar la modificaci√≥n a el resto de los master. En sistemas de pocos
 nodos esto no es un problema, pero cuando la cantidad de nodos y servidores
 master aumentan tenemos una gran relevancia. 
 	Tener una red completamente distribuida o centralizada tiene problemas 
-en los dos extremos, ya que la red distribuida flaquea en la cantidad de tr·fico 
+en los dos extremos, ya que la red distribuida flaquea en la cantidad de tr√°fico 
 que se genera a la hora de conocer a los otros nodos, mientras que en la centralizada
 al tener un solo nodo que se encargue de gestionar, tanto la lista de archivos como
-los peers propietarios de los mismos, estamos creando un punto ˙nico de falla, es decir,
+los peers propietarios de los mismos, estamos creando un punto √∫nico de falla, es decir,
 que si dicho nodo central se cae, el sistema deja de funcionar por completo.
 
 Posibles mejoras al modelo:
 
-	Hacer un modelo hÌbrido en donde la red es mestiza, es decir, una red centraliza
+	Hacer un modelo h√≠brido en donde la red es mestiza, es decir, una red centraliza
 y distribuida, juntamdo lo mejor de los dos modelos, donde cada peer tendra una lista de 
-nodos Ìndice e ir· probando para ver que nodo esta disponible, cuando lo encuentre,
-se conectara inmediatamente y podremos allÌ, realizar las peticiones correspondientes.
-Los nodos Ìndice responder·n las solicitudes de sus peer y luego entre los nodos Ìndice
-se replicar·n toda la informacion pertinente.	
+nodos √≠ndice e ir√° probando para ver que nodo esta disponible, cuando lo encuentre,
+se conectara inmediatamente y podremos all√≠, realizar las peticiones correspondientes.
+Los nodos √≠ndice responder√°n las solicitudes de sus peer y luego entre los nodos √≠ndice
+se replicar√°n toda la informacion pertinente.
+
+Ejecutar el punto1 de la siguiente manera:
+
+Dirijirse a TP2/tp2-punto1/TP2PPySSDD/src/main/java/ThingsRuneables donde encontraremos las clases listas para ser ejecutadas (Extremos y Maestros).
