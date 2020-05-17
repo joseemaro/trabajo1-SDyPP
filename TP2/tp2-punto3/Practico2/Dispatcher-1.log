@@ -1,0 +1,1253 @@
+19:04:32 [main] INFO  -  CONEXION ESTABLECIDA CON RABBIT MQ
+19:04:32 [main] INFO  -  [UPDATE_GLOBAL] CURR: 0 - MAX:60
+19:04:32 [main] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_IDLE
+19:04:32 [main] INFO  - NodoA
+19:04:32 [main] INFO  - NodoB
+19:04:32 [main] INFO  - NodoC
+19:04:32 [main] INFO  -  Dispatcher Started
+19:04:32 [Thread-0] INFO  -  [msgProcess -NodoAinProcess] MsgProcess Thread started.
+19:04:32 [Thread-1] INFO  -  [msgProcess -NodoBinProcess] MsgProcess Thread started.
+19:04:32 [Thread-2] INFO  -  [msgProcess -NodoCinProcess] MsgProcess Thread started.
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:09 [pool-1-thread-8] INFO  - {"header":{"tipo":"query","client":"8","token-id":"1120098250817625929"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:09 [pool-1-thread-8] INFO  - Comparando apellido con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoA","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":0,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:09 [pool-1-thread-8] INFO  - NodosActivos[0] , cantidad=3
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '1120098250817625929'
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] envio msg a cola en proceso NodoAinProcess
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] envio msg a cola nodo NodoA
+19:05:09 [pool-1-thread-8] INFO  -  [+] carga actual [NodoA]: 1
+19:05:09 [pool-1-thread-8] INFO  -  [UPDATE_GLOBAL] CURR: 0 - MAX:60
+19:05:09 [pool-1-thread-8] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_IDLE
+19:05:09 [pool-1-thread-8] INFO  -  [+] carga actual global [1]
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:09 [pool-1-thread-8] INFO  - {"header":{"tipo":"query","client":"67","token-id":"3287815625771475219"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:09 [pool-1-thread-8] INFO  - Comparando apellido con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoB","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":0,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:09 [pool-1-thread-8] INFO  - NodosActivos[1] , cantidad=3
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '3287815625771475219'
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] envio msg a cola en proceso NodoBinProcess
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] envio msg a cola nodo NodoB
+19:05:09 [pool-1-thread-8] INFO  -  [+] carga actual [NodoB]: 1
+19:05:09 [pool-1-thread-8] INFO  -  [UPDATE_GLOBAL] CURR: 1 - MAX:60
+19:05:09 [pool-1-thread-8] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_IDLE
+19:05:09 [pool-1-thread-8] INFO  -  [+] carga actual global [2]
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:09 [pool-1-thread-8] INFO  - {"header":{"tipo":"query","client":"16","token-id":"3908862995697979689"},"functionName":"apellido","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:09 [pool-1-thread-8] INFO  - Comparando apellido con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoC","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":0,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:09 [pool-1-thread-8] INFO  - NodosActivos[2] , cantidad=3
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '3908862995697979689'
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] envio msg a cola en proceso NodoCinProcess
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] envio msg a cola nodo NodoC
+19:05:09 [pool-1-thread-8] INFO  -  [+] carga actual [NodoC]: 1
+19:05:09 [pool-1-thread-8] INFO  -  [UPDATE_GLOBAL] CURR: 2 - MAX:60
+19:05:09 [pool-1-thread-8] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_IDLE
+19:05:09 [pool-1-thread-8] INFO  -  [+] carga actual global [3]
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:09 [pool-1-thread-8] INFO  - {"header":{"tipo":"query","client":"97","token-id":"7466974221590122050"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:09 [pool-1-thread-8] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoA","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":1,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:09 [pool-1-thread-8] INFO  - NodosActivos[0] , cantidad=3
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '7466974221590122050'
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] envio msg a cola en proceso NodoAinProcess
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] envio msg a cola nodo NodoA
+19:05:09 [pool-1-thread-8] INFO  -  [+] carga actual [NodoA]: 2
+19:05:09 [pool-1-thread-8] INFO  -  [UPDATE_GLOBAL] CURR: 3 - MAX:60
+19:05:09 [pool-1-thread-8] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_IDLE
+19:05:09 [pool-1-thread-8] INFO  -  [+] carga actual global [4]
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:09 [pool-1-thread-8] INFO  - {"header":{"tipo":"query","client":"91","token-id":"5693278062391723920"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:09 [pool-1-thread-8] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoB","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":1,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:09 [pool-1-thread-8] INFO  - NodosActivos[1] , cantidad=3
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '5693278062391723920'
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] envio msg a cola en proceso NodoBinProcess
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] envio msg a cola nodo NodoB
+19:05:09 [pool-1-thread-8] INFO  -  [+] carga actual [NodoB]: 2
+19:05:09 [pool-1-thread-8] INFO  -  [UPDATE_GLOBAL] CURR: 4 - MAX:60
+19:05:09 [pool-1-thread-8] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_IDLE
+19:05:09 [pool-1-thread-8] INFO  -  [+] carga actual global [5]
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:09 [pool-1-thread-8] INFO  - {"header":{"tipo":"query","client":"90","token-id":"577993042009826308"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:09 [pool-1-thread-8] INFO  - Comparando apellido con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoC","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":1,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:09 [pool-1-thread-8] INFO  - NodosActivos[2] , cantidad=3
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '577993042009826308'
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] envio msg a cola en proceso NodoCinProcess
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] envio msg a cola nodo NodoC
+19:05:09 [pool-1-thread-8] INFO  -  [+] carga actual [NodoC]: 2
+19:05:09 [pool-1-thread-8] INFO  -  [UPDATE_GLOBAL] CURR: 5 - MAX:60
+19:05:09 [pool-1-thread-8] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_IDLE
+19:05:09 [pool-1-thread-8] INFO  -  [+] carga actual global [6]
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:09 [pool-1-thread-8] INFO  - {"header":{"tipo":"query","client":"68","token-id":"4692870709985308432"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:09 [pool-1-thread-8] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoA","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":2,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:09 [pool-1-thread-8] INFO  - NodosActivos[0] , cantidad=3
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '4692870709985308432'
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] envio msg a cola en proceso NodoAinProcess
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] envio msg a cola nodo NodoA
+19:05:09 [pool-1-thread-8] INFO  -  [+] carga actual [NodoA]: 3
+19:05:09 [pool-1-thread-8] INFO  -  [UPDATE_GLOBAL] CURR: 6 - MAX:60
+19:05:09 [pool-1-thread-8] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_IDLE
+19:05:09 [pool-1-thread-8] INFO  -  [+] carga actual global [7]
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:09 [pool-1-thread-8] INFO  - {"header":{"tipo":"query","client":"25","token-id":"4872395310331619385"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:09 [pool-1-thread-8] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoB","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":2,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:09 [pool-1-thread-8] INFO  - NodosActivos[1] , cantidad=3
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '4872395310331619385'
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] envio msg a cola en proceso NodoBinProcess
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] envio msg a cola nodo NodoB
+19:05:09 [pool-1-thread-8] INFO  -  [+] carga actual [NodoB]: 3
+19:05:09 [pool-1-thread-8] INFO  -  [UPDATE_GLOBAL] CURR: 7 - MAX:60
+19:05:09 [pool-1-thread-8] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_IDLE
+19:05:09 [pool-1-thread-8] INFO  -  [+] carga actual global [8]
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:09 [pool-1-thread-8] INFO  - {"header":{"tipo":"query","client":"53","token-id":"505515797356095896"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:09 [pool-1-thread-8] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoC","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":2,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:09 [pool-1-thread-8] INFO  - NodosActivos[2] , cantidad=3
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '505515797356095896'
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] envio msg a cola en proceso NodoCinProcess
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] envio msg a cola nodo NodoC
+19:05:09 [pool-1-thread-8] INFO  -  [+] carga actual [NodoC]: 3
+19:05:09 [pool-1-thread-8] INFO  -  [UPDATE_GLOBAL] CURR: 8 - MAX:60
+19:05:09 [pool-1-thread-8] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_IDLE
+19:05:09 [pool-1-thread-8] INFO  -  [+] carga actual global [9]
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:09 [pool-1-thread-8] INFO  - {"header":{"tipo":"query","client":"81","token-id":"3420797842974096712"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:09 [pool-1-thread-8] INFO  - Comparando apellido con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoA","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":3,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:09 [pool-1-thread-8] INFO  - NodosActivos[0] , cantidad=3
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '3420797842974096712'
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] envio msg a cola en proceso NodoAinProcess
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] envio msg a cola nodo NodoA
+19:05:09 [pool-1-thread-8] INFO  -  [+] carga actual [NodoA]: 4
+19:05:09 [pool-1-thread-8] INFO  -  [UPDATE_GLOBAL] CURR: 9 - MAX:60
+19:05:09 [pool-1-thread-8] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_IDLE
+19:05:09 [pool-1-thread-8] INFO  -  [+] carga actual global [10]
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:09 [pool-1-thread-8] INFO  - {"header":{"tipo":"query","client":"76","token-id":"7848160587548718682"},"functionName":"apellido","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:09 [pool-1-thread-8] INFO  - Comparando apellido con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoB","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":3,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:09 [pool-1-thread-8] INFO  - NodosActivos[1] , cantidad=3
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '7848160587548718682'
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] envio msg a cola en proceso NodoBinProcess
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] envio msg a cola nodo NodoB
+19:05:09 [pool-1-thread-8] INFO  -  [+] carga actual [NodoB]: 4
+19:05:09 [pool-1-thread-8] INFO  -  [UPDATE_GLOBAL] CURR: 10 - MAX:60
+19:05:09 [pool-1-thread-8] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_IDLE
+19:05:09 [pool-1-thread-8] INFO  -  [+] carga actual global [11]
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:09 [pool-1-thread-8] INFO  - {"header":{"tipo":"query","client":"32","token-id":"733147715210406026"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:09 [pool-1-thread-8] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoC","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":3,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:09 [pool-1-thread-8] INFO  - NodosActivos[2] , cantidad=3
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '733147715210406026'
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] envio msg a cola en proceso NodoCinProcess
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] envio msg a cola nodo NodoC
+19:05:09 [pool-1-thread-8] INFO  -  [+] carga actual [NodoC]: 4
+19:05:09 [pool-1-thread-8] INFO  -  [UPDATE_GLOBAL] CURR: 11 - MAX:60
+19:05:09 [pool-1-thread-8] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_IDLE
+19:05:09 [pool-1-thread-8] INFO  -  [+] carga actual global [12]
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:09 [pool-1-thread-8] INFO  - {"header":{"tipo":"query","client":"76","token-id":"2999581352026541112"},"functionName":"apellido","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:09 [pool-1-thread-8] INFO  - Comparando apellido con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoA","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":4,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:09 [pool-1-thread-8] INFO  - NodosActivos[0] , cantidad=3
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '2999581352026541112'
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] envio msg a cola en proceso NodoAinProcess
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] envio msg a cola nodo NodoA
+19:05:09 [pool-1-thread-8] INFO  -  [+] carga actual [NodoA]: 5
+19:05:09 [pool-1-thread-8] INFO  -  [UPDATE_GLOBAL] CURR: 12 - MAX:60
+19:05:09 [pool-1-thread-8] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_NORMAL
+19:05:09 [pool-1-thread-8] INFO  -  [+] carga actual global [13]
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:09 [pool-1-thread-8] INFO  - {"header":{"tipo":"query","client":"60","token-id":"9072918229273083040"},"functionName":"apellido","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:09 [pool-1-thread-8] INFO  - Comparando apellido con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoB","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":4,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:09 [pool-1-thread-8] INFO  - NodosActivos[1] , cantidad=3
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '9072918229273083040'
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] envio msg a cola en proceso NodoBinProcess
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] envio msg a cola nodo NodoB
+19:05:09 [pool-1-thread-8] INFO  -  [+] carga actual [NodoB]: 5
+19:05:09 [pool-1-thread-8] INFO  -  [UPDATE_GLOBAL] CURR: 13 - MAX:60
+19:05:09 [pool-1-thread-8] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_NORMAL
+19:05:09 [pool-1-thread-8] INFO  -  [+] carga actual global [14]
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:09 [pool-1-thread-8] INFO  - {"header":{"tipo":"query","client":"68","token-id":"2975548871527256475"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:09 [pool-1-thread-8] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoC","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":4,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:09 [pool-1-thread-8] INFO  - NodosActivos[2] , cantidad=3
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '2975548871527256475'
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] envio msg a cola en proceso NodoCinProcess
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] envio msg a cola nodo NodoC
+19:05:09 [pool-1-thread-8] INFO  -  [+] carga actual [NodoC]: 5
+19:05:09 [pool-1-thread-8] INFO  -  [UPDATE_GLOBAL] CURR: 14 - MAX:60
+19:05:09 [pool-1-thread-8] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_NORMAL
+19:05:09 [pool-1-thread-8] INFO  -  [+] carga actual global [15]
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:09 [pool-1-thread-8] INFO  - {"header":{"tipo":"query","client":"71","token-id":"842420216213629756"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:09 [pool-1-thread-8] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoA","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":5,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:09 [pool-1-thread-8] INFO  - NodosActivos[0] , cantidad=3
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '842420216213629756'
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] envio msg a cola en proceso NodoAinProcess
+19:05:09 [pool-1-thread-8] INFO  -  [msgDispatch] envio msg a cola nodo NodoA
+19:05:09 [pool-1-thread-8] INFO  -  [+] carga actual [NodoA]: 6
+19:05:09 [pool-1-thread-8] INFO  -  [UPDATE_GLOBAL] CURR: 15 - MAX:60
+19:05:09 [pool-1-thread-8] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_NORMAL
+19:05:09 [pool-1-thread-8] INFO  -  [+] carga actual global [16]
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:09 [pool-1-thread-9] INFO  - {"header":{"tipo":"query","client":"69","token-id":"3098644106226552213"},"functionName":"apellido","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:09 [pool-1-thread-9] INFO  - Comparando apellido con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoB","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":5,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:09 [pool-1-thread-9] INFO  - NodosActivos[1] , cantidad=3
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '3098644106226552213'
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] envio msg a cola en proceso NodoBinProcess
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] envio msg a cola nodo NodoB
+19:05:09 [pool-1-thread-9] INFO  -  [+] carga actual [NodoB]: 6
+19:05:09 [pool-1-thread-9] INFO  -  [UPDATE_GLOBAL] CURR: 16 - MAX:60
+19:05:09 [pool-1-thread-9] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_NORMAL
+19:05:09 [pool-1-thread-9] INFO  -  [+] carga actual global [17]
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:09 [pool-1-thread-9] INFO  - {"header":{"tipo":"query","client":"56","token-id":"2345003065308644360"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:09 [pool-1-thread-9] INFO  - Comparando apellido con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoC","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":5,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:09 [pool-1-thread-9] INFO  - NodosActivos[2] , cantidad=3
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '2345003065308644360'
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] envio msg a cola en proceso NodoCinProcess
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] envio msg a cola nodo NodoC
+19:05:09 [pool-1-thread-9] INFO  -  [+] carga actual [NodoC]: 6
+19:05:09 [pool-1-thread-9] INFO  -  [UPDATE_GLOBAL] CURR: 17 - MAX:60
+19:05:09 [pool-1-thread-9] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_NORMAL
+19:05:09 [pool-1-thread-9] INFO  -  [+] carga actual global [18]
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:09 [pool-1-thread-9] INFO  - {"header":{"tipo":"query","client":"90","token-id":"4437371329145525980"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:09 [pool-1-thread-9] INFO  - Comparando apellido con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoA","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":6,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:09 [pool-1-thread-9] INFO  - NodosActivos[0] , cantidad=3
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '4437371329145525980'
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] envio msg a cola en proceso NodoAinProcess
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] envio msg a cola nodo NodoA
+19:05:09 [pool-1-thread-9] INFO  -  [+] carga actual [NodoA]: 7
+19:05:09 [pool-1-thread-9] INFO  -  [UPDATE_GLOBAL] CURR: 18 - MAX:60
+19:05:09 [pool-1-thread-9] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_NORMAL
+19:05:09 [pool-1-thread-9] INFO  -  [+] carga actual global [19]
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:09 [pool-1-thread-9] INFO  - {"header":{"tipo":"query","client":"33","token-id":"723205463254625820"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:09 [pool-1-thread-9] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoB","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":6,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:09 [pool-1-thread-9] INFO  - NodosActivos[1] , cantidad=3
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '723205463254625820'
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] envio msg a cola en proceso NodoBinProcess
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] envio msg a cola nodo NodoB
+19:05:09 [pool-1-thread-9] INFO  -  [+] carga actual [NodoB]: 7
+19:05:09 [pool-1-thread-9] INFO  -  [UPDATE_GLOBAL] CURR: 19 - MAX:60
+19:05:09 [pool-1-thread-9] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_NORMAL
+19:05:09 [pool-1-thread-9] INFO  -  [+] carga actual global [20]
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:09 [pool-1-thread-9] INFO  - {"header":{"tipo":"query","client":"73","token-id":"2989152711822630693"},"functionName":"apellido","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:09 [pool-1-thread-9] INFO  - Comparando apellido con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoC","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":6,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:09 [pool-1-thread-9] INFO  - NodosActivos[2] , cantidad=3
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '2989152711822630693'
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] envio msg a cola en proceso NodoCinProcess
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] envio msg a cola nodo NodoC
+19:05:09 [pool-1-thread-9] INFO  -  [+] carga actual [NodoC]: 7
+19:05:09 [pool-1-thread-9] INFO  -  [UPDATE_GLOBAL] CURR: 20 - MAX:60
+19:05:09 [pool-1-thread-9] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_NORMAL
+19:05:09 [pool-1-thread-9] INFO  -  [+] carga actual global [21]
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:09 [pool-1-thread-9] INFO  - {"header":{"tipo":"query","client":"47","token-id":"3718478704759948267"},"functionName":"apellido","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:09 [pool-1-thread-9] INFO  - Comparando apellido con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoA","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":7,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:09 [pool-1-thread-9] INFO  - NodosActivos[0] , cantidad=3
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '3718478704759948267'
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] envio msg a cola en proceso NodoAinProcess
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] envio msg a cola nodo NodoA
+19:05:09 [pool-1-thread-9] INFO  -  [+] carga actual [NodoA]: 8
+19:05:09 [pool-1-thread-9] INFO  -  [UPDATE_GLOBAL] CURR: 21 - MAX:60
+19:05:09 [pool-1-thread-9] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_NORMAL
+19:05:09 [pool-1-thread-9] INFO  -  [+] carga actual global [22]
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:09 [pool-1-thread-9] INFO  - {"header":{"tipo":"query","client":"25","token-id":"6620603295918524256"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:09 [pool-1-thread-9] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoB","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":7,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:09 [pool-1-thread-9] INFO  - NodosActivos[1] , cantidad=3
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '6620603295918524256'
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] envio msg a cola en proceso NodoBinProcess
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] envio msg a cola nodo NodoB
+19:05:09 [pool-1-thread-9] INFO  -  [+] carga actual [NodoB]: 8
+19:05:09 [pool-1-thread-9] INFO  -  [UPDATE_GLOBAL] CURR: 22 - MAX:60
+19:05:09 [pool-1-thread-9] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_NORMAL
+19:05:09 [pool-1-thread-9] INFO  -  [+] carga actual global [23]
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:09 [pool-1-thread-9] INFO  - {"header":{"tipo":"query","client":"74","token-id":"812073913419152205"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:09 [pool-1-thread-9] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoC","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":7,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:09 [pool-1-thread-9] INFO  - NodosActivos[2] , cantidad=3
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '812073913419152205'
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] envio msg a cola en proceso NodoCinProcess
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] envio msg a cola nodo NodoC
+19:05:09 [pool-1-thread-9] INFO  -  [+] carga actual [NodoC]: 8
+19:05:09 [pool-1-thread-9] INFO  -  [UPDATE_GLOBAL] CURR: 23 - MAX:60
+19:05:09 [pool-1-thread-9] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_NORMAL
+19:05:09 [pool-1-thread-9] INFO  -  [+] carga actual global [24]
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:09 [pool-1-thread-9] INFO  - {"header":{"tipo":"query","client":"95","token-id":"1940877889048454703"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:09 [pool-1-thread-9] INFO  - Comparando apellido con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoA","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":8,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:09 [pool-1-thread-9] INFO  - NodosActivos[0] , cantidad=3
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '1940877889048454703'
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] envio msg a cola en proceso NodoAinProcess
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] envio msg a cola nodo NodoA
+19:05:09 [pool-1-thread-9] INFO  -  [+] carga actual [NodoA]: 9
+19:05:09 [pool-1-thread-9] INFO  -  [UPDATE_GLOBAL] CURR: 24 - MAX:60
+19:05:09 [pool-1-thread-9] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_NORMAL
+19:05:09 [pool-1-thread-9] INFO  -  [+] carga actual global [25]
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:09 [pool-1-thread-9] INFO  - {"header":{"tipo":"query","client":"89","token-id":"4828180601011703187"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:09 [pool-1-thread-9] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoB","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":8,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:09 [pool-1-thread-9] INFO  - NodosActivos[1] , cantidad=3
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '4828180601011703187'
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] envio msg a cola en proceso NodoBinProcess
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] envio msg a cola nodo NodoB
+19:05:09 [pool-1-thread-9] INFO  -  [+] carga actual [NodoB]: 9
+19:05:09 [pool-1-thread-9] INFO  -  [UPDATE_GLOBAL] CURR: 25 - MAX:60
+19:05:09 [pool-1-thread-9] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_NORMAL
+19:05:09 [pool-1-thread-9] INFO  -  [+] carga actual global [26]
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:09 [pool-1-thread-9] INFO  - {"header":{"tipo":"query","client":"95","token-id":"7452915470587032788"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:09 [pool-1-thread-9] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoC","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":8,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:09 [pool-1-thread-9] INFO  - NodosActivos[2] , cantidad=3
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '7452915470587032788'
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] envio msg a cola en proceso NodoCinProcess
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] envio msg a cola nodo NodoC
+19:05:09 [pool-1-thread-9] INFO  -  [+] carga actual [NodoC]: 9
+19:05:09 [pool-1-thread-9] INFO  -  [UPDATE_GLOBAL] CURR: 26 - MAX:60
+19:05:09 [pool-1-thread-9] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_NORMAL
+19:05:09 [pool-1-thread-9] INFO  -  [+] carga actual global [27]
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:09 [pool-1-thread-9] INFO  - {"header":{"tipo":"query","client":"39","token-id":"2740304229505733336"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:09 [pool-1-thread-9] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoA","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":9,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:09 [pool-1-thread-9] INFO  - NodosActivos[0] , cantidad=3
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '2740304229505733336'
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] envio msg a cola en proceso NodoAinProcess
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] envio msg a cola nodo NodoA
+19:05:09 [pool-1-thread-9] INFO  -  [+] carga actual [NodoA]: 10
+19:05:09 [pool-1-thread-9] INFO  -  [UPDATE_GLOBAL] CURR: 27 - MAX:60
+19:05:09 [pool-1-thread-9] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_NORMAL
+19:05:09 [pool-1-thread-9] INFO  -  [+] carga actual global [28]
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:09 [pool-1-thread-9] INFO  - {"header":{"tipo":"query","client":"47","token-id":"1083732076198632302"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:09 [pool-1-thread-9] INFO  - Comparando apellido con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoB","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":9,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:09 [pool-1-thread-9] INFO  - NodosActivos[1] , cantidad=3
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '1083732076198632302'
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] envio msg a cola en proceso NodoBinProcess
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] envio msg a cola nodo NodoB
+19:05:09 [pool-1-thread-9] INFO  -  [+] carga actual [NodoB]: 10
+19:05:09 [pool-1-thread-9] INFO  -  [UPDATE_GLOBAL] CURR: 28 - MAX:60
+19:05:09 [pool-1-thread-9] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_NORMAL
+19:05:09 [pool-1-thread-9] INFO  -  [+] carga actual global [29]
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:09 [pool-1-thread-9] INFO  - {"header":{"tipo":"query","client":"6","token-id":"7291650751417768645"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:09 [pool-1-thread-9] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoC","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":9,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:09 [pool-1-thread-9] INFO  - NodosActivos[2] , cantidad=3
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '7291650751417768645'
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] envio msg a cola en proceso NodoCinProcess
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] envio msg a cola nodo NodoC
+19:05:09 [pool-1-thread-9] INFO  -  [+] carga actual [NodoC]: 10
+19:05:09 [pool-1-thread-9] INFO  -  [UPDATE_GLOBAL] CURR: 29 - MAX:60
+19:05:09 [pool-1-thread-9] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_NORMAL
+19:05:09 [pool-1-thread-9] INFO  -  [+] carga actual global [30]
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:09 [pool-1-thread-9] INFO  - {"header":{"tipo":"query","client":"78","token-id":"2989191425489034329"},"functionName":"apellido","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:09 [pool-1-thread-9] INFO  - Comparando apellido con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoA","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":10,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:09 [pool-1-thread-9] INFO  - NodosActivos[0] , cantidad=3
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '2989191425489034329'
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] envio msg a cola en proceso NodoAinProcess
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] envio msg a cola nodo NodoA
+19:05:09 [pool-1-thread-9] INFO  -  [+] carga actual [NodoA]: 11
+19:05:09 [pool-1-thread-9] INFO  -  [UPDATE_GLOBAL] CURR: 30 - MAX:60
+19:05:09 [pool-1-thread-9] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_ALERT
+19:05:09 [pool-1-thread-9] INFO  -  [+] carga actual global [31]
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:09 [pool-1-thread-9] INFO  - {"header":{"tipo":"query","client":"8","token-id":"2504013559875700394"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:09 [pool-1-thread-9] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoB","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":10,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:09 [pool-1-thread-9] INFO  - NodosActivos[1] , cantidad=3
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '2504013559875700394'
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] envio msg a cola en proceso NodoBinProcess
+19:05:09 [pool-1-thread-9] INFO  -  [msgDispatch] envio msg a cola nodo NodoB
+19:05:09 [pool-1-thread-9] INFO  -  [+] carga actual [NodoB]: 11
+19:05:09 [pool-1-thread-9] INFO  -  [UPDATE_GLOBAL] CURR: 31 - MAX:60
+19:05:09 [pool-1-thread-9] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_ALERT
+19:05:09 [pool-1-thread-9] INFO  -  [+] carga actual global [32]
+19:05:09 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:09 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"60","token-id":"1256665882283601805"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:09 [pool-1-thread-10] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoC","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":10,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:09 [pool-1-thread-10] INFO  - NodosActivos[2] , cantidad=3
+19:05:09 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '1256665882283601805'
+19:05:09 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoCinProcess
+19:05:09 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoC
+19:05:09 [pool-1-thread-10] INFO  -  [+] carga actual [NodoC]: 11
+19:05:09 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 32 - MAX:60
+19:05:09 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_ALERT
+19:05:09 [pool-1-thread-10] INFO  -  [+] carga actual global [33]
+19:05:09 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:09 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"58","token-id":"1810472499485801691"},"functionName":"apellido","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:09 [pool-1-thread-10] INFO  - Comparando apellido con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoA","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":11,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:09 [pool-1-thread-10] INFO  - NodosActivos[0] , cantidad=3
+19:05:09 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '1810472499485801691'
+19:05:09 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoAinProcess
+19:05:09 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoA
+19:05:09 [pool-1-thread-10] INFO  -  [+] carga actual [NodoA]: 12
+19:05:09 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 33 - MAX:60
+19:05:09 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_ALERT
+19:05:09 [pool-1-thread-10] INFO  -  [+] carga actual global [34]
+19:05:09 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:09 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"93","token-id":"3855053045465248175"},"functionName":"apellido","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:09 [pool-1-thread-10] INFO  - Comparando apellido con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoB","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":11,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:09 [pool-1-thread-10] INFO  - NodosActivos[1] , cantidad=3
+19:05:09 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '3855053045465248175'
+19:05:09 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoBinProcess
+19:05:09 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoB
+19:05:09 [pool-1-thread-10] INFO  -  [+] carga actual [NodoB]: 12
+19:05:09 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 34 - MAX:60
+19:05:09 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_ALERT
+19:05:09 [pool-1-thread-10] INFO  -  [+] carga actual global [35]
+19:05:09 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:09 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"37","token-id":"6040211074106462756"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:09 [pool-1-thread-10] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoC","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":11,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:09 [pool-1-thread-10] INFO  - NodosActivos[2] , cantidad=3
+19:05:09 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '6040211074106462756'
+19:05:09 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoCinProcess
+19:05:09 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoC
+19:05:09 [pool-1-thread-10] INFO  -  [+] carga actual [NodoC]: 12
+19:05:09 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 35 - MAX:60
+19:05:09 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_ALERT
+19:05:09 [pool-1-thread-10] INFO  -  [+] carga actual global [36]
+19:05:09 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:09 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"90","token-id":"5622437921602945283"},"functionName":"apellido","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:09 [pool-1-thread-10] INFO  - Comparando apellido con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoA","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":12,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:09 [pool-1-thread-10] INFO  - NodosActivos[0] , cantidad=3
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '5622437921602945283'
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoAinProcess
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoA
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual [NodoA]: 13
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 36 - MAX:60
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_ALERT
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual global [37]
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:10 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"15","token-id":"4130876394507187239"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:10 [pool-1-thread-10] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoB","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":12,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:10 [pool-1-thread-10] INFO  - NodosActivos[1] , cantidad=3
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '4130876394507187239'
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoBinProcess
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoB
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual [NodoB]: 13
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 37 - MAX:60
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_ALERT
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual global [38]
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:10 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"1","token-id":"8897600776576162058"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:10 [pool-1-thread-10] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoC","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":12,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:10 [pool-1-thread-10] INFO  - NodosActivos[2] , cantidad=3
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '8897600776576162058'
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoCinProcess
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoC
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual [NodoC]: 13
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 38 - MAX:60
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_ALERT
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual global [39]
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:10 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"30","token-id":"2326711024933044090"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:10 [pool-1-thread-10] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoA","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":13,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:10 [pool-1-thread-10] INFO  - NodosActivos[0] , cantidad=3
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '2326711024933044090'
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoAinProcess
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoA
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual [NodoA]: 14
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 39 - MAX:60
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_ALERT
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual global [40]
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:10 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"56","token-id":"7203541569443141147"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:10 [pool-1-thread-10] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoB","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":13,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:10 [pool-1-thread-10] INFO  - NodosActivos[1] , cantidad=3
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '7203541569443141147'
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoBinProcess
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoB
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual [NodoB]: 14
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 40 - MAX:60
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_ALERT
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual global [41]
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:10 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"42","token-id":"6534391402640924523"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:10 [pool-1-thread-10] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoC","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":13,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:10 [pool-1-thread-10] INFO  - NodosActivos[2] , cantidad=3
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '6534391402640924523'
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoCinProcess
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoC
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual [NodoC]: 14
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 41 - MAX:60
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_ALERT
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual global [42]
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:10 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"96","token-id":"1384994850892537252"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:10 [pool-1-thread-10] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoA","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":14,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:10 [pool-1-thread-10] INFO  - NodosActivos[0] , cantidad=3
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '1384994850892537252'
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoAinProcess
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoA
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual [NodoA]: 15
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 42 - MAX:60
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_ALERT
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual global [43]
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:10 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"37","token-id":"3809993226211630705"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:10 [pool-1-thread-10] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoB","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":14,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:10 [pool-1-thread-10] INFO  - NodosActivos[1] , cantidad=3
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '3809993226211630705'
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoBinProcess
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoB
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual [NodoB]: 15
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 43 - MAX:60
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_ALERT
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual global [44]
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:10 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"82","token-id":"6584572023285940237"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:10 [pool-1-thread-10] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoC","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":14,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:10 [pool-1-thread-10] INFO  - NodosActivos[2] , cantidad=3
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '6584572023285940237'
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoCinProcess
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoC
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual [NodoC]: 15
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 44 - MAX:60
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_ALERT
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual global [45]
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:10 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"56","token-id":"102022353350769675"},"functionName":"apellido","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:10 [pool-1-thread-10] INFO  - Comparando apellido con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoA","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":15,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:10 [pool-1-thread-10] INFO  - NodosActivos[0] , cantidad=3
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '102022353350769675'
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoAinProcess
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoA
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual [NodoA]: 16
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 45 - MAX:60
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_ALERT
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual global [46]
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:10 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"48","token-id":"1943398499431298421"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:10 [pool-1-thread-10] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoB","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":15,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:10 [pool-1-thread-10] INFO  - NodosActivos[1] , cantidad=3
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '1943398499431298421'
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoBinProcess
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoB
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual [NodoB]: 16
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 46 - MAX:60
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_ALERT
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual global [47]
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:10 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"63","token-id":"1164387811082653301"},"functionName":"apellido","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:10 [pool-1-thread-10] INFO  - Comparando apellido con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoC","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":15,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:10 [pool-1-thread-10] INFO  - NodosActivos[2] , cantidad=3
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '1164387811082653301'
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoCinProcess
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoC
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual [NodoC]: 16
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 47 - MAX:60
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_ALERT
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual global [48]
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:10 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"42","token-id":"4638132985066466544"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:10 [pool-1-thread-10] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoA","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":16,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:10 [pool-1-thread-10] INFO  - NodosActivos[0] , cantidad=3
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '4638132985066466544'
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoAinProcess
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoA
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual [NodoA]: 17
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 48 - MAX:60
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual global [49]
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:10 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"96","token-id":"9003299225096133163"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:10 [pool-1-thread-10] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoB","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":16,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:10 [pool-1-thread-10] INFO  - NodosActivos[1] , cantidad=3
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '9003299225096133163'
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoBinProcess
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoB
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual [NodoB]: 17
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 49 - MAX:60
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual global [50]
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:10 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"1","token-id":"1604402868509614272"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:10 [pool-1-thread-10] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoC","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":16,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:10 [pool-1-thread-10] INFO  - NodosActivos[2] , cantidad=3
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '1604402868509614272'
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoCinProcess
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoC
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual [NodoC]: 17
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 50 - MAX:60
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual global [51]
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:10 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"49","token-id":"8140606934195923922"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:10 [pool-1-thread-10] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoA","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":17,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:10 [pool-1-thread-10] INFO  - NodosActivos[0] , cantidad=3
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '8140606934195923922'
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoAinProcess
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoA
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual [NodoA]: 18
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 51 - MAX:60
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual global [52]
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:10 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"53","token-id":"2491081139272660340"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:10 [pool-1-thread-10] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoB","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":17,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:10 [pool-1-thread-10] INFO  - NodosActivos[1] , cantidad=3
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '2491081139272660340'
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoBinProcess
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoB
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual [NodoB]: 18
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 52 - MAX:60
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual global [53]
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:10 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"12","token-id":"4621902261311153508"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:10 [pool-1-thread-10] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoC","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":17,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:10 [pool-1-thread-10] INFO  - NodosActivos[2] , cantidad=3
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '4621902261311153508'
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoCinProcess
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoC
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual [NodoC]: 18
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 53 - MAX:60
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual global [54]
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:10 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"14","token-id":"5721918285168292917"},"functionName":"apellido","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:10 [pool-1-thread-10] INFO  - Comparando apellido con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoA","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":18,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:10 [pool-1-thread-10] INFO  - NodosActivos[0] , cantidad=3
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '5721918285168292917'
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoAinProcess
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoA
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual [NodoA]: 19
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 54 - MAX:60
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual global [55]
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:10 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"59","token-id":"8063237729642019223"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:10 [pool-1-thread-10] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoB","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":18,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:10 [pool-1-thread-10] INFO  - NodosActivos[1] , cantidad=3
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '8063237729642019223'
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoBinProcess
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoB
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual [NodoB]: 19
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 55 - MAX:60
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual global [56]
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:10 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"54","token-id":"3924027500874794922"},"functionName":"apellido","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:10 [pool-1-thread-10] INFO  - Comparando apellido con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoC","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":18,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:10 [pool-1-thread-10] INFO  - NodosActivos[2] , cantidad=3
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '3924027500874794922'
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoCinProcess
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoC
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual [NodoC]: 19
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 56 - MAX:60
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual global [57]
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:10 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"65","token-id":"6907608324694217806"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:10 [pool-1-thread-10] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoA","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":19,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:10 [pool-1-thread-10] INFO  - NodosActivos[0] , cantidad=3
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '6907608324694217806'
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoAinProcess
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoA
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual [NodoA]: 20
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 57 - MAX:60
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual global [58]
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:10 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"92","token-id":"6501137173477296378"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:10 [pool-1-thread-10] INFO  - Comparando apellido con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoB","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":19,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:10 [pool-1-thread-10] INFO  - NodosActivos[1] , cantidad=3
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '6501137173477296378'
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoBinProcess
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoB
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual [NodoB]: 20
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 58 - MAX:60
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual global [59]
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:10 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"77","token-id":"7478182425303646493"},"functionName":"apellido","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:10 [pool-1-thread-10] INFO  - Comparando apellido con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoC","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":19,"porcentajeCarga":0.0,"state":"IDLE"}, El resultado es= true
+19:05:10 [pool-1-thread-10] INFO  - NodosActivos[2] , cantidad=3
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '7478182425303646493'
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoCinProcess
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoC
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual [NodoC]: 20
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 59 - MAX:60
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual global [60]
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:10 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"70","token-id":"1371746457465570912"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:10 [pool-1-thread-10] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoA","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":20,"porcentajeCarga":1.0,"state":"CRITICAL"}, El resultado es= true
+19:05:10 [pool-1-thread-10] INFO  - NodosActivos[0] , cantidad=3
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '1371746457465570912'
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoAinProcess
+19:05:10 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoA
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual [NodoA]: 21
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 60 - MAX:60
+19:05:10 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:10 [pool-1-thread-10] INFO  -  [+] carga actual global [61]
+19:05:10 [pool-1-thread-10] INFO  -  [msgProcess -NodoAinProcess] waiting for notification...
+19:05:14 [pool-1-thread-10] INFO  -  [msgProcess -NodoAinProcess] Msg notification enviado por [NodoA]!
+19:05:14 [pool-1-thread-10] INFO  -  [msgProcess -NodoAinProcess] currentLoad [NodoA]: 20
+19:05:14 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 60 - MAX:60
+19:05:14 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:14 [pool-1-thread-10] INFO  -  [msgProcess -NodoAinProcess] GlobalCurrentLoad [60]
+19:05:14 [pool-1-thread-10] INFO  -  [msgProcess -NodoAinProcess] Dispatcher unbind> notificationQueue | Exchange 'XCHNG-NOTIFY' | RoutingKey '1120098250817625929'
+19:05:14 [pool-1-thread-10] INFO  -  [HEALTH_CHECKER] Estado global -> GLOBAL_CRITICAL | Carga actual:60 | Carga maxima:60
+19:05:14 [pool-1-thread-10] INFO  - i -> -1,k -> 1
+19:05:14 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 60 - MAX:60
+19:05:14 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:15 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:15 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"32","token-id":"3295826341766119715"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:15 [pool-1-thread-10] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoB","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":20,"porcentajeCarga":1.0,"state":"CRITICAL"}, El resultado es= true
+19:05:15 [pool-1-thread-10] INFO  - NodosActivos[1] , cantidad=3
+19:05:15 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '3295826341766119715'
+19:05:15 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoBinProcess
+19:05:15 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoB
+19:05:15 [pool-1-thread-10] INFO  -  [+] carga actual [NodoB]: 21
+19:05:15 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 60 - MAX:60
+19:05:15 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:15 [pool-1-thread-10] INFO  -  [+] carga actual global [61]
+19:05:15 [pool-1-thread-10] INFO  -  [msgProcess -NodoBinProcess] waiting for notification...
+19:05:16 [pool-1-thread-10] INFO  -  [msgProcess -NodoBinProcess] Msg notification enviado por [NodoB]!
+19:05:16 [pool-1-thread-10] INFO  -  [msgProcess -NodoBinProcess] currentLoad [NodoB]: 20
+19:05:16 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 60 - MAX:60
+19:05:16 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:16 [pool-1-thread-10] INFO  -  [msgProcess -NodoBinProcess] GlobalCurrentLoad [60]
+19:05:16 [pool-1-thread-10] INFO  -  [msgProcess -NodoBinProcess] Dispatcher unbind> notificationQueue | Exchange 'XCHNG-NOTIFY' | RoutingKey '3287815625771475219'
+19:05:16 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:16 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"5","token-id":"482383470159294245"},"functionName":"apellido","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:16 [pool-1-thread-10] INFO  - Comparando apellido con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoC","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":20,"porcentajeCarga":1.0,"state":"CRITICAL"}, El resultado es= true
+19:05:16 [pool-1-thread-10] INFO  - NodosActivos[2] , cantidad=3
+19:05:16 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '482383470159294245'
+19:05:16 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoCinProcess
+19:05:16 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoC
+19:05:16 [pool-1-thread-10] INFO  -  [+] carga actual [NodoC]: 21
+19:05:16 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 60 - MAX:60
+19:05:16 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:16 [pool-1-thread-10] INFO  -  [+] carga actual global [61]
+19:05:16 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:16 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"85","token-id":"3203363377647756943"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:16 [pool-1-thread-10] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoA","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":20,"porcentajeCarga":1.0,"state":"CRITICAL"}, El resultado es= true
+19:05:16 [pool-1-thread-10] INFO  - NodosActivos[0] , cantidad=3
+19:05:16 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '3203363377647756943'
+19:05:16 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoAinProcess
+19:05:16 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoA
+19:05:16 [pool-1-thread-10] INFO  -  [+] carga actual [NodoA]: 21
+19:05:16 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 61 - MAX:60
+19:05:16 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:16 [pool-1-thread-10] INFO  -  [+] carga actual global [62]
+19:05:16 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:16 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"68","token-id":"6605439680353072611"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:16 [pool-1-thread-10] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoB","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":20,"porcentajeCarga":1.0,"state":"CRITICAL"}, El resultado es= true
+19:05:16 [pool-1-thread-10] INFO  - NodosActivos[1] , cantidad=3
+19:05:16 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '6605439680353072611'
+19:05:16 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoBinProcess
+19:05:16 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoB
+19:05:16 [pool-1-thread-10] INFO  -  [+] carga actual [NodoB]: 21
+19:05:16 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 62 - MAX:60
+19:05:16 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:16 [pool-1-thread-10] INFO  -  [+] carga actual global [63]
+19:05:16 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:16 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"80","token-id":"6626298664795771094"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:16 [pool-1-thread-10] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoC","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":21,"porcentajeCarga":1.0,"state":"CRITICAL"}, El resultado es= true
+19:05:16 [pool-1-thread-10] INFO  - NodosActivos[2] , cantidad=3
+19:05:16 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '6626298664795771094'
+19:05:16 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoCinProcess
+19:05:16 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoC
+19:05:16 [pool-1-thread-10] INFO  -  [+] carga actual [NodoC]: 22
+19:05:16 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 63 - MAX:60
+19:05:16 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:16 [pool-1-thread-10] INFO  -  [+] carga actual global [64]
+19:05:16 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:16 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"1","token-id":"4813572286352593682"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:16 [pool-1-thread-10] INFO  - Comparando apellido con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoA","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":21,"porcentajeCarga":1.0,"state":"CRITICAL"}, El resultado es= true
+19:05:16 [pool-1-thread-10] INFO  - NodosActivos[0] , cantidad=3
+19:05:16 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '4813572286352593682'
+19:05:16 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoAinProcess
+19:05:16 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoA
+19:05:16 [pool-1-thread-10] INFO  -  [+] carga actual [NodoA]: 22
+19:05:16 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 64 - MAX:60
+19:05:16 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:16 [pool-1-thread-10] INFO  -  [+] carga actual global [65]
+19:05:16 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:16 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"92","token-id":"3111792801613690319"},"functionName":"apellido","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:16 [pool-1-thread-10] INFO  - Comparando apellido con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoB","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":21,"porcentajeCarga":1.0,"state":"CRITICAL"}, El resultado es= true
+19:05:16 [pool-1-thread-10] INFO  - NodosActivos[1] , cantidad=3
+19:05:16 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '3111792801613690319'
+19:05:16 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoBinProcess
+19:05:16 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoB
+19:05:16 [pool-1-thread-10] INFO  -  [+] carga actual [NodoB]: 22
+19:05:16 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 65 - MAX:60
+19:05:16 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:16 [pool-1-thread-10] INFO  -  [+] carga actual global [66]
+19:05:16 [pool-1-thread-10] INFO  -  [HEALTH_CHECKER] Estado global -> GLOBAL_CRITICAL | Carga actual:66 | Carga maxima:60
+19:05:16 [pool-1-thread-10] INFO  - i -> -1,k -> 1
+19:05:16 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 66 - MAX:60
+19:05:16 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:17 [pool-1-thread-10] INFO  -  [msgProcess -NodoCinProcess] waiting for notification...
+19:05:17 [pool-1-thread-10] INFO  -  [msgProcess -NodoCinProcess] Msg notification enviado por [NodoC]!
+19:05:17 [pool-1-thread-10] INFO  -  [msgProcess -NodoCinProcess] currentLoad [NodoC]: 21
+19:05:17 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 65 - MAX:60
+19:05:17 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:17 [pool-1-thread-10] INFO  -  [msgProcess -NodoCinProcess] GlobalCurrentLoad [65]
+19:05:17 [pool-1-thread-10] INFO  -  [msgProcess -NodoCinProcess] Dispatcher unbind> notificationQueue | Exchange 'XCHNG-NOTIFY' | RoutingKey '3908862995697979689'
+19:05:17 [pool-1-thread-10] INFO  -  [HEALTH_CHECKER] Estado global -> GLOBAL_CRITICAL | Carga actual:65 | Carga maxima:60
+19:05:17 [pool-1-thread-10] INFO  - i -> -1,k -> 1
+19:05:17 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 65 - MAX:60
+19:05:17 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:18 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:18 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"25","token-id":"2126746201139125635"},"functionName":"apellido","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:18 [pool-1-thread-10] INFO  - Comparando apellido con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoC","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":21,"porcentajeCarga":1.0,"state":"CRITICAL"}, El resultado es= true
+19:05:18 [pool-1-thread-10] INFO  - NodosActivos[2] , cantidad=3
+19:05:18 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '2126746201139125635'
+19:05:18 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoCinProcess
+19:05:18 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoC
+19:05:18 [pool-1-thread-10] INFO  -  [+] carga actual [NodoC]: 22
+19:05:18 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 65 - MAX:60
+19:05:18 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:18 [pool-1-thread-10] INFO  -  [+] carga actual global [66]
+19:05:18 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:18 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"22","token-id":"6014772942671435707"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:18 [pool-1-thread-10] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoA","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":22,"porcentajeCarga":1.0,"state":"CRITICAL"}, El resultado es= true
+19:05:18 [pool-1-thread-10] INFO  - NodosActivos[0] , cantidad=3
+19:05:18 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '6014772942671435707'
+19:05:18 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoAinProcess
+19:05:18 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoA
+19:05:18 [pool-1-thread-10] INFO  -  [+] carga actual [NodoA]: 23
+19:05:18 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 66 - MAX:60
+19:05:18 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:18 [pool-1-thread-10] INFO  -  [+] carga actual global [67]
+19:05:18 [pool-1-thread-10] INFO  -  [msgProcess -NodoAinProcess] waiting for notification...
+19:05:18 [pool-1-thread-10] INFO  -  [msgProcess -NodoAinProcess] Msg notification enviado por [NodoA]!
+19:05:18 [pool-1-thread-10] INFO  -  [msgProcess -NodoAinProcess] currentLoad [NodoA]: 22
+19:05:18 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 66 - MAX:60
+19:05:18 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:18 [pool-1-thread-10] INFO  -  [msgProcess -NodoAinProcess] GlobalCurrentLoad [66]
+19:05:18 [pool-1-thread-10] INFO  -  [msgProcess -NodoAinProcess] Dispatcher unbind> notificationQueue | Exchange 'XCHNG-NOTIFY' | RoutingKey '7466974221590122050'
+19:05:18 [pool-1-thread-10] INFO  -  [HEALTH_CHECKER] Estado global -> GLOBAL_CRITICAL | Carga actual:66 | Carga maxima:60
+19:05:18 [pool-1-thread-10] INFO  - i -> -1,k -> 1
+19:05:18 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 66 - MAX:60
+19:05:18 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:19 [pool-1-thread-10] INFO  -  [msgProcess -NodoBinProcess] waiting for notification...
+19:05:19 [pool-1-thread-10] INFO  -  [msgProcess -NodoBinProcess] Msg notification enviado por [NodoB]!
+19:05:19 [pool-1-thread-10] INFO  -  [msgProcess -NodoBinProcess] currentLoad [NodoB]: 21
+19:05:19 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 65 - MAX:60
+19:05:19 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:19 [pool-1-thread-10] INFO  -  [msgProcess -NodoBinProcess] GlobalCurrentLoad [65]
+19:05:19 [pool-1-thread-10] INFO  -  [msgProcess -NodoBinProcess] Dispatcher unbind> notificationQueue | Exchange 'XCHNG-NOTIFY' | RoutingKey '5693278062391723920'
+19:05:19 [pool-1-thread-10] INFO  -  [HEALTH_CHECKER] Estado global -> GLOBAL_CRITICAL | Carga actual:65 | Carga maxima:60
+19:05:19 [pool-1-thread-10] INFO  - i -> -1,k -> 1
+19:05:19 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 65 - MAX:60
+19:05:19 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:20 [pool-1-thread-10] INFO  -  [msgProcess -NodoCinProcess] waiting for notification...
+19:05:20 [pool-1-thread-10] INFO  -  [msgProcess -NodoCinProcess] Msg notification enviado por [NodoC]!
+19:05:20 [pool-1-thread-10] INFO  -  [msgProcess -NodoCinProcess] currentLoad [NodoC]: 21
+19:05:20 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 64 - MAX:60
+19:05:20 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:20 [pool-1-thread-10] INFO  -  [msgProcess -NodoCinProcess] GlobalCurrentLoad [64]
+19:05:20 [pool-1-thread-10] INFO  -  [msgProcess -NodoCinProcess] Dispatcher unbind> notificationQueue | Exchange 'XCHNG-NOTIFY' | RoutingKey '577993042009826308'
+19:05:20 [pool-1-thread-10] INFO  -  [HEALTH_CHECKER] Estado global -> GLOBAL_CRITICAL | Carga actual:64 | Carga maxima:60
+19:05:20 [pool-1-thread-10] INFO  - i -> -1,k -> 1
+19:05:20 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 64 - MAX:60
+19:05:20 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:21 [pool-1-thread-10] INFO  -  [msgProcess -NodoAinProcess] waiting for notification...
+19:05:21 [pool-1-thread-10] INFO  -  [msgProcess -NodoAinProcess] Msg notification enviado por [NodoA]!
+19:05:21 [pool-1-thread-10] INFO  -  [msgProcess -NodoAinProcess] currentLoad [NodoA]: 21
+19:05:21 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 63 - MAX:60
+19:05:21 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:21 [pool-1-thread-10] INFO  -  [msgProcess -NodoAinProcess] GlobalCurrentLoad [63]
+19:05:21 [pool-1-thread-10] INFO  -  [msgProcess -NodoAinProcess] Dispatcher unbind> notificationQueue | Exchange 'XCHNG-NOTIFY' | RoutingKey '4692870709985308432'
+19:05:21 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:21 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"89","token-id":"1623301905355965154"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:21 [pool-1-thread-10] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoB","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":21,"porcentajeCarga":1.0,"state":"CRITICAL"}, El resultado es= true
+19:05:21 [pool-1-thread-10] INFO  - NodosActivos[1] , cantidad=3
+19:05:21 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '1623301905355965154'
+19:05:21 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoBinProcess
+19:05:21 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoB
+19:05:21 [pool-1-thread-10] INFO  -  [+] carga actual [NodoB]: 22
+19:05:21 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 63 - MAX:60
+19:05:21 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:21 [pool-1-thread-10] INFO  -  [+] carga actual global [64]
+19:05:21 [pool-1-thread-10] INFO  -  [HEALTH_CHECKER] Estado global -> GLOBAL_CRITICAL | Carga actual:64 | Carga maxima:60
+19:05:21 [pool-1-thread-10] INFO  - i -> -1,k -> 1
+19:05:21 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 64 - MAX:60
+19:05:21 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:22 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:22 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"34","token-id":"2820548273959123281"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:22 [pool-1-thread-10] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoC","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":21,"porcentajeCarga":1.0,"state":"CRITICAL"}, El resultado es= true
+19:05:22 [pool-1-thread-10] INFO  - NodosActivos[2] , cantidad=3
+19:05:22 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '2820548273959123281'
+19:05:22 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoCinProcess
+19:05:22 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoC
+19:05:22 [pool-1-thread-10] INFO  -  [+] carga actual [NodoC]: 22
+19:05:22 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 64 - MAX:60
+19:05:22 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:22 [pool-1-thread-10] INFO  -  [+] carga actual global [65]
+19:05:22 [pool-1-thread-10] INFO  -  [msgProcess -NodoBinProcess] waiting for notification...
+19:05:22 [pool-1-thread-10] INFO  -  [msgProcess -NodoBinProcess] Msg notification enviado por [NodoB]!
+19:05:22 [pool-1-thread-10] INFO  -  [msgProcess -NodoBinProcess] currentLoad [NodoB]: 21
+19:05:22 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 64 - MAX:60
+19:05:22 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:22 [pool-1-thread-10] INFO  -  [msgProcess -NodoBinProcess] GlobalCurrentLoad [64]
+19:05:22 [pool-1-thread-10] INFO  -  [msgProcess -NodoBinProcess] Dispatcher unbind> notificationQueue | Exchange 'XCHNG-NOTIFY' | RoutingKey '4872395310331619385'
+19:05:22 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:22 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"85","token-id":"8317045309757816103"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:22 [pool-1-thread-10] INFO  - Comparando apellido con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoA","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":21,"porcentajeCarga":1.0,"state":"CRITICAL"}, El resultado es= true
+19:05:22 [pool-1-thread-10] INFO  - NodosActivos[0] , cantidad=3
+19:05:22 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '8317045309757816103'
+19:05:22 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoAinProcess
+19:05:22 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoA
+19:05:22 [pool-1-thread-10] INFO  -  [+] carga actual [NodoA]: 22
+19:05:22 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 64 - MAX:60
+19:05:22 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:22 [pool-1-thread-10] INFO  -  [+] carga actual global [65]
+19:05:22 [pool-1-thread-10] INFO  -  [HEALTH_CHECKER] Estado global -> GLOBAL_CRITICAL | Carga actual:65 | Carga maxima:60
+19:05:22 [pool-1-thread-10] INFO  - i -> -1,k -> 1
+19:05:22 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 65 - MAX:60
+19:05:22 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:23 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:23 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"22","token-id":"1363960602949356598"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:23 [pool-1-thread-10] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoB","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":21,"porcentajeCarga":1.0,"state":"CRITICAL"}, El resultado es= true
+19:05:23 [pool-1-thread-10] INFO  - NodosActivos[1] , cantidad=3
+19:05:23 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '1363960602949356598'
+19:05:23 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoBinProcess
+19:05:23 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoB
+19:05:23 [pool-1-thread-10] INFO  -  [+] carga actual [NodoB]: 22
+19:05:23 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 65 - MAX:60
+19:05:23 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:23 [pool-1-thread-10] INFO  -  [+] carga actual global [66]
+19:05:23 [pool-1-thread-10] INFO  -  [msgProcess -NodoCinProcess] waiting for notification...
+19:05:23 [pool-1-thread-10] INFO  -  [msgProcess -NodoCinProcess] Msg notification enviado por [NodoC]!
+19:05:23 [pool-1-thread-10] INFO  -  [msgProcess -NodoCinProcess] currentLoad [NodoC]: 21
+19:05:23 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 65 - MAX:60
+19:05:23 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:23 [pool-1-thread-10] INFO  -  [msgProcess -NodoCinProcess] GlobalCurrentLoad [65]
+19:05:23 [pool-1-thread-10] INFO  -  [msgProcess -NodoCinProcess] Dispatcher unbind> notificationQueue | Exchange 'XCHNG-NOTIFY' | RoutingKey '505515797356095896'
+19:05:23 [pool-1-thread-10] INFO  -  [HEALTH_CHECKER] Estado global -> GLOBAL_CRITICAL | Carga actual:65 | Carga maxima:60
+19:05:23 [pool-1-thread-10] INFO  - i -> -1,k -> 1
+19:05:23 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 65 - MAX:60
+19:05:23 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:24 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:24 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"32","token-id":"2463970196871563063"},"functionName":"apellido","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:24 [pool-1-thread-10] INFO  - Comparando apellido con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoC","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":21,"porcentajeCarga":1.0,"state":"CRITICAL"}, El resultado es= true
+19:05:24 [pool-1-thread-10] INFO  - NodosActivos[2] , cantidad=3
+19:05:24 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '2463970196871563063'
+19:05:24 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoCinProcess
+19:05:24 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoC
+19:05:24 [pool-1-thread-10] INFO  -  [+] carga actual [NodoC]: 22
+19:05:24 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 65 - MAX:60
+19:05:24 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:24 [pool-1-thread-10] INFO  -  [+] carga actual global [66]
+19:05:24 [pool-1-thread-10] INFO  -  [msgProcess -NodoAinProcess] waiting for notification...
+19:05:24 [pool-1-thread-10] INFO  -  [msgProcess -NodoAinProcess] Msg notification enviado por [NodoA]!
+19:05:24 [pool-1-thread-10] INFO  -  [msgProcess -NodoAinProcess] currentLoad [NodoA]: 21
+19:05:24 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 65 - MAX:60
+19:05:24 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:24 [pool-1-thread-10] INFO  -  [msgProcess -NodoAinProcess] GlobalCurrentLoad [65]
+19:05:24 [pool-1-thread-10] INFO  -  [msgProcess -NodoAinProcess] Dispatcher unbind> notificationQueue | Exchange 'XCHNG-NOTIFY' | RoutingKey '3420797842974096712'
+19:05:24 [pool-1-thread-10] INFO  -  [HEALTH_CHECKER] Estado global -> GLOBAL_CRITICAL | Carga actual:65 | Carga maxima:60
+19:05:24 [pool-1-thread-10] INFO  - i -> -1,k -> 1
+19:05:24 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 65 - MAX:60
+19:05:24 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:25 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"20","token-id":"1245506839869933408"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:25 [pool-1-thread-10] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoA","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":21,"porcentajeCarga":1.0,"state":"CRITICAL"}, El resultado es= true
+19:05:25 [pool-1-thread-10] INFO  - NodosActivos[0] , cantidad=3
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '1245506839869933408'
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoAinProcess
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoA
+19:05:25 [pool-1-thread-10] INFO  -  [+] carga actual [NodoA]: 22
+19:05:25 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 65 - MAX:60
+19:05:25 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:25 [pool-1-thread-10] INFO  -  [+] carga actual global [66]
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:25 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"15","token-id":"4137804292838377456"},"functionName":"apellido","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:25 [pool-1-thread-10] INFO  - Comparando apellido con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoB","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":22,"porcentajeCarga":1.0,"state":"CRITICAL"}, El resultado es= true
+19:05:25 [pool-1-thread-10] INFO  - NodosActivos[1] , cantidad=3
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '4137804292838377456'
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoBinProcess
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoB
+19:05:25 [pool-1-thread-10] INFO  -  [+] carga actual [NodoB]: 23
+19:05:25 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 66 - MAX:60
+19:05:25 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:25 [pool-1-thread-10] INFO  -  [+] carga actual global [67]
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:25 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"48","token-id":"6374627535245508401"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:25 [pool-1-thread-10] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoC","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":22,"porcentajeCarga":1.0,"state":"CRITICAL"}, El resultado es= true
+19:05:25 [pool-1-thread-10] INFO  - NodosActivos[2] , cantidad=3
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '6374627535245508401'
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoCinProcess
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoC
+19:05:25 [pool-1-thread-10] INFO  -  [+] carga actual [NodoC]: 23
+19:05:25 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 67 - MAX:60
+19:05:25 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:25 [pool-1-thread-10] INFO  -  [+] carga actual global [68]
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:25 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"14","token-id":"7752898008601408801"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:25 [pool-1-thread-10] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoA","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":22,"porcentajeCarga":1.0,"state":"CRITICAL"}, El resultado es= true
+19:05:25 [pool-1-thread-10] INFO  - NodosActivos[0] , cantidad=3
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '7752898008601408801'
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoAinProcess
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoA
+19:05:25 [pool-1-thread-10] INFO  -  [+] carga actual [NodoA]: 23
+19:05:25 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 68 - MAX:60
+19:05:25 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:25 [pool-1-thread-10] INFO  -  [+] carga actual global [69]
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:25 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"85","token-id":"7897248998847002918"},"functionName":"apellido","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:25 [pool-1-thread-10] INFO  - Comparando apellido con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoB","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":23,"porcentajeCarga":1.0,"state":"CRITICAL"}, El resultado es= true
+19:05:25 [pool-1-thread-10] INFO  - NodosActivos[1] , cantidad=3
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '7897248998847002918'
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoBinProcess
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoB
+19:05:25 [pool-1-thread-10] INFO  -  [+] carga actual [NodoB]: 24
+19:05:25 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 69 - MAX:60
+19:05:25 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:25 [pool-1-thread-10] INFO  -  [+] carga actual global [70]
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:25 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"76","token-id":"2340205107892695337"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:25 [pool-1-thread-10] INFO  - Comparando apellido con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoC","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":23,"porcentajeCarga":1.0,"state":"CRITICAL"}, El resultado es= true
+19:05:25 [pool-1-thread-10] INFO  - NodosActivos[2] , cantidad=3
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '2340205107892695337'
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoCinProcess
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoC
+19:05:25 [pool-1-thread-10] INFO  -  [+] carga actual [NodoC]: 24
+19:05:25 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 70 - MAX:60
+19:05:25 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:25 [pool-1-thread-10] INFO  -  [+] carga actual global [71]
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:25 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"1","token-id":"3845692604547665359"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:25 [pool-1-thread-10] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoA","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":23,"porcentajeCarga":1.0,"state":"CRITICAL"}, El resultado es= true
+19:05:25 [pool-1-thread-10] INFO  - NodosActivos[0] , cantidad=3
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '3845692604547665359'
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoAinProcess
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoA
+19:05:25 [pool-1-thread-10] INFO  -  [+] carga actual [NodoA]: 24
+19:05:25 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 71 - MAX:60
+19:05:25 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:25 [pool-1-thread-10] INFO  -  [+] carga actual global [72]
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:25 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"12","token-id":"923128998136101801"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:25 [pool-1-thread-10] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoB","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":24,"porcentajeCarga":1.0,"state":"CRITICAL"}, El resultado es= true
+19:05:25 [pool-1-thread-10] INFO  - NodosActivos[1] , cantidad=3
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '923128998136101801'
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoBinProcess
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoB
+19:05:25 [pool-1-thread-10] INFO  -  [+] carga actual [NodoB]: 25
+19:05:25 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 72 - MAX:60
+19:05:25 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:25 [pool-1-thread-10] INFO  -  [+] carga actual global [73]
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:25 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"20","token-id":"6798984545966383407"},"functionName":"apellido","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:25 [pool-1-thread-10] INFO  - Comparando apellido con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoC","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":24,"porcentajeCarga":1.0,"state":"CRITICAL"}, El resultado es= true
+19:05:25 [pool-1-thread-10] INFO  - NodosActivos[2] , cantidad=3
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '6798984545966383407'
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoCinProcess
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoC
+19:05:25 [pool-1-thread-10] INFO  -  [+] carga actual [NodoC]: 25
+19:05:25 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 73 - MAX:60
+19:05:25 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:25 [pool-1-thread-10] INFO  -  [+] carga actual global [74]
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:25 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"67","token-id":"1898339333116590050"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:25 [pool-1-thread-10] INFO  - Comparando apellido con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoA","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":24,"porcentajeCarga":1.0,"state":"CRITICAL"}, El resultado es= true
+19:05:25 [pool-1-thread-10] INFO  - NodosActivos[0] , cantidad=3
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '1898339333116590050'
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoAinProcess
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoA
+19:05:25 [pool-1-thread-10] INFO  -  [+] carga actual [NodoA]: 25
+19:05:25 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 74 - MAX:60
+19:05:25 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:25 [pool-1-thread-10] INFO  -  [+] carga actual global [75]
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:25 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"82","token-id":"6128624067217794478"},"functionName":"apellido","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:25 [pool-1-thread-10] INFO  - Comparando apellido con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoB","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":25,"porcentajeCarga":1.0,"state":"CRITICAL"}, El resultado es= true
+19:05:25 [pool-1-thread-10] INFO  - NodosActivos[1] , cantidad=3
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '6128624067217794478'
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoBinProcess
+19:05:25 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoB
+19:05:25 [pool-1-thread-10] INFO  -  [+] carga actual [NodoB]: 26
+19:05:25 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 75 - MAX:60
+19:05:25 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:25 [pool-1-thread-10] INFO  -  [+] carga actual global [76]
+19:05:25 [pool-1-thread-10] INFO  -  [msgProcess -NodoBinProcess] waiting for notification...
+19:05:25 [pool-1-thread-10] INFO  -  [msgProcess -NodoBinProcess] Msg notification enviado por [NodoB]!
+19:05:25 [pool-1-thread-10] INFO  -  [msgProcess -NodoBinProcess] currentLoad [NodoB]: 25
+19:05:25 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 75 - MAX:60
+19:05:25 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:25 [pool-1-thread-10] INFO  -  [msgProcess -NodoBinProcess] GlobalCurrentLoad [75]
+19:05:25 [pool-1-thread-10] INFO  -  [msgProcess -NodoBinProcess] Dispatcher unbind> notificationQueue | Exchange 'XCHNG-NOTIFY' | RoutingKey '7848160587548718682'
+19:05:25 [pool-1-thread-10] INFO  -  [HEALTH_CHECKER] Estado global -> GLOBAL_CRITICAL | Carga actual:75 | Carga maxima:60
+19:05:25 [pool-1-thread-10] INFO  - i -> -1,k -> 1
+19:05:25 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 75 - MAX:60
+19:05:25 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:26 [pool-1-thread-10] INFO  -  [HEALTH_CHECKER] Estado global -> GLOBAL_CRITICAL | Carga actual:75 | Carga maxima:60
+19:05:26 [pool-1-thread-10] INFO  - i -> -1,k -> 1
+19:05:26 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 75 - MAX:60
+19:05:26 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:27 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:27 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"82","token-id":"4026791113182407123"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:27 [pool-1-thread-10] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoC","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":25,"porcentajeCarga":1.0,"state":"CRITICAL"}, El resultado es= true
+19:05:27 [pool-1-thread-10] INFO  - NodosActivos[2] , cantidad=3
+19:05:27 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '4026791113182407123'
+19:05:27 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoCinProcess
+19:05:27 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoC
+19:05:27 [pool-1-thread-10] INFO  -  [+] carga actual [NodoC]: 26
+19:05:27 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 75 - MAX:60
+19:05:27 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:27 [pool-1-thread-10] INFO  -  [+] carga actual global [76]
+19:05:27 [pool-1-thread-10] INFO  -  [msgProcess -NodoCinProcess] waiting for notification...
+19:05:27 [pool-1-thread-10] INFO  -  [msgProcess -NodoCinProcess] Msg notification enviado por [NodoC]!
+19:05:27 [pool-1-thread-10] INFO  -  [msgProcess -NodoCinProcess] currentLoad [NodoC]: 25
+19:05:27 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 75 - MAX:60
+19:05:27 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:27 [pool-1-thread-10] INFO  -  [msgProcess -NodoCinProcess] GlobalCurrentLoad [75]
+19:05:27 [pool-1-thread-10] INFO  -  [msgProcess -NodoCinProcess] Dispatcher unbind> notificationQueue | Exchange 'XCHNG-NOTIFY' | RoutingKey '733147715210406026'
+19:05:27 [pool-1-thread-10] INFO  -  [msgProcess -NodoAinProcess] waiting for notification...
+19:05:27 [pool-1-thread-10] INFO  -  [msgProcess -NodoAinProcess] Msg notification enviado por [NodoA]!
+19:05:27 [pool-1-thread-10] INFO  -  [msgProcess -NodoAinProcess] currentLoad [NodoA]: 24
+19:05:27 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 74 - MAX:60
+19:05:27 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:27 [pool-1-thread-10] INFO  -  [msgProcess -NodoAinProcess] GlobalCurrentLoad [74]
+19:05:27 [pool-1-thread-10] INFO  -  [msgProcess -NodoAinProcess] Dispatcher unbind> notificationQueue | Exchange 'XCHNG-NOTIFY' | RoutingKey '2999581352026541112'
+19:05:27 [pool-1-thread-10] INFO  -  [HEALTH_CHECKER] Estado global -> GLOBAL_CRITICAL | Carga actual:74 | Carga maxima:60
+19:05:27 [pool-1-thread-10] INFO  - i -> -1,k -> 1
+19:05:27 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 74 - MAX:60
+19:05:27 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:28 [pool-1-thread-10] INFO  -  [msgProcess -NodoBinProcess] waiting for notification...
+19:05:28 [pool-1-thread-10] INFO  -  [msgProcess -NodoBinProcess] Msg notification enviado por [NodoB]!
+19:05:28 [pool-1-thread-10] INFO  -  [msgProcess -NodoBinProcess] currentLoad [NodoB]: 24
+19:05:28 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 73 - MAX:60
+19:05:28 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:28 [pool-1-thread-10] INFO  -  [msgProcess -NodoBinProcess] GlobalCurrentLoad [73]
+19:05:28 [pool-1-thread-10] INFO  -  [msgProcess -NodoBinProcess] Dispatcher unbind> notificationQueue | Exchange 'XCHNG-NOTIFY' | RoutingKey '9072918229273083040'
+19:05:28 [pool-1-thread-10] INFO  -  [HEALTH_CHECKER] Estado global -> GLOBAL_CRITICAL | Carga actual:73 | Carga maxima:60
+19:05:28 [pool-1-thread-10] INFO  - i -> -1,k -> 1
+19:05:28 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 73 - MAX:60
+19:05:28 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:29 [pool-1-thread-10] INFO  -  [msgProcess -NodoCinProcess] waiting for notification...
+19:05:29 [pool-1-thread-10] INFO  -  [msgProcess -NodoCinProcess] Msg notification enviado por [NodoC]!
+19:05:29 [pool-1-thread-10] INFO  -  [msgProcess -NodoCinProcess] currentLoad [NodoC]: 24
+19:05:29 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 72 - MAX:60
+19:05:29 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:29 [pool-1-thread-10] INFO  -  [msgProcess -NodoCinProcess] GlobalCurrentLoad [72]
+19:05:29 [pool-1-thread-10] INFO  -  [msgProcess -NodoCinProcess] Dispatcher unbind> notificationQueue | Exchange 'XCHNG-NOTIFY' | RoutingKey '2975548871527256475'
+19:05:29 [pool-1-thread-10] INFO  -  [HEALTH_CHECKER] Estado global -> GLOBAL_CRITICAL | Carga actual:72 | Carga maxima:60
+19:05:29 [pool-1-thread-10] INFO  - i -> -1,k -> 1
+19:05:29 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 72 - MAX:60
+19:05:29 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:30 [pool-1-thread-10] INFO  -  [msgProcess -NodoAinProcess] waiting for notification...
+19:05:30 [pool-1-thread-10] INFO  -  [msgProcess -NodoAinProcess] Msg notification enviado por [NodoA]!
+19:05:30 [pool-1-thread-10] INFO  -  [msgProcess -NodoAinProcess] currentLoad [NodoA]: 23
+19:05:30 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 71 - MAX:60
+19:05:30 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:30 [pool-1-thread-10] INFO  -  [msgProcess -NodoAinProcess] GlobalCurrentLoad [71]
+19:05:30 [pool-1-thread-10] INFO  -  [msgProcess -NodoAinProcess] Dispatcher unbind> notificationQueue | Exchange 'XCHNG-NOTIFY' | RoutingKey '842420216213629756'
+19:05:30 [pool-1-thread-10] INFO  -  [HEALTH_CHECKER] Estado global -> GLOBAL_CRITICAL | Carga actual:71 | Carga maxima:60
+19:05:30 [pool-1-thread-10] INFO  - i -> -1,k -> 1
+19:05:30 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 71 - MAX:60
+19:05:30 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:31 [pool-1-thread-10] INFO  -  [msgProcess -NodoBinProcess] waiting for notification...
+19:05:31 [pool-1-thread-10] INFO  -  [msgProcess -NodoBinProcess] Msg notification enviado por [NodoB]!
+19:05:31 [pool-1-thread-10] INFO  -  [msgProcess -NodoBinProcess] currentLoad [NodoB]: 23
+19:05:31 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 70 - MAX:60
+19:05:31 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:31 [pool-1-thread-10] INFO  -  [msgProcess -NodoBinProcess] GlobalCurrentLoad [70]
+19:05:31 [pool-1-thread-10] INFO  -  [msgProcess -NodoBinProcess] Dispatcher unbind> notificationQueue | Exchange 'XCHNG-NOTIFY' | RoutingKey '3098644106226552213'
+19:05:31 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:31 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"16","token-id":"4431900742896756820"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:31 [pool-1-thread-10] INFO  - Comparando apellido con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoA","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":23,"porcentajeCarga":1.0,"state":"CRITICAL"}, El resultado es= true
+19:05:31 [pool-1-thread-10] INFO  - NodosActivos[0] , cantidad=3
+19:05:31 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '4431900742896756820'
+19:05:31 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoAinProcess
+19:05:31 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoA
+19:05:31 [pool-1-thread-10] INFO  -  [+] carga actual [NodoA]: 24
+19:05:31 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 70 - MAX:60
+19:05:31 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:31 [pool-1-thread-10] INFO  -  [+] carga actual global [71]
+19:05:31 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:31 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"11","token-id":"2699634346188291241"},"functionName":"apellido","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:31 [pool-1-thread-10] INFO  - Comparando apellido con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoB","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":23,"porcentajeCarga":1.0,"state":"CRITICAL"}, El resultado es= true
+19:05:31 [pool-1-thread-10] INFO  - NodosActivos[1] , cantidad=3
+19:05:31 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '2699634346188291241'
+19:05:31 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoBinProcess
+19:05:31 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoB
+19:05:31 [pool-1-thread-10] INFO  -  [+] carga actual [NodoB]: 24
+19:05:31 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 71 - MAX:60
+19:05:31 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:31 [pool-1-thread-10] INFO  -  [+] carga actual global [72]
+19:05:31 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:31 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"44","token-id":"3051127021337434025"},"functionName":"apellido","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:31 [pool-1-thread-10] INFO  - Comparando apellido con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoC","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":24,"porcentajeCarga":1.0,"state":"CRITICAL"}, El resultado es= true
+19:05:31 [pool-1-thread-10] INFO  - NodosActivos[2] , cantidad=3
+19:05:31 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '3051127021337434025'
+19:05:31 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoCinProcess
+19:05:31 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoC
+19:05:31 [pool-1-thread-10] INFO  -  [+] carga actual [NodoC]: 25
+19:05:31 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 72 - MAX:60
+19:05:31 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:31 [pool-1-thread-10] INFO  -  [+] carga actual global [73]
+19:05:31 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:31 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"93","token-id":"3735919254430872558"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:31 [pool-1-thread-10] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoA","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":24,"porcentajeCarga":1.0,"state":"CRITICAL"}, El resultado es= true
+19:05:31 [pool-1-thread-10] INFO  - NodosActivos[0] , cantidad=3
+19:05:31 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '3735919254430872558'
+19:05:31 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoAinProcess
+19:05:31 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoA
+19:05:31 [pool-1-thread-10] INFO  -  [+] carga actual [NodoA]: 25
+19:05:31 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 73 - MAX:60
+19:05:31 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:31 [pool-1-thread-10] INFO  -  [+] carga actual global [74]
+19:05:31 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:31 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"65","token-id":"2120068757813088967"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:31 [pool-1-thread-10] INFO  - Comparando apellido con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoB","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":24,"porcentajeCarga":1.0,"state":"CRITICAL"}, El resultado es= true
+19:05:31 [pool-1-thread-10] INFO  - NodosActivos[1] , cantidad=3
+19:05:31 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '2120068757813088967'
+19:05:31 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoBinProcess
+19:05:31 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoB
+19:05:31 [pool-1-thread-10] INFO  -  [+] carga actual [NodoB]: 25
+19:05:31 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 74 - MAX:60
+19:05:31 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:31 [pool-1-thread-10] INFO  -  [+] carga actual global [75]
+19:05:31 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:31 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"84","token-id":"5777908131645879070"},"functionName":"apellido","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:31 [pool-1-thread-10] INFO  - Comparando apellido con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoC","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":25,"porcentajeCarga":1.0,"state":"CRITICAL"}, El resultado es= true
+19:05:31 [pool-1-thread-10] INFO  - NodosActivos[2] , cantidad=3
+19:05:31 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '5777908131645879070'
+19:05:31 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoCinProcess
+19:05:31 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoC
+19:05:31 [pool-1-thread-10] INFO  -  [+] carga actual [NodoC]: 26
+19:05:31 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 75 - MAX:60
+19:05:31 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:31 [pool-1-thread-10] INFO  -  [+] carga actual global [76]
+19:05:31 [pool-1-thread-10] INFO  -  [msgDispatch] RECIBI UN MSG DE= inputQueue
+19:05:31 [pool-1-thread-10] INFO  - {"header":{"tipo":"query","client":"34","token-id":"3874005632568499557"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:31 [pool-1-thread-10] INFO  - Comparando nombre con {"servicios":[{"port":0,"name":"nombre"},{"port":0,"name":"apellido"}],"name":"NodoA","ip":"\u0027localhost\u0027","port":8000,"cargaMax":20,"cargaActual":25,"porcentajeCarga":1.0,"state":"CRITICAL"}, El resultado es= true
+19:05:31 [pool-1-thread-10] INFO  - NodosActivos[0] , cantidad=3
+19:05:31 [pool-1-thread-10] INFO  -  [msgDispatch] Dispatcher bind with cola de notificaciones | Exchange 'XCHNG-NOTIFY' | RoutingKey '3874005632568499557'
+19:05:31 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola en proceso NodoAinProcess
+19:05:31 [pool-1-thread-10] INFO  -  [msgDispatch] envio msg a cola nodo NodoA
+19:05:31 [pool-1-thread-10] INFO  -  [+] carga actual [NodoA]: 26
+19:05:31 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 76 - MAX:60
+19:05:31 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:31 [pool-1-thread-10] INFO  -  [+] carga actual global [77]
+19:05:31 [pool-1-thread-10] INFO  -  [HEALTH_CHECKER] Estado global -> GLOBAL_CRITICAL | Carga actual:77 | Carga maxima:60
+19:05:31 [pool-1-thread-10] INFO  - i -> -1,k -> 1
+19:05:31 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 77 - MAX:60
+19:05:31 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:32 [pool-1-thread-10] INFO  -  [msgProcess -NodoCinProcess] waiting for notification...
+19:05:32 [pool-1-thread-10] INFO  -  [msgProcess -NodoCinProcess] Msg notification enviado por [NodoC]!
+19:05:32 [pool-1-thread-10] INFO  -  [msgProcess -NodoCinProcess] currentLoad [NodoC]: 25
+19:05:32 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 76 - MAX:60
+19:05:32 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:32 [pool-1-thread-10] INFO  -  [msgProcess -NodoCinProcess] GlobalCurrentLoad [76]
+19:05:32 [pool-1-thread-10] INFO  -  [msgProcess -NodoCinProcess] Dispatcher unbind> notificationQueue | Exchange 'XCHNG-NOTIFY' | RoutingKey '2345003065308644360'
+19:05:32 [pool-1-thread-10] INFO  -  [HEALTH_CHECKER] Estado global -> GLOBAL_CRITICAL | Carga actual:76 | Carga maxima:60
+19:05:32 [pool-1-thread-10] INFO  - i -> -1,k -> 1
+19:05:32 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 76 - MAX:60
+19:05:32 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:33 [pool-1-thread-10] INFO  -  [msgProcess -NodoAinProcess] waiting for notification...
+19:05:33 [pool-1-thread-10] INFO  -  [msgProcess -NodoAinProcess] Msg notification enviado por [NodoA]!
+19:05:33 [pool-1-thread-10] INFO  -  [msgProcess -NodoAinProcess] currentLoad [NodoA]: 25
+19:05:33 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 75 - MAX:60
+19:05:33 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL
+19:05:33 [pool-1-thread-10] INFO  -  [msgProcess -NodoAinProcess] GlobalCurrentLoad [75]
+19:05:33 [pool-1-thread-10] INFO  -  [msgProcess -NodoAinProcess] Dispatcher unbind> notificationQueue | Exchange 'XCHNG-NOTIFY' | RoutingKey '4437371329145525980'
+19:05:33 [pool-1-thread-10] INFO  -  [HEALTH_CHECKER] Estado global -> GLOBAL_CRITICAL | Carga actual:75 | Carga maxima:60
+19:05:33 [pool-1-thread-10] INFO  - i -> -1,k -> 1
+19:05:33 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] CURR: 75 - MAX:60
+19:05:33 [pool-1-thread-10] INFO  -  [UPDATE_GLOBAL] Nuevo estado global ---> GLOBAL_CRITICAL

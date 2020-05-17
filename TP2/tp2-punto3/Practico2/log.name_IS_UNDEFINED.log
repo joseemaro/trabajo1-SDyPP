@@ -1,0 +1,374 @@
+19:05:08 [Thread-0] INFO  - -x-x-x- CLIENT 53 STARTED -X-X-X-X-
+19:05:08 [Thread-34] INFO  - -x-x-x- CLIENT 76 STARTED -X-X-X-X-
+19:05:08 [Thread-35] INFO  - -x-x-x- CLIENT 68 STARTED -X-X-X-X-
+19:05:08 [Thread-33] INFO  - -x-x-x- CLIENT 37 STARTED -X-X-X-X-
+19:05:08 [Thread-32] INFO  - -x-x-x- CLIENT 82 STARTED -X-X-X-X-
+19:05:08 [Thread-31] INFO  - -x-x-x- CLIENT 97 STARTED -X-X-X-X-
+19:05:08 [Thread-30] INFO  - -x-x-x- CLIENT 96 STARTED -X-X-X-X-
+19:05:08 [Thread-29] INFO  - -x-x-x- CLIENT 93 STARTED -X-X-X-X-
+19:05:08 [Thread-28] INFO  - -x-x-x- CLIENT 90 STARTED -X-X-X-X-
+19:05:08 [Thread-27] INFO  - -x-x-x- CLIENT 68 STARTED -X-X-X-X-
+19:05:08 [Thread-26] INFO  - -x-x-x- CLIENT 67 STARTED -X-X-X-X-
+19:05:08 [Thread-25] INFO  - -x-x-x- CLIENT 69 STARTED -X-X-X-X-
+19:05:08 [Thread-24] INFO  - -x-x-x- CLIENT 56 STARTED -X-X-X-X-
+19:05:08 [Thread-23] INFO  - -x-x-x- CLIENT 60 STARTED -X-X-X-X-
+19:05:08 [Thread-22] INFO  - -x-x-x- CLIENT 1 STARTED -X-X-X-X-
+19:05:08 [Thread-21] INFO  - -x-x-x- CLIENT 16 STARTED -X-X-X-X-
+19:05:08 [Thread-20] INFO  - -x-x-x- CLIENT 32 STARTED -X-X-X-X-
+19:05:08 [Thread-19] INFO  - -x-x-x- CLIENT 48 STARTED -X-X-X-X-
+19:05:08 [Thread-18] INFO  - -x-x-x- CLIENT 63 STARTED -X-X-X-X-
+19:05:08 [Thread-17] INFO  - -x-x-x- CLIENT 33 STARTED -X-X-X-X-
+19:05:08 [Thread-16] INFO  - -x-x-x- CLIENT 25 STARTED -X-X-X-X-
+19:05:08 [Thread-15] INFO  - -x-x-x- CLIENT 91 STARTED -X-X-X-X-
+19:05:08 [Thread-14] INFO  - -x-x-x- CLIENT 90 STARTED -X-X-X-X-
+19:05:08 [Thread-13] INFO  - -x-x-x- CLIENT 30 STARTED -X-X-X-X-
+19:05:08 [Thread-12] INFO  - -x-x-x- CLIENT 39 STARTED -X-X-X-X-
+19:05:08 [Thread-11] INFO  - -x-x-x- CLIENT 8 STARTED -X-X-X-X-
+19:05:08 [Thread-10] INFO  - -x-x-x- CLIENT 25 STARTED -X-X-X-X-
+19:05:08 [Thread-9] INFO  - -x-x-x- CLIENT 95 STARTED -X-X-X-X-
+19:05:08 [Thread-8] INFO  - -x-x-x- CLIENT 76 STARTED -X-X-X-X-
+19:05:08 [Thread-7] INFO  - -x-x-x- CLIENT 47 STARTED -X-X-X-X-
+19:05:08 [Thread-6] INFO  - -x-x-x- CLIENT 71 STARTED -X-X-X-X-
+19:05:08 [Thread-5] INFO  - -x-x-x- CLIENT 47 STARTED -X-X-X-X-
+19:05:08 [Thread-4] INFO  - -x-x-x- CLIENT 78 STARTED -X-X-X-X-
+19:05:08 [Thread-3] INFO  - -x-x-x- CLIENT 81 STARTED -X-X-X-X-
+19:05:08 [Thread-2] INFO  - -x-x-x- CLIENT 56 STARTED -X-X-X-X-
+19:05:08 [Thread-1] INFO  - -x-x-x- CLIENT 42 STARTED -X-X-X-X-
+19:05:08 [Thread-36] INFO  - -x-x-x- CLIENT 58 STARTED -X-X-X-X-
+19:05:08 [Thread-37] INFO  - -x-x-x- CLIENT 42 STARTED -X-X-X-X-
+19:05:08 [Thread-50] INFO  - -x-x-x- CLIENT 1 STARTED -X-X-X-X-
+19:05:08 [Thread-49] INFO  - -x-x-x- CLIENT 96 STARTED -X-X-X-X-
+19:05:08 [Thread-48] INFO  - -x-x-x- CLIENT 15 STARTED -X-X-X-X-
+19:05:08 [Thread-47] INFO  - -x-x-x- CLIENT 8 STARTED -X-X-X-X-
+19:05:08 [Thread-46] INFO  - -x-x-x- CLIENT 37 STARTED -X-X-X-X-
+19:05:08 [Thread-44] INFO  - -x-x-x- CLIENT 95 STARTED -X-X-X-X-
+19:05:08 [Thread-45] INFO  - -x-x-x- CLIENT 6 STARTED -X-X-X-X-
+19:05:08 [Thread-43] INFO  - -x-x-x- CLIENT 56 STARTED -X-X-X-X-
+19:05:08 [Thread-42] INFO  - -x-x-x- CLIENT 90 STARTED -X-X-X-X-
+19:05:08 [Thread-40] INFO  - -x-x-x- CLIENT 89 STARTED -X-X-X-X-
+19:05:08 [Thread-41] INFO  - -x-x-x- CLIENT 60 STARTED -X-X-X-X-
+19:05:08 [Thread-39] INFO  - -x-x-x- CLIENT 74 STARTED -X-X-X-X-
+19:05:08 [Thread-38] INFO  - -x-x-x- CLIENT 73 STARTED -X-X-X-X-
+19:05:08 [Thread-11] INFO  - [8] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"8"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:08 [Thread-0] INFO  - [53] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"53"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:08 [Thread-8] INFO  - [76] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"76"},"functionName":"apellido","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:08 [Thread-2] INFO  - [56] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"56"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:08 [Thread-9] INFO  - [95] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"95"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:08 [Thread-4] INFO  - [78] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"78"},"functionName":"apellido","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:08 [Thread-6] INFO  - [71] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"71"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:08 [Thread-3] INFO  - [81] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"81"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:08 [Thread-7] INFO  - [47] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"47"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:08 [Thread-1] INFO  - [42] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"42"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:08 [Thread-10] INFO  - [25] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"25"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:08 [Thread-5] INFO  - [47] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"47"},"functionName":"apellido","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:08 [Thread-32] INFO  - [82] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"82"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:08 [Thread-31] INFO  - [97] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"97"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:08 [Thread-30] INFO  - [96] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"96"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:08 [Thread-29] INFO  - [93] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"93"},"functionName":"apellido","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:08 [Thread-28] INFO  - [90] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"90"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:08 [Thread-27] INFO  - [68] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"68"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:08 [Thread-26] INFO  - [67] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"67"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:08 [Thread-25] INFO  - [69] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"69"},"functionName":"apellido","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:08 [Thread-24] INFO  - [56] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"56"},"functionName":"apellido","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:08 [Thread-23] INFO  - [60] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"60"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:08 [Thread-22] INFO  - [1] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"1"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:08 [Thread-21] INFO  - [16] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"16"},"functionName":"apellido","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:08 [Thread-20] INFO  - [32] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"32"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:08 [Thread-19] INFO  - [48] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"48"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:08 [Thread-18] INFO  - [63] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"63"},"functionName":"apellido","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:08 [Thread-17] INFO  - [33] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"33"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:08 [Thread-12] INFO  - [39] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"39"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:08 [Thread-13] INFO  - [30] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"30"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:08 [Thread-16] INFO  - [25] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"25"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:08 [Thread-14] INFO  - [90] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"90"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:08 [Thread-15] INFO  - [91] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"91"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:08 [Thread-34] INFO  - [76] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"76"},"functionName":"apellido","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:08 [Thread-37] INFO  - [42] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"42"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:08 [Thread-36] INFO  - [58] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"58"},"functionName":"apellido","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:08 [Thread-33] INFO  - [37] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"37"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:08 [Thread-38] INFO  - [73] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"73"},"functionName":"apellido","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:08 [Thread-35] INFO  - [68] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"68"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:08 [Thread-40] INFO  - [89] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"89"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:08 [Thread-39] INFO  - [74] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"74"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:08 [Thread-41] INFO  - [60] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"60"},"functionName":"apellido","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:08 [Thread-42] INFO  - [90] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"90"},"functionName":"apellido","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:08 [Thread-43] INFO  - [56] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"56"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:08 [Thread-51] INFO  - -x-x-x- CLIENT 49 STARTED -X-X-X-X-
+19:05:08 [Thread-52] INFO  - -x-x-x- CLIENT 53 STARTED -X-X-X-X-
+19:05:08 [Thread-53] INFO  - -x-x-x- CLIENT 12 STARTED -X-X-X-X-
+19:05:08 [Thread-54] INFO  - -x-x-x- CLIENT 14 STARTED -X-X-X-X-
+19:05:08 [Thread-55] INFO  - -x-x-x- CLIENT 59 STARTED -X-X-X-X-
+19:05:08 [Thread-56] INFO  - -x-x-x- CLIENT 54 STARTED -X-X-X-X-
+19:05:08 [Thread-46] INFO  - [37] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"37"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:08 [Thread-47] INFO  - [8] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"8"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:08 [Thread-45] INFO  - [6] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"6"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:08 [Thread-44] INFO  - [95] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"95"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:08 [Thread-57] INFO  - -x-x-x- CLIENT 92 STARTED -X-X-X-X-
+19:05:08 [Thread-58] INFO  - -x-x-x- CLIENT 65 STARTED -X-X-X-X-
+19:05:08 [Thread-59] INFO  - -x-x-x- CLIENT 77 STARTED -X-X-X-X-
+19:05:08 [Thread-48] INFO  - [15] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"15"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:09 [Thread-60] INFO  - -x-x-x- CLIENT 70 STARTED -X-X-X-X-
+19:05:09 [Thread-49] INFO  - [96] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"96"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:09 [Thread-61] INFO  - -x-x-x- CLIENT 32 STARTED -X-X-X-X-
+19:05:09 [Thread-62] INFO  - -x-x-x- CLIENT 5 STARTED -X-X-X-X-
+19:05:09 [Thread-50] INFO  - [1] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"1"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:09 [Thread-63] INFO  - -x-x-x- CLIENT 85 STARTED -X-X-X-X-
+19:05:09 [Thread-64] INFO  - -x-x-x- CLIENT 80 STARTED -X-X-X-X-
+19:05:09 [Thread-51] INFO  - [49] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"49"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:09 [Thread-65] INFO  - -x-x-x- CLIENT 68 STARTED -X-X-X-X-
+19:05:09 [Thread-52] INFO  - [53] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"53"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:09 [Thread-53] INFO  - [12] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"12"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:09 [Thread-54] INFO  - [14] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"14"},"functionName":"apellido","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:09 [Thread-66] INFO  - -x-x-x- CLIENT 1 STARTED -X-X-X-X-
+19:05:09 [Thread-67] INFO  - -x-x-x- CLIENT 92 STARTED -X-X-X-X-
+19:05:09 [Thread-55] INFO  - [59] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"59"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:09 [Thread-56] INFO  - [54] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"54"},"functionName":"apellido","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:09 [Thread-68] INFO  - -x-x-x- CLIENT 25 STARTED -X-X-X-X-
+19:05:09 [Thread-57] INFO  - [92] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"92"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:09 [Thread-58] INFO  - [65] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"65"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:09 [Thread-69] INFO  - -x-x-x- CLIENT 22 STARTED -X-X-X-X-
+19:05:09 [Thread-59] INFO  - [77] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"77"},"functionName":"apellido","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:09 [Thread-70] INFO  - -x-x-x- CLIENT 89 STARTED -X-X-X-X-
+19:05:09 [Thread-71] INFO  - -x-x-x- CLIENT 34 STARTED -X-X-X-X-
+19:05:09 [Thread-73] INFO  - -x-x-x- CLIENT 22 STARTED -X-X-X-X-
+19:05:09 [Thread-72] INFO  - -x-x-x- CLIENT 85 STARTED -X-X-X-X-
+19:05:09 [Thread-60] INFO  - [70] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"70"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:09 [Thread-61] INFO  - [32] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"32"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:09 [Thread-62] INFO  - [5] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"5"},"functionName":"apellido","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:09 [Thread-63] INFO  - [85] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"85"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:09 [Thread-65] INFO  - [68] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"68"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:09 [Thread-64] INFO  - [80] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"80"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:09 [Thread-66] INFO  - [1] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"1"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:09 [Thread-67] INFO  - [92] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"92"},"functionName":"apellido","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:09 [Thread-74] INFO  - -x-x-x- CLIENT 32 STARTED -X-X-X-X-
+19:05:09 [Thread-68] INFO  - [25] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"25"},"functionName":"apellido","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:09 [Thread-75] INFO  - -x-x-x- CLIENT 20 STARTED -X-X-X-X-
+19:05:09 [Thread-76] INFO  - -x-x-x- CLIENT 15 STARTED -X-X-X-X-
+19:05:09 [Thread-69] INFO  - [22] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"22"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:09 [Thread-77] INFO  - -x-x-x- CLIENT 48 STARTED -X-X-X-X-
+19:05:09 [Thread-78] INFO  - -x-x-x- CLIENT 14 STARTED -X-X-X-X-
+19:05:09 [Thread-70] INFO  - [89] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"89"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:09 [Thread-79] INFO  - -x-x-x- CLIENT 85 STARTED -X-X-X-X-
+19:05:09 [Thread-80] INFO  - -x-x-x- CLIENT 76 STARTED -X-X-X-X-
+19:05:09 [Thread-81] INFO  - -x-x-x- CLIENT 1 STARTED -X-X-X-X-
+19:05:09 [Thread-82] INFO  - -x-x-x- CLIENT 12 STARTED -X-X-X-X-
+19:05:09 [Thread-71] INFO  - [34] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"34"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:09 [Thread-83] INFO  - -x-x-x- CLIENT 20 STARTED -X-X-X-X-
+19:05:09 [Thread-72] INFO  - [85] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"85"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:09 [Thread-73] INFO  - [22] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"22"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:09 [Thread-84] INFO  - -x-x-x- CLIENT 67 STARTED -X-X-X-X-
+19:05:09 [Thread-74] INFO  - [32] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"32"},"functionName":"apellido","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:09 [Thread-75] INFO  - [20] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"20"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:09 [Thread-76] INFO  - [15] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"15"},"functionName":"apellido","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:09 [Thread-77] INFO  - [48] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"48"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:09 [Thread-78] INFO  - [14] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"14"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:09 [Thread-79] INFO  - [85] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"85"},"functionName":"apellido","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:09 [Thread-85] INFO  - -x-x-x- CLIENT 82 STARTED -X-X-X-X-
+19:05:09 [Thread-80] INFO  - [76] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"76"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:09 [Thread-81] INFO  - [1] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"1"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:09 [Thread-82] INFO  - [12] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"12"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:09 [Thread-83] INFO  - [20] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"20"},"functionName":"apellido","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:09 [Thread-84] INFO  - [67] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"67"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:09 [Thread-85] INFO  - [82] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"82"},"functionName":"apellido","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:09 [Thread-86] INFO  - -x-x-x- CLIENT 82 STARTED -X-X-X-X-
+19:05:09 [Thread-86] INFO  - [82] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"82"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:09 [Thread-99] INFO  - -x-x-x- CLIENT 75 STARTED -X-X-X-X-
+19:05:09 [Thread-98] INFO  - -x-x-x- CLIENT 87 STARTED -X-X-X-X-
+19:05:09 [Thread-97] INFO  - -x-x-x- CLIENT 95 STARTED -X-X-X-X-
+19:05:09 [Thread-96] INFO  - -x-x-x- CLIENT 64 STARTED -X-X-X-X-
+19:05:09 [Thread-95] INFO  - -x-x-x- CLIENT 12 STARTED -X-X-X-X-
+19:05:09 [Thread-94] INFO  - -x-x-x- CLIENT 13 STARTED -X-X-X-X-
+19:05:09 [Thread-93] INFO  - -x-x-x- CLIENT 11 STARTED -X-X-X-X-
+19:05:09 [Thread-92] INFO  - -x-x-x- CLIENT 16 STARTED -X-X-X-X-
+19:05:09 [Thread-91] INFO  - -x-x-x- CLIENT 44 STARTED -X-X-X-X-
+19:05:09 [Thread-90] INFO  - -x-x-x- CLIENT 93 STARTED -X-X-X-X-
+19:05:09 [Thread-89] INFO  - -x-x-x- CLIENT 65 STARTED -X-X-X-X-
+19:05:09 [Thread-93] INFO  - [11] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"11"},"functionName":"apellido","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:09 [Thread-92] INFO  - [16] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"16"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:09 [Thread-88] INFO  - -x-x-x- CLIENT 84 STARTED -X-X-X-X-
+19:05:09 [Thread-91] INFO  - [44] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"44"},"functionName":"apellido","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:09 [Thread-87] INFO  - -x-x-x- CLIENT 34 STARTED -X-X-X-X-
+19:05:09 [Thread-89] INFO  - [65] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"65"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:09 [Thread-90] INFO  - [93] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"93"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:09 [Thread-88] INFO  - [84] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"84"},"functionName":"apellido","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:09 [Thread-87] INFO  - [34] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"34"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:09 [Thread-94] INFO  - [13] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"13"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:09 [Thread-95] INFO  - [12] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"12"},"functionName":"apellido","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:09 [Thread-96] INFO  - [64] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"64"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:09 [Thread-97] INFO  - [95] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"95"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:09 [Thread-98] INFO  - [87] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"87"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:09 [Thread-99] INFO  - [75] (29) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"75"},"functionName":"apellido","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:15 [Thread-10] INFO  - [25] (29)[S->C] El servidor ha respondido al cliente nombre:Juan
+19:05:15 [Thread-10] INFO  - [25] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"25"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:15 [Thread-27] INFO  - [68] (29)[S->C] El servidor ha respondido al cliente nombre:Juan
+19:05:15 [Thread-27] INFO  - [68] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"68"},"functionName":"apellido","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:15 [Thread-2] INFO  - [56] (29)[S->C] El servidor ha respondido al cliente apellido:Mendez
+19:05:15 [Thread-2] INFO  - [56] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"56"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:15 [Thread-11] INFO  - [8] (29)[S->C] El servidor ha respondido al cliente apellido:Mendez
+19:05:15 [Thread-6] INFO  - [71] (29)[S->C] El servidor ha respondido al cliente nombre:José
+19:05:15 [Thread-11] INFO  - [8] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"8"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:15 [Thread-6] INFO  - [71] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"71"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:15 [Thread-0] INFO  - [53] (29)[S->C] El servidor ha respondido al cliente nombre:Juan
+19:05:15 [Thread-0] INFO  - [53] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"53"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:15 [Thread-35] INFO  - [68] (29)[S->C] El servidor ha respondido al cliente nombre:Miguel
+19:05:15 [Thread-20] INFO  - [32] (29)[S->C] El servidor ha respondido al cliente nombre:Juan
+19:05:15 [Thread-35] INFO  - [68] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"68"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:15 [Thread-20] INFO  - [32] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"32"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:15 [Thread-8] INFO  - [76] (29)[S->C] El servidor ha respondido al cliente apellido:fernandez
+19:05:15 [Thread-8] INFO  - [76] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"76"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:15 [Thread-41] INFO  - [60] (29)[S->C] El servidor ha respondido al cliente apellido:galvez
+19:05:15 [Thread-41] INFO  - [60] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"60"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:15 [Thread-15] INFO  - [91] (29)[S->C] El servidor ha respondido al cliente nombre:Miguel
+19:05:15 [Thread-15] INFO  - [91] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"91"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:15 [Thread-21] INFO  - [16] (29)[S->C] El servidor ha respondido al cliente apellido:galvez
+19:05:15 [Thread-21] INFO  - [16] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"16"},"functionName":"apellido","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:15 [Thread-3] INFO  - [81] (29)[S->C] El servidor ha respondido al cliente apellido:Mendez
+19:05:15 [Thread-3] INFO  - [81] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"81"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:15 [Thread-31] INFO  - [97] (29)[S->C] El servidor ha respondido al cliente nombre:José
+19:05:15 [Thread-31] INFO  - [97] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"97"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:15 [Thread-34] INFO  - [76] (29)[S->C] El servidor ha respondido al cliente apellido:fernandez
+19:05:15 [Thread-34] INFO  - [76] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"76"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:15 [Thread-26] INFO  - [67] (29)[S->C] El servidor ha respondido al cliente apellido:Mendez
+19:05:15 [Thread-14] INFO  - [90] (29)[S->C] El servidor ha respondido al cliente apellido:Mendez
+19:05:15 [Thread-26] INFO  - [67] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"67"},"functionName":"apellido","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:15 [Thread-14] INFO  - [90] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"90"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:15 [Thread-25] INFO  - [69] (29)[S->C] El servidor ha respondido al cliente apellido:galvez
+19:05:15 [Thread-25] INFO  - [69] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"69"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:15 [Thread-28] INFO  - [90] (29)[S->C] El servidor ha respondido al cliente apellido:Mendez
+19:05:15 [Thread-28] INFO  - [90] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"90"},"functionName":"apellido","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:15 [Thread-43] INFO  - [56] (29)[S->C] El servidor ha respondido al cliente nombre:Juan
+19:05:15 [Thread-43] INFO  - [56] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"56"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:15 [Thread-17] INFO  - [33] (29)[S->C] El servidor ha respondido al cliente nombre:José
+19:05:15 [Thread-17] INFO  - [33] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"33"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:15 [Thread-23] INFO  - [60] (29)[S->C] El servidor ha respondido al cliente nombre:Juan
+19:05:15 [Thread-16] INFO  - [25] (29)[S->C] El servidor ha respondido al cliente nombre:José
+19:05:15 [Thread-23] INFO  - [60] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"60"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:15 [Thread-16] INFO  - [25] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"25"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:15 [Thread-4] INFO  - [78] (29)[S->C] El servidor ha respondido al cliente apellido:galvez
+19:05:15 [Thread-4] INFO  - [78] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"78"},"functionName":"apellido","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:15 [Thread-5] INFO  - [47] (29)[S->C] El servidor ha respondido al cliente apellido:fernandez
+19:05:15 [Thread-5] INFO  - [47] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"47"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:15 [Thread-12] INFO  - [39] (29)[S->C] El servidor ha respondido al cliente nombre:Miguel
+19:05:15 [Thread-47] INFO  - [8] (29)[S->C] El servidor ha respondido al cliente nombre:Juan
+19:05:15 [Thread-12] INFO  - [39] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"39"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:15 [Thread-47] INFO  - [8] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"8"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:15 [Thread-45] INFO  - [6] (29)[S->C] El servidor ha respondido al cliente nombre:Juan
+19:05:15 [Thread-7] INFO  - [47] (29)[S->C] El servidor ha respondido al cliente apellido:Mendez
+19:05:15 [Thread-45] INFO  - [6] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"6"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:15 [Thread-7] INFO  - [47] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"47"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:15 [Thread-40] INFO  - [89] (29)[S->C] El servidor ha respondido al cliente nombre:Juan
+19:05:15 [Thread-40] INFO  - [89] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"89"},"functionName":"apellido","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:15 [Thread-44] INFO  - [95] (29)[S->C] El servidor ha respondido al cliente nombre:Miguel
+19:05:15 [Thread-44] INFO  - [95] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"95"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:15 [Thread-46] INFO  - [37] (29)[S->C] El servidor ha respondido al cliente nombre:Miguel
+19:05:15 [Thread-46] INFO  - [37] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"37"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:15 [Thread-39] INFO  - [74] (29)[S->C] El servidor ha respondido al cliente nombre:José
+19:05:15 [Thread-39] INFO  - [74] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"74"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:15 [Thread-9] INFO  - [95] (29)[S->C] El servidor ha respondido al cliente apellido:Mendez
+19:05:15 [Thread-9] INFO  - [95] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"95"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:15 [Thread-42] INFO  - [90] (29)[S->C] El servidor ha respondido al cliente apellido:fernandez
+19:05:15 [Thread-29] INFO  - [93] (29)[S->C] El servidor ha respondido al cliente apellido:galvez
+19:05:15 [Thread-42] INFO  - [90] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"90"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:15 [Thread-29] INFO  - [93] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"93"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:15 [Thread-13] INFO  - [30] (29)[S->C] El servidor ha respondido al cliente nombre:Juan
+19:05:15 [Thread-13] INFO  - [30] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"30"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:15 [Thread-48] INFO  - [15] (29)[S->C] El servidor ha respondido al cliente nombre:José
+19:05:15 [Thread-48] INFO  - [15] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"15"},"functionName":"apellido","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:15 [Thread-22] INFO  - [1] (29)[S->C] El servidor ha respondido al cliente nombre:Juan
+19:05:15 [Thread-22] INFO  - [1] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"1"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:15 [Thread-38] INFO  - [73] (29)[S->C] El servidor ha respondido al cliente apellido:galvez
+19:05:15 [Thread-38] INFO  - [73] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"73"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:15 [Thread-36] INFO  - [58] (29)[S->C] El servidor ha respondido al cliente apellido:fernandez
+19:05:15 [Thread-36] INFO  - [58] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"58"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:15 [Thread-52] INFO  - [53] (29)[S->C] El servidor ha respondido al cliente nombre:Juan
+19:05:15 [Thread-52] INFO  - [53] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"53"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:15 [Thread-53] INFO  - [12] (29)[S->C] El servidor ha respondido al cliente nombre:Juan
+19:05:15 [Thread-53] INFO  - [12] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"12"},"functionName":"apellido","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:15 [Thread-56] INFO  - [54] (29)[S->C] El servidor ha respondido al cliente apellido:galvez
+19:05:15 [Thread-56] INFO  - [54] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"54"},"functionName":"apellido","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:15 [Thread-33] INFO  - [37] (29)[S->C] El servidor ha respondido al cliente nombre:Juan
+19:05:15 [Thread-33] INFO  - [37] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"37"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:15 [Thread-59] INFO  - [77] (29)[S->C] El servidor ha respondido al cliente apellido:fernandez
+19:05:15 [Thread-59] INFO  - [77] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"77"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:15 [Thread-58] INFO  - [65] (29)[S->C] El servidor ha respondido al cliente nombre:José
+19:05:15 [Thread-58] INFO  - [65] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"65"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:15 [Thread-60] INFO  - [70] (29)[S->C] El servidor ha respondido al cliente nombre:Juan
+19:05:15 [Thread-60] INFO  - [70] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"70"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:15 [Thread-19] INFO  - [48] (29)[S->C] El servidor ha respondido al cliente nombre:José
+19:05:15 [Thread-19] INFO  - [48] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"48"},"functionName":"apellido","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:15 [Thread-57] INFO  - [92] (29)[S->C] El servidor ha respondido al cliente apellido:Mendez
+19:05:15 [Thread-57] INFO  - [92] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"92"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:15 [Thread-32] INFO  - [82] (29)[S->C] El servidor ha respondido al cliente nombre:Miguel
+19:05:15 [Thread-32] INFO  - [82] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"82"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:15 [Thread-24] INFO  - [56] (29)[S->C] El servidor ha respondido al cliente apellido:galvez
+19:05:15 [Thread-24] INFO  - [56] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"56"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:15 [Thread-37] INFO  - [42] (29)[S->C] El servidor ha respondido al cliente nombre:Miguel
+19:05:15 [Thread-37] INFO  - [42] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"42"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:15 [Thread-18] INFO  - [63] (29)[S->C] El servidor ha respondido al cliente apellido:galvez
+19:05:15 [Thread-18] INFO  - [63] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"63"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:15 [Thread-1] INFO  - [42] (29)[S->C] El servidor ha respondido al cliente nombre:Miguel
+19:05:15 [Thread-1] INFO  - [42] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"42"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:15 [Thread-49] INFO  - [96] (29)[S->C] El servidor ha respondido al cliente nombre:Miguel
+19:05:15 [Thread-49] INFO  - [96] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"96"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:15 [Thread-30] INFO  - [96] (29)[S->C] El servidor ha respondido al cliente nombre:Juan
+19:05:15 [Thread-30] INFO  - [96] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"96"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:15 [Thread-50] INFO  - [1] (29)[S->C] El servidor ha respondido al cliente nombre:Miguel
+19:05:15 [Thread-50] INFO  - [1] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"1"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:15 [Thread-51] INFO  - [49] (29)[S->C] El servidor ha respondido al cliente nombre:Juan
+19:05:15 [Thread-51] INFO  - [49] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"49"},"functionName":"apellido","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:15 [Thread-54] INFO  - [14] (29)[S->C] El servidor ha respondido al cliente apellido:fernandez
+19:05:15 [Thread-54] INFO  - [14] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"14"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:15 [Thread-55] INFO  - [59] (29)[S->C] El servidor ha respondido al cliente nombre:José
+19:05:15 [Thread-55] INFO  - [59] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"59"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:21 [Thread-65] INFO  - [68] (29)[S->C] El servidor ha respondido al cliente nombre:Juan
+19:05:21 [Thread-65] INFO  - [68] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"68"},"functionName":"apellido","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:21 [Thread-66] INFO  - [1] (29)[S->C] El servidor ha respondido al cliente apellido:Mendez
+19:05:21 [Thread-61] INFO  - [32] (29)[S->C] El servidor ha respondido al cliente nombre:Miguel
+19:05:21 [Thread-66] INFO  - [1] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"1"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:21 [Thread-61] INFO  - [32] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"32"},"functionName":"apellido","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:21 [Thread-64] INFO  - [80] (29)[S->C] El servidor ha respondido al cliente nombre:Juan
+19:05:21 [Thread-67] INFO  - [92] (29)[S->C] El servidor ha respondido al cliente apellido:galvez
+19:05:21 [Thread-64] INFO  - [80] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"80"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:21 [Thread-67] INFO  - [92] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"92"},"functionName":"apellido","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:21 [Thread-63] INFO  - [85] (29)[S->C] El servidor ha respondido al cliente nombre:Miguel
+19:05:21 [Thread-62] INFO  - [5] (29)[S->C] El servidor ha respondido al cliente apellido:galvez
+19:05:21 [Thread-63] INFO  - [85] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"85"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:21 [Thread-62] INFO  - [5] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"5"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:23 [Thread-69] INFO  - [22] (29)[S->C] El servidor ha respondido al cliente nombre:José
+19:05:23 [Thread-69] INFO  - [22] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"22"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:23 [Thread-68] INFO  - [25] (29)[S->C] El servidor ha respondido al cliente apellido:fernandez
+19:05:23 [Thread-68] INFO  - [25] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"25"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:26 [Thread-70] INFO  - [89] (29)[S->C] El servidor ha respondido al cliente nombre:Miguel
+19:05:26 [Thread-70] INFO  - [89] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"89"},"functionName":"apellido","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:27 [Thread-72] INFO  - [85] (29)[S->C] El servidor ha respondido al cliente apellido:Mendez
+19:05:27 [Thread-72] INFO  - [85] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"85"},"functionName":"apellido","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:27 [Thread-71] INFO  - [34] (29)[S->C] El servidor ha respondido al cliente nombre:José
+19:05:27 [Thread-71] INFO  - [34] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"34"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:28 [Thread-73] INFO  - [22] (29)[S->C] El servidor ha respondido al cliente nombre:Juan
+19:05:28 [Thread-73] INFO  - [22] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"22"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:29 [Thread-74] INFO  - [32] (29)[S->C] El servidor ha respondido al cliente apellido:fernandez
+19:05:29 [Thread-74] INFO  - [32] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"32"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:30 [Thread-76] INFO  - [15] (29)[S->C] El servidor ha respondido al cliente apellido:galvez
+19:05:30 [Thread-76] INFO  - [15] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"15"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:30 [Thread-78] INFO  - [14] (29)[S->C] El servidor ha respondido al cliente nombre:Juan
+19:05:30 [Thread-78] INFO  - [14] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"14"},"functionName":"nombre","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:30 [Thread-75] INFO  - [20] (29)[S->C] El servidor ha respondido al cliente nombre:Juan
+19:05:30 [Thread-75] INFO  - [20] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"20"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:30 [Thread-81] INFO  - [1] (29)[S->C] El servidor ha respondido al cliente nombre:Miguel
+19:05:30 [Thread-81] INFO  - [1] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"1"},"functionName":"apellido","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:30 [Thread-83] INFO  - [20] (29)[S->C] El servidor ha respondido al cliente apellido:galvez
+19:05:30 [Thread-83] INFO  - [20] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"20"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:30 [Thread-84] INFO  - [67] (29)[S->C] El servidor ha respondido al cliente apellido:Mendez
+19:05:30 [Thread-84] INFO  - [67] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"67"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:30 [Thread-85] INFO  - [82] (29)[S->C] El servidor ha respondido al cliente apellido:galvez
+19:05:30 [Thread-85] INFO  - [82] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"82"},"functionName":"nombre","parametros":{"apellido":"fernandez","nombre":"Juan"}}
+19:05:30 [Thread-82] INFO  - [12] (29)[S->C] El servidor ha respondido al cliente nombre:Juan
+19:05:30 [Thread-82] INFO  - [12] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"12"},"functionName":"apellido","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:30 [Thread-77] INFO  - [48] (29)[S->C] El servidor ha respondido al cliente nombre:Miguel
+19:05:30 [Thread-77] INFO  - [48] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"48"},"functionName":"apellido","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:30 [Thread-80] INFO  - [76] (29)[S->C] El servidor ha respondido al cliente apellido:Mendez
+19:05:30 [Thread-80] INFO  - [76] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"76"},"functionName":"apellido","parametros":{"apellido":"galvez","nombre":"José"}}
+19:05:30 [Thread-79] INFO  - [85] (29)[S->C] El servidor ha respondido al cliente apellido:fernandez
+19:05:30 [Thread-79] INFO  - [85] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"85"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
+19:05:32 [Thread-86] INFO  - [82] (29)[S->C] El servidor ha respondido al cliente nombre:José
+19:05:32 [Thread-86] INFO  - [82] (28) [C->S] Mensaje enviado de cliente a server {"header":{"tipo":"query","client":"82"},"functionName":"nombre","parametros":{"apellido":"Mendez","nombre":"Miguel"}}
