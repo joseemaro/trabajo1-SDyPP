@@ -2,10 +2,10 @@
 
 | Estado | Carga  | Acción
 | :------------- | :------------- | :-------------
-| **GLOBAL_CRITICAL**  | 80% - 100% | Se crean **nodosActivos/2** nuevos nodos (si es mayor a 1, sino 1)**
-| **GLOBAL_ALERT** | 50% - 80% | Se crean **nodosActivos/4** nuevos nodos (si es mayor a 1, sino 1)**
-| **GLOBAL_NORMAL** | 20% - 50% | -
-| **GLOBAL_IDLE** | 0% - 20% | Se eliminan **nodosActivos/3** nodos (si es mayor a 1, sino 1)
+| **CRITICO**  | 80% - 100% | Se crean **nodosActivos/2** nuevos nodos (si es mayor a 1, sino 1)**
+| **ALERT** | 50% - 80% | Se crean **nodosActivos/4** nuevos nodos (si es mayor a 1, sino 1)**
+| **NORMAL** | 20% - 50% | -
+| **IDLE** | 0% - 20% | Se eliminan **nodosActivos/3** nodos (si es mayor a 1, sino 1)
 
 *Sumatoria de todas las cargas de cada Nodo.  
 **Asignandole todos los servicios existentes.
