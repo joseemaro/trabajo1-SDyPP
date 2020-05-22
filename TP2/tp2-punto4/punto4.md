@@ -60,7 +60,3 @@ creen mas se va a tardar en terminar el proceso porque se tarda mas en inicaliza
 
 
 3. Para el caso c, basicamente lo que se hace es poner un delay y si el servidor(dispacher) no recibe la respuesta en determiado tiempo toma ese worker como caido, y se asigna esa parte de la imagen a otro worker para que lo procese.
-
-
-## MEJORA
-Una mejora podria ser que los workers puedan atender pedidos de otros servidores, no solo este dispacher, de forma que tengan una mayor carga,y que haya mas de un cliente conectado a ese dispacher pidiendo procesar imagenes, de esta forma se entiende un poco mas el porque de hacer toda una estructura tan compleja.
